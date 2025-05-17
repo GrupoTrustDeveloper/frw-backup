@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@10.150.0.4</username>
-    <description>Changed backup revision count</description>
-    <time>1747450406.2532</time>
+    <description>/api/nodeexporter/general/set made changes</description>
+    <time>1747450454.0404</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2979,7 +2979,7 @@
       <aliases/>
     </unboundplus>
     <NodeExporter version="0.2.0">
-      <enabled>1</enabled>
+      <enabled>0</enabled>
       <listenaddress>10.150.0.1</listenaddress>
       <listenport>9100</listenport>
       <cpu>1</cpu>
