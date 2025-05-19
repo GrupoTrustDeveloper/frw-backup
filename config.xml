@@ -1428,9 +1428,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.21</username>
+    <username>root@192.168.0.24</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1747660268.9778</time>
+    <time>1747660766.5082</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2851,7 +2851,7 @@
         <default_action>allow</default_action>
       </acls>
       <dnsbl>
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <safesearch>0</safesearch>
         <type/>
         <lists/>
