@@ -195,7 +195,6 @@
     <optimization>normal</optimization>
     <hostname>frw</hostname>
     <domain>grupotrust.org</domain>
-    <dnsallowoverride>1</dnsallowoverride>
     <group uuid="915bcc3d-d969-4af9-b7c4-d0a300fb32ec">
       <gid>1999</gid>
       <name>admins</name>
@@ -279,9 +278,9 @@
     </firmware>
     <language>en_US</language>
     <dnsserver>8.8.8.8</dnsserver>
+    <dnsserver>1.1.1.1</dnsserver>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
-    <dnsallowoverride_exclude/>
     <dns1gw>none</dns1gw>
     <dns2gw>none</dns2gw>
     <dns3gw>none</dns3gw>
@@ -1429,8 +1428,8 @@
   </ntpd>
   <revision>
     <username>root@10.150.0.4</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1747664840.4573</time>
+    <description>/system_general.php made changes</description>
+    <time>1747665064.2358</time>
   </revision>
   <OPNsense>
     <wireguard>
