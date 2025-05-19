@@ -1428,8 +1428,8 @@
   </ntpd>
   <revision>
     <username>root@10.150.0.4</username>
-    <description>/api/wireguard/client/addClientBuilder made changes</description>
-    <time>1747685993.1658</time>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1747685994.7512</time>
   </revision>
   <OPNsense>
     <wireguard>
