@@ -1428,8 +1428,8 @@
   </ntpd>
   <revision>
     <username>root@10.150.0.4</username>
-    <description>/system_general.php made changes</description>
-    <time>1747665064.2358</time>
+    <description>/api/wireguard/client/addClientBuilder made changes</description>
+    <time>1747685993.1658</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1585,6 +1585,16 @@
             <serverport/>
             <keepalive>30</keepalive>
           </client>
+          <client uuid="04070465-41a7-47b3-9467-84c5ea18fb8b">
+            <enabled>1</enabled>
+            <name>frw.bordadamata.mg.gov.br</name>
+            <pubkey>kN221YTBPJKTDzPgEep9+b+u6RXKFthqtYDokh6cvWQ=</pubkey>
+            <psk/>
+            <tunneladdress>10.151.0.10/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive>30</keepalive>
+          </client>
         </clients>
       </client>
       <general version="0.0.1">
@@ -1622,7 +1632,7 @@
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>47cefe97-e113-4ec4-b246-e36362d82ef7,ee617e8c-485c-4bfa-8207-e75883ada4a7,54e7c132-3747-4603-b3ea-ba210f7666ca,6b14c09d-1e4b-43af-8ad6-591fa3941d59,af0ab704-d095-4659-9b75-dae3f8dc7ddf,0ec6b3b6-ae5f-4a1d-9d95-7d19262fdad2,168dd972-1503-4dd4-ac71-f01da7ed661a,f406cdc8-5c3f-4aeb-868e-50e67277856e</peers>
+            <peers>47cefe97-e113-4ec4-b246-e36362d82ef7,ee617e8c-485c-4bfa-8207-e75883ada4a7,54e7c132-3747-4603-b3ea-ba210f7666ca,6b14c09d-1e4b-43af-8ad6-591fa3941d59,af0ab704-d095-4659-9b75-dae3f8dc7ddf,0ec6b3b6-ae5f-4a1d-9d95-7d19262fdad2,168dd972-1503-4dd4-ac71-f01da7ed661a,f406cdc8-5c3f-4aeb-868e-50e67277856e,04070465-41a7-47b3-9467-84c5ea18fb8b</peers>
             <endpoint>wg.grupotrust.org:51821</endpoint>
             <peer_dns/>
           </server>
