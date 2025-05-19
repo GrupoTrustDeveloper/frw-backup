@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@10.150.0.4</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1747663849.2505</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1747664840.4573</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2826,7 +2826,7 @@
         <logtagqueryreply>0</logtagqueryreply>
         <logservfail>0</logservfail>
         <loglocalactions>0</loglocalactions>
-        <logverbosity>1</logverbosity>
+        <logverbosity>2</logverbosity>
         <valloglevel>0</valloglevel>
         <privatedomain/>
         <privateaddress>0.0.0.0/8,10.0.0.0/8,100.64.0.0/10,169.254.0.0/16,172.16.0.0/12,192.0.2.0/24,192.168.0.0/16,198.18.0.0/15,198.51.100.0/24,203.0.113.0/24,233.252.0.0/24,::1/128,2001:db8::/32,fc00::/8,fd00::/8,fe80::/10</privateaddress>
