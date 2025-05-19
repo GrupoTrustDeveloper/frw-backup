@@ -1430,7 +1430,7 @@
   <revision>
     <username>root@192.168.0.21</username>
     <description>/api/routing/settings/setGateway/2fc92bf2-b153-4bf3-b1b1-73f88671eebf made changes</description>
-    <time>1747658833.786</time>
+    <time>1747658870.5595</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2731,7 +2731,7 @@
         <data_length/>
       </gateway_item>
       <gateway_item uuid="2fc92bf2-b153-4bf3-b1b1-73f88671eebf">
-        <disabled>0</disabled>
+        <disabled>1</disabled>
         <name>SUMCITY_DHCP</name>
         <descr>Interface SUMCITY_DHCP Gateway</descr>
         <interface>opt2</interface>
