@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.21</username>
-    <description>/api/routing/settings/setGateway/2fc92bf2-b153-4bf3-b1b1-73f88671eebf made changes</description>
-    <time>1747658896.425</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1747660152.4029</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2852,8 +2852,8 @@
       </acls>
       <dnsbl>
         <enabled>1</enabled>
-        <safesearch>1</safesearch>
-        <type>bla,blp1,blr,bls</type>
+        <safesearch>0</safesearch>
+        <type/>
         <lists/>
         <whitelists/>
         <blocklists/>
