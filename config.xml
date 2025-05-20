@@ -1428,8 +1428,8 @@
   </ntpd>
   <revision>
     <username>root@10.150.0.4</username>
-    <description>/api/unbound/settings/addHostOverride/ made changes</description>
-    <time>1747706147.0268</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1747706890.9366</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2860,9 +2860,9 @@
         <default_action>allow</default_action>
       </acls>
       <dnsbl>
-        <enabled>0</enabled>
-        <safesearch>0</safesearch>
-        <type/>
+        <enabled>1</enabled>
+        <safesearch>1</safesearch>
+        <type>blm,blp1,blr,oisd2</type>
         <lists/>
         <whitelists/>
         <blocklists/>
