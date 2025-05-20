@@ -414,7 +414,8 @@
   </snmpd>
   <nat>
     <outbound>
-      <mode>automatic</mode>
+      <mode>hybrid</mode>
+      <rule/>
     </outbound>
     <rule>
       <protocol>tcp</protocol>
@@ -1428,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@10.150.0.4</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1747706890.9366</time>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1747764899.1927</time>
   </revision>
   <OPNsense>
     <wireguard>
