@@ -1428,8 +1428,8 @@
   </ntpd>
   <revision>
     <username>root@10.150.0.4</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1747685994.7512</time>
+    <description>/api/unbound/settings/addHostOverride/ made changes</description>
+    <time>1747706147.0268</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2985,6 +2985,17 @@
           <ttl/>
           <server>10.151.0.9</server>
           <description>MARIPADEMINAS.MG.GOV.BR</description>
+        </host>
+        <host uuid="6d22342c-6c23-490e-9478-4c48568f3715">
+          <enabled>1</enabled>
+          <hostname>frw</hostname>
+          <domain>bordadamata.mg.gov.br</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>10.151.0.10</server>
+          <description>FRW.BORDADAMATA.MG.GOV.BR</description>
         </host>
       </hosts>
       <aliases/>
