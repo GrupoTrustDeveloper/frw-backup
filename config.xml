@@ -517,7 +517,7 @@
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_67e2909b32a768.52317112</associated-rule-id>
-      <target>IP_GERENCIA_ATA</target>
+      <target>IP_CENTRAL_COMPRAS</target>
       <local-port>P_HTTP_HTTPS_SSH</local-port>
       <source>
         <any>1</any>
@@ -1007,7 +1007,7 @@
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>IP_GERENCIA_ATA</address>
+        <address>IP_CENTRAL_COMPRAS</address>
         <port>P_HTTP_HTTPS_SSH</port>
       </destination>
       <descr>Gerencia ATA</descr>
@@ -1428,9 +1428,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@10.150.0.4</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1747764926.8896</time>
+    <username>root@192.168.0.24</username>
+    <description>/api/firewall/alias/setItem/f07085c2-6253-4423-9cbe-40303051e20e made changes</description>
+    <time>1748350915.9327</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1830,7 +1830,7 @@
           </alias>
           <alias uuid="f07085c2-6253-4423-9cbe-40303051e20e">
             <enabled>1</enabled>
-            <name>IP_GERENCIA_ATA</name>
+            <name>IP_CENTRAL_COMPRAS</name>
             <type>host</type>
             <path_expression/>
             <proto/>
@@ -1842,7 +1842,7 @@
             <username/>
             <authtype/>
             <categories/>
-            <description>IP_GERENCIA_ATA</description>
+            <description>IP_CENTRAL_COMPRAS</description>
           </alias>
           <alias uuid="1b47b326-0ffa-444a-8947-0beda6bf3c0b">
             <enabled>1</enabled>
