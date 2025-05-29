@@ -1428,9 +1428,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.167</username>
-    <description>/api/routes/routes/addroute/ made changes</description>
-    <time>1748536280.7292</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1748548962.8344</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3059,6 +3059,43 @@
         <description>FTP DATASUS</description>
       </ftpproxy>
     </ftpproxies>
+    <ZabbixAgent version="1.2.4">
+      <local>
+        <hostname>Zabbix agent</hostname>
+      </local>
+      <settings>
+        <main>
+          <enabled>0</enabled>
+          <serverList>127.0.0.1</serverList>
+          <listenPort>10050</listenPort>
+          <listenIP>0.0.0.0</listenIP>
+          <sourceIP/>
+          <syslogEnable>0</syslogEnable>
+          <logFileSize>100</logFileSize>
+          <debugLevel>val_3</debugLevel>
+          <sudoRoot>0</sudoRoot>
+        </main>
+        <tuning>
+          <startAgents>3</startAgents>
+          <bufferSend>5</bufferSend>
+          <bufferSize>100</bufferSize>
+          <maxLinesPerSecond>100</maxLinesPerSecond>
+          <timeout>3</timeout>
+        </tuning>
+        <features>
+          <enableActiveChecks>1</enableActiveChecks>
+          <activeCheckServers/>
+          <refreshActiveChecks>120</refreshActiveChecks>
+          <enableRemoteCommands>0</enableRemoteCommands>
+          <logRemoteCommands>0</logRemoteCommands>
+          <encryption>0</encryption>
+          <encryptionidentity/>
+          <encryptionpsk/>
+        </features>
+      </settings>
+      <userparameters/>
+      <aliases/>
+    </ZabbixAgent>
   </OPNsense>
   <hasync version="1.0.2">
     <disablepreempt>0</disablepreempt>
