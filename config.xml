@@ -1428,9 +1428,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1748549444.6063</time>
+    <username>root@192.168.0.167</username>
+    <description>/api/netsnmp/general/set made changes</description>
+    <time>1748549474.6786</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3102,8 +3102,8 @@
         <users/>
       </user>
       <general version="1.0.5">
-        <enabled>0</enabled>
-        <community/>
+        <enabled>1</enabled>
+        <community>Trust8952</community>
         <syslocation/>
         <syscontact/>
         <l3visibility>0</l3visibility>
