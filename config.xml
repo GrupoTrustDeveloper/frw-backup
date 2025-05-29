@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/api/firewall/alias/delItem/0bab116f-6a5b-4255-90eb-df821ebf4e23 made changes</description>
-    <time>1748549356.4968</time>
+    <description>/api/firewall/alias/setItem/84a338f7-3784-464d-a46d-8181fcf3f6f3 made changes</description>
+    <time>1748549364.2021</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2147,11 +2147,12 @@
             <counters>0</counters>
             <updatefreq/>
             <content>80
+443
 3000
 9022
 10050
 10051
-443</content>
+161</content>
             <password/>
             <username/>
             <authtype/>
