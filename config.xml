@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/api/routing/settings/addGateway/ made changes</description>
-    <time>1748536256.0908</time>
+    <description>/api/routes/routes/addroute/ made changes</description>
+    <time>1748536280.7292</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3276,7 +3276,12 @@
     <vlan/>
   </vlans>
   <staticroutes version="1.0.0">
-    <route/>
+    <route uuid="ac9f47f1-b4cd-4a9d-90c6-a0ad0aa4fb49">
+      <network>172.16.0.0/23</network>
+      <gateway>ER_605_TST</gateway>
+      <descr/>
+      <disabled>0</disabled>
+    </route>
   </staticroutes>
   <bridges>
     <bridged/>
