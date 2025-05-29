@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/api/firewall/alias/addItem/ made changes</description>
-    <time>1748549284.9736</time>
+    <description>/api/firewall/alias/delItem/0bab116f-6a5b-4255-90eb-df821ebf4e23 made changes</description>
+    <time>1748549356.4968</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2397,24 +2397,6 @@
             <authtype/>
             <categories/>
             <description>IP_NEXTCLOUD_NOVA_SERRANA</description>
-          </alias>
-          <alias uuid="0bab116f-6a5b-4255-90eb-df821ebf4e23">
-            <enabled>1</enabled>
-            <name>ZABBIXeSNMP</name>
-            <type>port</type>
-            <path_expression/>
-            <proto/>
-            <interface/>
-            <counters>0</counters>
-            <updatefreq/>
-            <content>10050
-10051
-161</content>
-            <password/>
-            <username/>
-            <authtype/>
-            <categories/>
-            <description>ZABBIX AND SNMP PORTS</description>
           </alias>
         </aliases>
       </Alias>
