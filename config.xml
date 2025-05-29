@@ -1428,9 +1428,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.167</username>
-    <description>/api/firewall/alias/setItem/84a338f7-3784-464d-a46d-8181fcf3f6f3 made changes</description>
-    <time>1748549364.2021</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1748549440.0745</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3097,6 +3097,22 @@
       <userparameters/>
       <aliases/>
     </ZabbixAgent>
+    <netsnmp>
+      <user version="1.0.1">
+        <users/>
+      </user>
+      <general version="1.0.5">
+        <enabled>0</enabled>
+        <community/>
+        <syslocation/>
+        <syscontact/>
+        <l3visibility>0</l3visibility>
+        <versionoid>0</versionoid>
+        <enableagentx>0</enableagentx>
+        <enableobservium>0</enableobservium>
+        <listen/>
+      </general>
+    </netsnmp>
   </OPNsense>
   <hasync version="1.0.2">
     <disablepreempt>0</disablepreempt>
