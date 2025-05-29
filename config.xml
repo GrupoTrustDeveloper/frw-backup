@@ -1428,9 +1428,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1748548967.391</time>
+    <username>root@192.168.0.167</username>
+    <description>/api/zabbixagent/settings/set made changes</description>
+    <time>1748549068.4508</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3061,12 +3061,12 @@
     </ftpproxies>
     <ZabbixAgent version="1.2.4">
       <local>
-        <hostname>Zabbix agent</hostname>
+        <hostname>FRW-TRUST</hostname>
       </local>
       <settings>
         <main>
-          <enabled>0</enabled>
-          <serverList>127.0.0.1</serverList>
+          <enabled>1</enabled>
+          <serverList>192.168.0.96</serverList>
           <listenPort>10050</listenPort>
           <listenIP>0.0.0.0</listenIP>
           <sourceIP/>
