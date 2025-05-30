@@ -212,7 +212,7 @@
       <authorizedkeys>c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFCQVFEQStPdERGWVRqSXVoUXdxSCtXV3ZtZkNldkNsc0NnQTNTSTdXYzZLKzlkNlEvSzZCbkFZOGhBbkxUUUYvUlRNK1haQ3JycnJBa2U0UEcxZWFSK2s1OEVlRitLMXZIQ3lQVm5qY2FWcnh2T1lHMTRvamdCYnpKelRTVkI4M1ZNWENjMlFGc1gxblc0UUVNSWJBalBTalF4bEIxTG1NYmxsZDZCMzhGeWdtenoyM201cUVSN3pFQ3RwRVNwTWF1RU1HcWNYa3Nsa3VFQTFqN2wvWTBwV0p3Nm5kK2hRS2pOUHNVeG5xaDBuMzdJcnNTQldmc2MvbDVoYU9OS2ZMdDJGSGhFLzhtdkI1azJURDJwUzQrOERDRTVYSTRUaGtSYWhSSC9GMnhJWWtMd3phU3FCRmNGMlI5Z2kyTXM5RnFiZUh3VHg0UnNGUUlKVklJSUYvaXpsTGQgZ3VzdGF2b0BndXN0YXZv</authorizedkeys>
       <otp_seed/>
       <shell/>
-      <password>$2y$11$H/zAXXvY5AKL7G0YCW4td.N2yWSrL5xpDY7MBVx8MwVqTPBIE.fPW</password>
+      <password>$2y$11$Yii5V8/puBTOlRTVqR6kYePTtcIQ82p8zHAQ2khK.HfqzPSaevt3u</password>
       <pwd_changed_at/>
       <landing_page/>
       <comment/>
@@ -1428,9 +1428,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.167</username>
-    <description>/api/netsnmp/general/set made changes</description>
-    <time>1748549474.7091</time>
+    <username>root@192.168.0.24</username>
+    <description>user \"root\" changed"</description>
+    <time>1748636411.6649</time>
   </revision>
   <OPNsense>
     <wireguard>
