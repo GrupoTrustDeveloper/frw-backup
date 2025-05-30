@@ -1429,15 +1429,15 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.24</username>
-    <description>user \"root\" changed"</description>
-    <time>1748636411.6649</time>
+    <description>/api/wireguard/client/toggleClient/77e442f4-77c6-47d2-88c1-446003a3fdbb made changes</description>
+    <time>1748636458.9492</time>
   </revision>
   <OPNsense>
     <wireguard>
       <client version="1.0.0">
         <clients>
           <client uuid="77e442f4-77c6-47d2-88c1-446003a3fdbb">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <name>GUSTAVO</name>
             <pubkey>iQ4rvALMFKGg4IFxQBJFiWoLTbGCWXMtG1kBSje9CjY=</pubkey>
             <psk/>
