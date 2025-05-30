@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.24</username>
-    <description>/api/wireguard/client/toggleClient/630ba2f2-add2-4c32-87f7-22f449533b2a made changes</description>
-    <time>1748636462.5136</time>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1748636465.428</time>
   </revision>
   <OPNsense>
     <wireguard>
