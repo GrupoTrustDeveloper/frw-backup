@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.24</username>
-    <description>/api/wireguard/client/toggleClient/77e442f4-77c6-47d2-88c1-446003a3fdbb made changes</description>
-    <time>1748636458.9492</time>
+    <description>/api/wireguard/client/toggleClient/dc9a1075-a4f2-4c46-a287-785b4a6fc03c made changes</description>
+    <time>1748636460.7036</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1447,7 +1447,7 @@
             <keepalive>30</keepalive>
           </client>
           <client uuid="dc9a1075-a4f2-4c46-a287-785b4a6fc03c">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <name>GUSTAVO-APP</name>
             <pubkey>AeKu+kPaIeBd2TjjVzDWPQkonzIIFv9wf77+Y+zOJzY=</pubkey>
             <psk/>
