@@ -1267,7 +1267,7 @@
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Default allow LAN to any rule</descr>
-      <gateway>SUMCITY_DHCP</gateway>
+      <gateway>GTWDINAMICA</gateway>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -1279,7 +1279,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.167</username>
-        <time>1748711511.2216</time>
+        <time>1748711534.0986</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
@@ -1439,7 +1439,7 @@
   <revision>
     <username>root@192.168.0.167</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1748711511.49</time>
+    <time>1748711534.3711</time>
   </revision>
   <OPNsense>
     <wireguard>
