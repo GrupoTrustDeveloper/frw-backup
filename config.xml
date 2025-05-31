@@ -1263,16 +1263,25 @@
     </rule>
     <rule uuid="f91316c8-cfe5-4eea-ace6-125b0002a16e">
       <type>pass</type>
-      <ipprotocol>inet</ipprotocol>
-      <descr>Default allow LAN to any rule</descr>
       <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow LAN to any rule</descr>
+      <gateway>SUMCITY_DHCP</gateway>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
       <source>
         <network>lan</network>
       </source>
       <destination>
-        <any/>
+        <any>1</any>
       </destination>
-      <log>1</log>
+      <updated>
+        <username>root@191.6.37.61</username>
+        <time>1748711217.4977</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
     </rule>
     <rule uuid="bda175f8-669b-4908-b46f-58fa30228635">
       <type>pass</type>
@@ -1429,8 +1438,8 @@
   </ntpd>
   <revision>
     <username>root@191.6.37.61</username>
-    <description>/api/routing/settings/setGateway/2fc92bf2-b153-4bf3-b1b1-73f88671eebf made changes</description>
-    <time>1748711170.7862</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1748711217.7018</time>
   </revision>
   <OPNsense>
     <wireguard>
