@@ -424,35 +424,6 @@
         </destination>
         <descr/>
         <category/>
-        <interface>wan</interface>
-        <tag/>
-        <tagged/>
-        <poolopts/>
-        <poolopts_sourcehashkey/>
-        <ipprotocol>inet</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <updated>
-          <username>root@172.16.0.10</username>
-          <time>1748729550.034</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
-        <created>
-          <username>root@172.16.0.10</username>
-          <time>1748729550.034</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </created>
-      </rule>
-      <rule>
-        <source>
-          <network>172.16.0.0/23</network>
-        </source>
-        <destination>
-          <any>1</any>
-        </destination>
-        <descr/>
-        <category/>
         <interface>opt2</interface>
         <tag/>
         <tagged/>
@@ -1519,7 +1490,7 @@
   <revision>
     <username>root@172.16.0.10</username>
     <description>/firewall_nat_out.php made changes</description>
-    <time>1748729564.2003</time>
+    <time>1748729648.9594</time>
   </revision>
   <OPNsense>
     <wireguard>
