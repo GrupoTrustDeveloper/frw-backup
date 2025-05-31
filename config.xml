@@ -1313,6 +1313,31 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="c40576b1-d3f5-4970-84e7-a63b5a3cbe5d">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <gateway>GTWDINAMICA</gateway>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.0.167</username>
+        <time>1748710936.1426</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.167</username>
+        <time>1748710936.1426</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="96e6ae5f-8ba2-4b55-b1b6-4e05ae93f782">
       <type>pass</type>
       <interface>opt3</interface>
@@ -1430,7 +1455,7 @@
   <revision>
     <username>root@192.168.0.167</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1748710858.6259</time>
+    <time>1748710936.3486</time>
   </revision>
   <OPNsense>
     <wireguard>
