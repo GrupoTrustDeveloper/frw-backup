@@ -1322,6 +1322,30 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="9fdf35b4-1d88-454a-97a7-a998a9004557">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>lanip</network>
+      </source>
+      <destination>
+        <address>172.16.0.0/23</address>
+      </destination>
+      <updated>
+        <username>root@192.168.0.167</username>
+        <time>1748716493.989</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.167</username>
+        <time>1748716493.989</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="96e6ae5f-8ba2-4b55-b1b6-4e05ae93f782">
       <type>pass</type>
       <interface>opt3</interface>
@@ -1438,8 +1462,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/api/routing/settings/addGateway/ made changes</description>
-    <time>1748715988.4522</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1748716494.2636</time>
   </revision>
   <OPNsense>
     <wireguard>
