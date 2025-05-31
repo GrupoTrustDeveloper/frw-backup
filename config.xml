@@ -1430,8 +1430,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/api/routes/routes/delroute/ac9f47f1-b4cd-4a9d-90c6-a0ad0aa4fb49 made changes</description>
-    <time>1748710251.452</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1748710556.071</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2826,7 +2826,7 @@
     </trust>
     <unboundplus version="1.0.12">
       <general>
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <port>53</port>
         <stats>1</stats>
         <active_interface>lan,opt3</active_interface>
