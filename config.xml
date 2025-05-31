@@ -1461,8 +1461,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.0.10</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1748729653.8713</time>
+    <description>/api/routes/routes/delroute/3890069d-1e31-4f06-bd63-23ae3d77c005 made changes</description>
+    <time>1748729897.4356</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3361,14 +3361,7 @@
   <vlans version="1.0.0">
     <vlan/>
   </vlans>
-  <staticroutes version="1.0.0">
-    <route uuid="3890069d-1e31-4f06-bd63-23ae3d77c005">
-      <network>172.16.0.0/23</network>
-      <gateway>180</gateway>
-      <descr/>
-      <disabled>0</disabled>
-    </route>
-  </staticroutes>
+  <staticroutes version="1.0.0"/>
   <bridges>
     <bridged/>
   </bridges>
