@@ -1429,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/api/routing/settings/toggleGateway/787a60fb-d9ae-4f47-9f65-813e20df5ac1 made changes</description>
-    <time>1748708721.1311</time>
+    <description>/api/routing/settings/setGateway/56f64bde-beb5-4ba3-b1e8-3d8208577512 made changes</description>
+    <time>1748708920.4055</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2730,7 +2730,7 @@
         <monitor_killstates_priority>0</monitor_killstates_priority>
         <monitor>8.8.4.4</monitor>
         <force_down>0</force_down>
-        <priority>253</priority>
+        <priority>250</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
