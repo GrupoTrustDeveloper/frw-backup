@@ -1294,7 +1294,6 @@
       <descr>LIBERAR ACESSO WG</descr>
       <direction>in</direction>
       <category>SUPORTE</category>
-      <disabled>1</disabled>
       <log>1</log>
       <quick>1</quick>
       <source>
@@ -1305,7 +1304,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.167</username>
-        <time>1748710169.152</time>
+        <time>1748710858.356</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1430,8 +1429,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1748710556.071</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1748710858.6259</time>
   </revision>
   <OPNsense>
     <wireguard>
