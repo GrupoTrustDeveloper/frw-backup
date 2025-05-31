@@ -414,7 +414,7 @@
   </snmpd>
   <nat>
     <outbound>
-      <mode>hybrid</mode>
+      <mode>automatic</mode>
       <rule/>
     </outbound>
     <rule>
@@ -1460,9 +1460,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@172.16.0.10</username>
-    <description>/api/routing/settings/delGateway/4ccbf48f-64ca-4b5f-bfac-cae050c5d229 made changes</description>
-    <time>1748729918.9133</time>
+    <username>root@192.168.0.140</username>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1748729952.3679</time>
   </revision>
   <OPNsense>
     <wireguard>
