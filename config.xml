@@ -1437,8 +1437,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.140</username>
-    <description>/api/routes/routes/delroute/f48b88fe-9960-470d-98c0-67374295118b made changes</description>
-    <time>1748725458.0294</time>
+    <description>/api/routing/settings/delGateway/aabf6373-2514-4bec-96c8-9c970f0da026 made changes</description>
+    <time>1748725467.7644</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2765,32 +2765,6 @@
         <monitor>8.8.8.8</monitor>
         <force_down>0</force_down>
         <priority>252</priority>
-        <weight>1</weight>
-        <latencylow/>
-        <latencyhigh/>
-        <losslow/>
-        <losshigh/>
-        <interval/>
-        <time_period/>
-        <loss_interval/>
-        <data_length/>
-      </gateway_item>
-      <gateway_item uuid="aabf6373-2514-4bec-96c8-9c970f0da026">
-        <disabled>0</disabled>
-        <name>ER_605_TST</name>
-        <descr/>
-        <interface>lan</interface>
-        <ipprotocol>inet</ipprotocol>
-        <gateway>192.168.0.180</gateway>
-        <defaultgw>0</defaultgw>
-        <fargw>1</fargw>
-        <monitor_disable>1</monitor_disable>
-        <monitor_noroute>0</monitor_noroute>
-        <monitor_killstates>0</monitor_killstates>
-        <monitor_killstates_priority>0</monitor_killstates_priority>
-        <monitor/>
-        <force_down>0</force_down>
-        <priority>255</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
