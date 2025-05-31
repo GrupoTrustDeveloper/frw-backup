@@ -1460,9 +1460,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.140</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1748728471.3036</time>
+    <username>root@172.16.0.10</username>
+    <description>/api/routes/routes/delroute/47522f68-2c5a-4a1c-8037-60533aaec2ed made changes</description>
+    <time>1748728824.8769</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3361,14 +3361,7 @@
   <vlans version="1.0.0">
     <vlan/>
   </vlans>
-  <staticroutes version="1.0.0">
-    <route uuid="47522f68-2c5a-4a1c-8037-60533aaec2ed">
-      <network>172.16.0.0/23</network>
-      <gateway>GW180</gateway>
-      <descr/>
-      <disabled>0</disabled>
-    </route>
-  </staticroutes>
+  <staticroutes version="1.0.0"/>
   <bridges>
     <bridged/>
   </bridges>
