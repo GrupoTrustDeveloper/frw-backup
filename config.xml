@@ -1462,7 +1462,7 @@
   <revision>
     <username>root@192.168.0.140</username>
     <description>/firewall_nat_out.php made changes</description>
-    <time>1748728467.4458</time>
+    <time>1748728471.3036</time>
   </revision>
   <OPNsense>
     <wireguard>
