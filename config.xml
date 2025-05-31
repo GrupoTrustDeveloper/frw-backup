@@ -1437,8 +1437,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.140</username>
-    <description>/api/routes/routes/delroute/67ed2101-f948-4e2b-9643-2e39b1c4dade made changes</description>
-    <time>1748730182.2477</time>
+    <description>/api/routes/routes/addroute/ made changes</description>
+    <time>1748730188.7744</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3337,7 +3337,14 @@
   <vlans version="1.0.0">
     <vlan/>
   </vlans>
-  <staticroutes version="1.0.0"/>
+  <staticroutes version="1.0.0">
+    <route uuid="f45c7d0b-523b-4e73-9327-796abbe39444">
+      <network>172.16.0.0/23</network>
+      <gateway>180</gateway>
+      <descr/>
+      <disabled>0</disabled>
+    </route>
+  </staticroutes>
   <bridges>
     <bridged/>
   </bridges>
