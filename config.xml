@@ -1437,8 +1437,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.140</username>
-    <description>/api/routing/settings/addGateway/ made changes</description>
-    <time>1748725490.7434</time>
+    <description>/api/routes/routes/addroute/ made changes</description>
+    <time>1748725515.7292</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3337,7 +3337,14 @@
   <vlans version="1.0.0">
     <vlan/>
   </vlans>
-  <staticroutes version="1.0.0"/>
+  <staticroutes version="1.0.0">
+    <route uuid="47522f68-2c5a-4a1c-8037-60533aaec2ed">
+      <network>172.16.0.0/23</network>
+      <gateway>GW180</gateway>
+      <descr/>
+      <disabled>0</disabled>
+    </route>
+  </staticroutes>
   <bridges>
     <bridged/>
   </bridges>
