@@ -1428,9 +1428,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.24</username>
-    <description>/api/wireguard/client/toggleClient/3a317420-a824-494f-89ab-bec72704001a made changes</description>
-    <time>1748636481.4125</time>
+    <username>root@192.168.0.167</username>
+    <description>/api/routing/settings/toggleGateway/2fc92bf2-b153-4bf3-b1b1-73f88671eebf made changes</description>
+    <time>1748708661.2701</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2742,7 +2742,7 @@
         <data_length/>
       </gateway_item>
       <gateway_item uuid="2fc92bf2-b153-4bf3-b1b1-73f88671eebf">
-        <disabled>0</disabled>
+        <disabled>1</disabled>
         <name>SUMCITY_DHCP</name>
         <descr>Interface SUMCITY_DHCP Gateway</descr>
         <interface>opt2</interface>
