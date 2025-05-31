@@ -1437,8 +1437,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.140</username>
-    <description>/api/routes/routes/addroute/ made changes</description>
-    <time>1748730020.5597</time>
+    <description>/api/routing/settings/setGateway/6b0709fe-73d1-4d54-b877-102748fbd92f made changes</description>
+    <time>1748730163.6445</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2781,7 +2781,7 @@
         <descr/>
         <interface>lan</interface>
         <ipprotocol>inet</ipprotocol>
-        <gateway>192.168.0.180</gateway>
+        <gateway>192.168.0.181</gateway>
         <defaultgw>0</defaultgw>
         <fargw>1</fargw>
         <monitor_disable>1</monitor_disable>
