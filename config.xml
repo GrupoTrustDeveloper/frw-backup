@@ -1267,7 +1267,7 @@
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Default allow LAN to any rule</descr>
-      <gateway>GTWDINAMICA</gateway>
+      <gateway>RDE</gateway>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -1279,7 +1279,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.167</username>
-        <time>1748711685.1524</time>
+        <time>1748711768.2426</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
@@ -1439,7 +1439,7 @@
   <revision>
     <username>root@192.168.0.167</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1748711685.4242</time>
+    <time>1748711768.4418</time>
   </revision>
   <OPNsense>
     <wireguard>
