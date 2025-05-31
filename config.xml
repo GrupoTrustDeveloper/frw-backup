@@ -1239,6 +1239,28 @@
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="44212a85-b090-4816-bb18-6ec5d90f9206">
+      <type>pass</type>
+      <associated-rule-id>nat_682379c891d407.54367120</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_NEXTCLOUD_NOVA_SERRANA</address>
+        <port>P_HTTP_HTTPS</port>
+      </destination>
+      <descr>NEXTCLOUD_NOVA_SERRANA</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@192.168.0.21</username>
+        <time>1747155400.5974</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="f91316c8-cfe5-4eea-ace6-125b0002a16e">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -1272,6 +1294,7 @@
       <descr>LIBERAR ACESSO WG</descr>
       <direction>in</direction>
       <category>SUPORTE</category>
+      <disabled>1</disabled>
       <log>1</log>
       <quick>1</quick>
       <source>
@@ -1281,8 +1304,8 @@
         <any>1</any>
       </destination>
       <updated>
-        <username>root@10.150.0.2</username>
-        <time>1742312297.8321</time>
+        <username>root@192.168.0.167</username>
+        <time>1748710169.152</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1398,28 +1421,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_682379c891d407.54367120</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>IP_NEXTCLOUD_NOVA_SERRANA</address>
-        <port>P_HTTP_HTTPS</port>
-      </destination>
-      <descr>NEXTCLOUD_NOVA_SERRANA</descr>
-      <category>WEB</category>
-      <created>
-        <username>root@192.168.0.21</username>
-        <time>1747155400.5974</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1429,8 +1430,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/api/routing/settings/toggleGateway/2fc92bf2-b153-4bf3-b1b1-73f88671eebf made changes</description>
-    <time>1748708978.8463</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1748710169.4248</time>
   </revision>
   <OPNsense>
     <wireguard>
