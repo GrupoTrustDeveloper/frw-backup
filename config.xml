@@ -1267,7 +1267,7 @@
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <descr>Default allow LAN to any rule</descr>
-      <gateway>SUMCITY_DHCP</gateway>
+      <gateway>RDE</gateway>
       <direction>in</direction>
       <log>1</log>
       <quick>1</quick>
@@ -1278,8 +1278,8 @@
         <any>1</any>
       </destination>
       <updated>
-        <username>root@191.6.37.61</username>
-        <time>1748711217.4977</time>
+        <username>root@192.168.0.167</username>
+        <time>1748711279.8509</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
@@ -1438,8 +1438,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.167</username>
-    <description>/system_gateway_groups_edit.php made changes</description>
-    <time>1748711222.693</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1748711280.0634</time>
   </revision>
   <OPNsense>
     <wireguard>
