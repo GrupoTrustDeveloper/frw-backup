@@ -1437,8 +1437,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.140</username>
-    <description>/api/routing/settings/setGateway/b2038eec-688d-4840-9ab5-6537d935c199 made changes</description>
-    <time>1748727898.4496</time>
+    <description>/api/routes/routes/setroute/47522f68-2c5a-4a1c-8037-60533aaec2ed made changes</description>
+    <time>1748727913.541</time>
   </revision>
   <OPNsense>
     <wireguard>
