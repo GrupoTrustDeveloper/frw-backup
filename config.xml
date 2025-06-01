@@ -1436,9 +1436,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@172.16.0.10</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1748730407.052</time>
+    <username>root@192.168.0.180</username>
+    <description>/api/routing/settings/setGateway/6b0709fe-73d1-4d54-b877-102748fbd92f made changes</description>
+    <time>1748789190.6095</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2781,7 +2781,7 @@
         <descr/>
         <interface>lan</interface>
         <ipprotocol>inet</ipprotocol>
-        <gateway>192.168.0.181</gateway>
+        <gateway>192.168.0.180</gateway>
         <defaultgw>0</defaultgw>
         <fargw>1</fargw>
         <monitor_disable>1</monitor_disable>
