@@ -1437,8 +1437,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.180</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1748798096.6357</time>
+    <description>/api/routes/routes/delroute/f45c7d0b-523b-4e73-9327-796abbe39444 made changes</description>
+    <time>1748798130.9011</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3337,14 +3337,7 @@
   <vlans version="1.0.0">
     <vlan/>
   </vlans>
-  <staticroutes version="1.0.0">
-    <route uuid="f45c7d0b-523b-4e73-9327-796abbe39444">
-      <network>172.16.0.0/23</network>
-      <gateway>180</gateway>
-      <descr/>
-      <disabled>0</disabled>
-    </route>
-  </staticroutes>
+  <staticroutes version="1.0.0"/>
   <bridges>
     <bridged/>
   </bridges>
