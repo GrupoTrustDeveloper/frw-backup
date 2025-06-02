@@ -1436,9 +1436,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.187</username>
-    <description>/api/routes/routes/addroute/ made changes</description>
-    <time>1748798755.2912</time>
+    <username>root@170.82.152.43</username>
+    <description>/api/firewall/alias/setItem/99f5922e-70de-4a40-a5df-e647860e06d1 made changes</description>
+    <time>1748878521.1171</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2177,7 +2177,8 @@
             <counters>0</counters>
             <updatefreq/>
             <content>80
-443</content>
+443
+9022</content>
             <password/>
             <username/>
             <authtype/>
