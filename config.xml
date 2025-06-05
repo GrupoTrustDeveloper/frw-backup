@@ -234,6 +234,7 @@
       <ssl-ciphers/>
       <interfaces/>
       <compression/>
+      <althostnames>escritorio.grupotrust.org</althostnames>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
@@ -1436,9 +1437,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@170.82.152.43</username>
-    <description>/api/wireguard/client/toggleClient/c3ccd1e4-08e8-428d-b4ab-d9fb7ce1a51e made changes</description>
-    <time>1748879237.0589</time>
+    <username>root@148.222.206.193</username>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1749144298.6144</time>
   </revision>
   <OPNsense>
     <wireguard>
