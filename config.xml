@@ -1491,7 +1491,7 @@
   <revision>
     <username>root@192.168.0.97</username>
     <description>/api/firewall/alias/setItem/a5e04fc0-80b3-49d5-91d8-c63ac19bf5c5 made changes</description>
-    <time>1749410326.6203</time>
+    <time>1749410921.3496</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2470,17 +2470,17 @@
             <interface/>
             <counters>0</counters>
             <updatefreq/>
-            <content>65000
+            <content>80
+110
+143
+443
 465
 587
-110
-995
-143
 993
-443
-80
+995
 7071
-7073</content>
+7073
+65000</content>
             <password/>
             <username/>
             <authtype/>
