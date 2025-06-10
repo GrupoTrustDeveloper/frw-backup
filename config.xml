@@ -341,7 +341,6 @@
     <opt1>
       <if>bge1</if>
       <descr>VIVO</descr>
-      <enable>1</enable>
       <spoofmac/>
     </opt1>
     <opt2>
@@ -1489,9 +1488,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.97</username>
-    <description>/api/firewall/alias/setItem/a5e04fc0-80b3-49d5-91d8-c63ac19bf5c5 made changes</description>
-    <time>1749415509.8697</time>
+    <username>root@192.168.0.24</username>
+    <description>Interface VIVO(opt1) is now disabled.</description>
+    <time>1749574075.7578</time>
   </revision>
   <OPNsense>
     <wireguard>
