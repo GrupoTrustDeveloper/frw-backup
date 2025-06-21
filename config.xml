@@ -1513,8 +1513,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.115</username>
-    <description>/api/routing/settings/addGateway/ made changes</description>
-    <time>1750537994.4461</time>
+    <description>/api/routes/routes/addroute/ made changes</description>
+    <time>1750538014.9969</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3438,7 +3438,14 @@
   <vlans version="1.0.0">
     <vlan/>
   </vlans>
-  <staticroutes version="1.0.0"/>
+  <staticroutes version="1.0.0">
+    <route uuid="06545e2f-38e9-4d2e-8924-2acae74a0036">
+      <network>172.16.0.0/23</network>
+      <gateway>PONTOX</gateway>
+      <descr/>
+      <disabled>0</disabled>
+    </route>
+  </staticroutes>
   <bridges>
     <bridged/>
   </bridges>
