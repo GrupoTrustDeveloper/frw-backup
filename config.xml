@@ -1291,6 +1291,28 @@
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="62ee8e8f-7eca-4220-ba64-0bc799d01485">
+      <type>pass</type>
+      <associated-rule-id>nat_6845d893ad0d09.70784936</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>192.168.0.202</address>
+        <port>Zimbra</port>
+      </destination>
+      <descr>Zimbra - Pronto Info</descr>
+      <category/>
+      <created>
+        <username>root@192.168.0.97</username>
+        <time>1749407891.7089</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="f91316c8-cfe5-4eea-ace6-125b0002a16e">
       <type>pass</type>
       <interface>lan</interface>
@@ -1348,6 +1370,30 @@
       <created>
         <username>root@10.150.0.2</username>
         <time>1742312297.8321</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="c277661d-ad95-4f5c-94db-2e8c887619bf">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>172.16.0.0/23</address>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.0.161</username>
+        <time>1750535756.1095</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.161</username>
+        <time>1750535756.1095</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -1458,28 +1504,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_6845d893ad0d09.70784936</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.0.202</address>
-        <port>Zimbra</port>
-      </destination>
-      <descr>Zimbra - Pronto Info</descr>
-      <category/>
-      <created>
-        <username>root@192.168.0.97</username>
-        <time>1749407891.7089</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1489,8 +1513,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.161</username>
-    <description>/api/routes/routes/setroute/cba62038-ff85-4d23-aa1d-e9d30f18f058 made changes</description>
-    <time>1750534355.9167</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1750535756.3896</time>
   </revision>
   <OPNsense>
     <wireguard>
