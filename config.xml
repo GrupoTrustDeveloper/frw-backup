@@ -414,7 +414,7 @@
   </snmpd>
   <nat>
     <outbound>
-      <mode>automatic</mode>
+      <mode>hybrid</mode>
       <rule/>
     </outbound>
     <rule>
@@ -1513,8 +1513,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.115</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1750538364.5327</time>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1750538499.9802</time>
   </revision>
   <OPNsense>
     <wireguard>
