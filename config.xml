@@ -415,7 +415,35 @@
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule/>
+      <rule>
+        <source>
+          <network>172.16.0.0/23</network>
+        </source>
+        <destination>
+          <any>1</any>
+        </destination>
+        <descr/>
+        <category/>
+        <interface>opt2</interface>
+        <tag/>
+        <tagged/>
+        <poolopts/>
+        <poolopts_sourcehashkey/>
+        <ipprotocol>inet</ipprotocol>
+        <target/>
+        <targetip_subnet>0</targetip_subnet>
+        <sourceport/>
+        <updated>
+          <username>root@192.168.0.115</username>
+          <time>1750538571.066</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
+        <created>
+          <username>root@192.168.0.115</username>
+          <time>1750538571.066</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </created>
+      </rule>
     </outbound>
     <rule>
       <protocol>tcp</protocol>
@@ -1513,8 +1541,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.115</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1750538502.9216</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
+    <time>1750538571.3478</time>
   </revision>
   <OPNsense>
     <wireguard>
