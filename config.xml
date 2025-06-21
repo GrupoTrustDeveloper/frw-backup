@@ -424,25 +424,25 @@
         </destination>
         <descr/>
         <category/>
-        <interface>opt2</interface>
+        <interface>wan</interface>
         <tag/>
         <tagged/>
         <poolopts/>
         <poolopts_sourcehashkey/>
         <ipprotocol>inet</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.0.115</username>
-          <time>1750538571.066</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
         <created>
           <username>root@192.168.0.115</username>
           <time>1750538571.066</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
+        <target/>
+        <targetip_subnet>0</targetip_subnet>
+        <sourceport/>
+        <updated>
+          <username>root@192.168.0.115</username>
+          <time>1750539327.7498</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
       </rule>
     </outbound>
     <rule>
@@ -1541,8 +1541,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.115</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1750538573.3305</time>
+    <description>/firewall_nat_out_edit.php made changes</description>
+    <time>1750539328.033</time>
   </revision>
   <OPNsense>
     <wireguard>
