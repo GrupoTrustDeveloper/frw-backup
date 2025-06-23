@@ -399,8 +399,12 @@
       <spoofmac/>
     </opt5>
     <opt6>
-      <descr>TESTEVLAN10</descr>
       <if>vlan01</if>
+      <descr>VLAN10</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>10.180.0.254</ipaddr>
+      <subnet>23</subnet>
     </opt6>
     <opt7>
       <descr>OPT7</descr>
@@ -1554,8 +1558,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.24</username>
-    <description>Interface TESTEVLAN11(opt8) is now disabled.</description>
-    <time>1750695045.2148</time>
+    <description>/interfaces.php made changes</description>
+    <time>1750695128.335</time>
   </revision>
   <OPNsense>
     <wireguard>
