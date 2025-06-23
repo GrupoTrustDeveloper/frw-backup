@@ -407,6 +407,10 @@
       <if>pppoe0</if>
       <ipaddr>pppoe</ipaddr>
     </opt7>
+    <opt8>
+      <descr>OPT8</descr>
+      <if>vlan02</if>
+    </opt8>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1551,7 +1555,7 @@
   <revision>
     <username>root@192.168.0.24</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1750694992.3384</time>
+    <time>1750695000.7025</time>
   </revision>
   <OPNsense>
     <wireguard>
