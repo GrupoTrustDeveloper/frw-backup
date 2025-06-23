@@ -423,6 +423,23 @@
         <to>192.168.0.245</to>
       </range>
     </lan>
+    <opt6>
+      <enable>1</enable>
+      <gateway>10.180.11.254</gateway>
+      <domain>grupotrust.org</domain>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>10.180.10.50</from>
+        <to>10.180.11.252</to>
+      </range>
+      <winsserver/>
+      <dnsserver>192.168.0.10</dnsserver>
+      <dnsserver>192.168.0.11</dnsserver>
+      <ntpserver/>
+    </opt6>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1581,9 +1598,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.24</username>
-    <description>/api/routes/routes/toggleroute/06545e2f-38e9-4d2e-8924-2acae74a0036 made changes</description>
-    <time>1750704649.9183</time>
+    <username>root@192.168.0.97</username>
+    <description>/services_dhcp.php made changes</description>
+    <time>1750719458.6839</time>
   </revision>
   <OPNsense>
     <wireguard>
