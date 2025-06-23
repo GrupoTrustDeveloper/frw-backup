@@ -403,7 +403,7 @@
       <descr>VLAN10</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>10.180.0.254</ipaddr>
+      <ipaddr>10.180.10.254</ipaddr>
       <subnet>23</subnet>
     </opt6>
     <opt7>
@@ -1582,8 +1582,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.24</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1750695209.1955</time>
+    <description>/interfaces.php made changes</description>
+    <time>1750697001.8443</time>
   </revision>
   <OPNsense>
     <wireguard>
