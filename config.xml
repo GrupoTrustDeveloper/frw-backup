@@ -1540,9 +1540,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.115</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1750539330.6304</time>
+    <username>root@192.168.0.24</username>
+    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
+    <time>1750694863.8888</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3464,7 +3464,14 @@
     </vip>
   </virtualip>
   <vlans version="1.0.0">
-    <vlan/>
+    <vlan uuid="0977663f-4ff7-4475-aafe-6d41e3faf3c2">
+      <if>bge3</if>
+      <tag>10</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>TESTE VLAN10</descr>
+      <vlanif>vlan01</vlanif>
+    </vlan>
   </vlans>
   <staticroutes version="1.0.0">
     <route uuid="06545e2f-38e9-4d2e-8924-2acae74a0036">
