@@ -1542,7 +1542,7 @@
   <revision>
     <username>root@192.168.0.24</username>
     <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
-    <time>1750694863.8888</time>
+    <time>1750694901.8379</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3471,6 +3471,14 @@
       <proto/>
       <descr>TESTE VLAN10</descr>
       <vlanif>vlan01</vlanif>
+    </vlan>
+    <vlan uuid="e69dc4e1-6a5e-431f-beda-30890e929036">
+      <if>bge3</if>
+      <tag>11</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>TESTE VLAN11</descr>
+      <vlanif>vlan02</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0">
