@@ -408,7 +408,7 @@
       <ipaddr>pppoe</ipaddr>
     </opt7>
     <opt8>
-      <descr>OPT8</descr>
+      <descr>TESTEVLAN11</descr>
       <if>vlan02</if>
     </opt8>
   </interfaces>
@@ -1554,8 +1554,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.24</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1750695000.7025</time>
+    <description>Interface TESTEVLAN11(opt8) is now disabled.</description>
+    <time>1750695045.2148</time>
   </revision>
   <OPNsense>
     <wireguard>
