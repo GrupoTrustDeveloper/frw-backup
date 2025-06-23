@@ -1583,7 +1583,7 @@
   <revision>
     <username>root@192.168.0.24</username>
     <description>/api/routes/routes/toggleroute/06545e2f-38e9-4d2e-8924-2acae74a0036 made changes</description>
-    <time>1750703287.5579</time>
+    <time>1750703354.501</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3527,7 +3527,7 @@
       <network>172.16.0.0/23</network>
       <gateway>PONTOX</gateway>
       <descr/>
-      <disabled>1</disabled>
+      <disabled>0</disabled>
     </route>
   </staticroutes>
   <bridges>
