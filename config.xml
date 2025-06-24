@@ -1600,8 +1600,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.162</username>
-    <description>/interfaces.php made changes</description>
-    <time>1750761914.4171</time>
+    <description>/interfaces_ppps_edit.php made changes</description>
+    <time>1750761940.2048</time>
   </revision>
   <OPNsense>
     <wireguard>
