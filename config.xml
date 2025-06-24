@@ -1623,8 +1623,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.97</username>
-    <description>/api/routes/routes/delroute/06545e2f-38e9-4d2e-8924-2acae74a0036 made changes</description>
-    <time>1750746279.188</time>
+    <description>/api/routing/settings/delGateway/1534e362-a165-47cc-9218-8d7fe30d1e3f made changes</description>
+    <time>1750746286.424</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2976,32 +2976,6 @@
         <monitor>8.8.8.8</monitor>
         <force_down>0</force_down>
         <priority>252</priority>
-        <weight>1</weight>
-        <latencylow/>
-        <latencyhigh/>
-        <losslow/>
-        <losshigh/>
-        <interval/>
-        <time_period/>
-        <loss_interval/>
-        <data_length/>
-      </gateway_item>
-      <gateway_item uuid="1534e362-a165-47cc-9218-8d7fe30d1e3f">
-        <disabled>0</disabled>
-        <name>PONTOX</name>
-        <descr/>
-        <interface>lan</interface>
-        <ipprotocol>inet</ipprotocol>
-        <gateway>192.168.0.161</gateway>
-        <defaultgw>0</defaultgw>
-        <fargw>1</fargw>
-        <monitor_disable>1</monitor_disable>
-        <monitor_noroute>0</monitor_noroute>
-        <monitor_killstates>0</monitor_killstates>
-        <monitor_killstates_priority>0</monitor_killstates_priority>
-        <monitor/>
-        <force_down>0</force_down>
-        <priority>255</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
