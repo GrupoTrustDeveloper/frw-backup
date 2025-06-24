@@ -421,7 +421,6 @@
       </range>
     </lan>
     <opt6>
-      <enable>1</enable>
       <gateway>10.180.11.254</gateway>
       <domain>grupotrust.org</domain>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
@@ -1584,8 +1583,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.162</username>
-    <description>/api/routing/settings/setGateway/56f64bde-beb5-4ba3-b1e8-3d8208577512 made changes</description>
-    <time>1750762239.1798</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1750763950.1496</time>
   </revision>
   <OPNsense>
     <wireguard>
