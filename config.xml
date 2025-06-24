@@ -1574,14 +1574,14 @@
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <any>1</any>
+        <network>opt6</network>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
         <username>root@192.168.0.97</username>
-        <time>1750725420.4581</time>
+        <time>1750745492.8365</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1600,7 +1600,7 @@
   <revision>
     <username>root@192.168.0.97</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1750725663.2061</time>
+    <time>1750745493.1177</time>
   </revision>
   <OPNsense>
     <wireguard>
