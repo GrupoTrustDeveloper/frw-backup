@@ -1590,30 +1590,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="658290ae-6a91-4d40-8fb7-2b6a71f3f59c">
-      <type>pass</type>
-      <interface>opt6</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.97</username>
-        <time>1750745541.7497</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.97</username>
-        <time>1750745541.7497</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1623,8 +1599,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.97</username>
-    <description>/api/routing/settings/delGateway/1534e362-a165-47cc-9218-8d7fe30d1e3f made changes</description>
-    <time>1750746286.424</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1750750135.4882</time>
   </revision>
   <OPNsense>
     <wireguard>
