@@ -1623,8 +1623,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.97</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1750745542.0401</time>
+    <description>/api/routes/routes/delroute/06545e2f-38e9-4d2e-8924-2acae74a0036 made changes</description>
+    <time>1750746279.188</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3563,14 +3563,7 @@
       <vlanif>vlan02</vlanif>
     </vlan>
   </vlans>
-  <staticroutes version="1.0.0">
-    <route uuid="06545e2f-38e9-4d2e-8924-2acae74a0036">
-      <network>172.16.0.0/23</network>
-      <gateway>PONTOX</gateway>
-      <descr/>
-      <disabled>1</disabled>
-    </route>
-  </staticroutes>
+  <staticroutes version="1.0.0"/>
   <bridges>
     <bridged/>
   </bridges>
