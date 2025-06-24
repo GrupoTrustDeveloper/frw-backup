@@ -407,11 +407,6 @@
       <ipaddr>10.180.11.254</ipaddr>
       <subnet>23</subnet>
     </opt6>
-    <opt7>
-      <descr>OPT7</descr>
-      <if>pppoe0</if>
-      <ipaddr>pppoe</ipaddr>
-    </opt7>
     <opt8>
       <descr>TESTEVLAN11</descr>
       <if>vlan02</if>
@@ -1600,8 +1595,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.162</username>
-    <description>/interfaces_ppps_edit.php made changes</description>
-    <time>1750762054.0337</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1750762077.0536</time>
   </revision>
   <OPNsense>
     <wireguard>
