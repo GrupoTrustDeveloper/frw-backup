@@ -1584,8 +1584,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.162</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1750762200.6659</time>
+    <description>/api/routing/settings/setGateway/56f64bde-beb5-4ba3-b1e8-3d8208577512 made changes</description>
+    <time>1750762239.1798</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2910,7 +2910,7 @@
         <monitor_killstates_priority>0</monitor_killstates_priority>
         <monitor>8.8.4.4</monitor>
         <force_down>0</force_down>
-        <priority>250</priority>
+        <priority>254</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
