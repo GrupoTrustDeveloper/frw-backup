@@ -1601,7 +1601,7 @@
   <revision>
     <username>root@192.168.0.162</username>
     <description>/interfaces_ppps_edit.php made changes</description>
-    <time>1750761997.9292</time>
+    <time>1750762054.0337</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3525,15 +3525,15 @@
       <ptpid>0</ptpid>
       <type>pppoe</type>
       <if>pppoe0</if>
-      <ports>bge1,opt1</ports>
+      <ports>bge1</ports>
       <username>cliente@cliente</username>
       <password>Y2xpZW50ZQ==</password>
       <descr>VIVO</descr>
       <provider/>
-      <bandwidth>,</bandwidth>
-      <mtu>,</mtu>
-      <mru>,</mru>
-      <mrru>,</mrru>
+      <bandwidth/>
+      <mtu/>
+      <mru/>
+      <mrru/>
     </ppp>
   </ppps>
   <wireless>
