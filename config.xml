@@ -1443,6 +1443,33 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="7cbe1a80-1529-4abc-a8a6-82bf43cdfedf">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Acesso Externo</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>(self)</network>
+        <port>65010</port>
+      </destination>
+      <updated>
+        <username>root@192.168.0.24</username>
+        <time>1750765459.3222</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.24</username>
+        <time>1750765459.3222</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="96e6ae5f-8ba2-4b55-b1b6-4e05ae93f782">
       <type>pass</type>
       <interface>opt3</interface>
@@ -1582,9 +1609,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.162</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1750763950.1496</time>
+    <username>root@192.168.0.24</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1750765459.6039</time>
   </revision>
   <OPNsense>
     <wireguard>
