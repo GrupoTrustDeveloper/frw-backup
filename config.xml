@@ -1393,18 +1393,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
-    <rule uuid="bda175f8-669b-4908-b46f-58fa30228635">
-      <type>pass</type>
-      <ipprotocol>inet6</ipprotocol>
-      <descr>Default allow LAN IPv6 to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
     <rule uuid="b3630863-085f-4993-929d-e6b4d3fc7475">
       <type>pass</type>
       <interface>lan</interface>
@@ -1596,8 +1584,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.162</username>
-    <description>/api/core/dashboard/saveWidgets made changes</description>
-    <time>1750762180.4476</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1750762200.6659</time>
   </revision>
   <OPNsense>
     <wireguard>
