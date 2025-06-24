@@ -339,10 +339,11 @@
       <virtual>1</virtual>
     </lo0>
     <opt1>
-      <if>bge1</if>
+      <if>pppoe0</if>
       <descr>VIVO</descr>
       <enable>1</enable>
       <spoofmac/>
+      <ipaddr>pppoe</ipaddr>
     </opt1>
     <opt2>
       <if>bge2</if>
@@ -1596,7 +1597,7 @@
   <revision>
     <username>root@192.168.0.162</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1750762106.2458</time>
+    <time>1750762120.3189</time>
   </revision>
   <OPNsense>
     <wireguard>
