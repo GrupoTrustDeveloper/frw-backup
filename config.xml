@@ -1610,8 +1610,8 @@
   </ntpd>
   <revision>
     <username>root@131.100.198.118</username>
-    <description>/api/interfaces/vip_settings/addItem/ made changes</description>
-    <time>1751840411.6426</time>
+    <description>/api/interfaces/vip_settings/setItem/47adce14-1d61-4fd1-9249-6f0dbddaecd2 made changes</description>
+    <time>1751841764.3667</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3509,7 +3509,7 @@
       <interface>lan</interface>
       <mode>ipalias</mode>
       <subnet>10.180.0.254</subnet>
-      <subnet_bits>32</subnet_bits>
+      <subnet_bits>22</subnet_bits>
       <gateway/>
       <noexpand>0</noexpand>
       <nobind>0</nobind>
