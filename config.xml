@@ -1610,8 +1610,8 @@
   </ntpd>
   <revision>
     <username>root@131.100.198.118</username>
-    <description>/api/interfaces/vip_settings/setItem/47adce14-1d61-4fd1-9249-6f0dbddaecd2 made changes</description>
-    <time>1751841764.3667</time>
+    <description>/api/interfaces/vip_settings/delItem/47adce14-1d61-4fd1-9249-6f0dbddaecd2 made changes</description>
+    <time>1751841849.9649</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3504,23 +3504,6 @@
       <peer6/>
       <nosync>0</nosync>
       <descr>IP67</descr>
-    </vip>
-    <vip uuid="47adce14-1d61-4fd1-9249-6f0dbddaecd2">
-      <interface>lan</interface>
-      <mode>ipalias</mode>
-      <subnet>10.180.0.254</subnet>
-      <subnet_bits>22</subnet_bits>
-      <gateway/>
-      <noexpand>0</noexpand>
-      <nobind>0</nobind>
-      <password/>
-      <vhid/>
-      <advbase>1</advbase>
-      <advskew>0</advskew>
-      <peer/>
-      <peer6/>
-      <nosync>0</nosync>
-      <descr>LAN-AMBIENTES NOVOS</descr>
     </vip>
   </virtualip>
   <vlans version="1.0.0">
