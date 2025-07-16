@@ -606,7 +606,7 @@
       <poolopts/>
       <associated-rule-id>nat_687799be308161.07133541</associated-rule-id>
       <target>IP_BD</target>
-      <local-port>9022</local-port>
+      <local-port>22</local-port>
       <source>
         <any>1</any>
       </source>
@@ -616,7 +616,7 @@
       </destination>
       <updated>
         <username>root@191.6.37.102</username>
-        <time>1752668716.3463</time>
+        <time>1752668745.5156</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1695,7 +1695,7 @@
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>IP_BD</address>
-        <port>9022</port>
+        <port>22</port>
       </destination>
       <descr>MARIA SSH</descr>
       <category>WEB</category>
@@ -1714,8 +1714,8 @@
   </ntpd>
   <revision>
     <username>root@191.6.37.102</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1752668719.8948</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1752668745.6816</time>
   </revision>
   <OPNsense>
     <wireguard>
