@@ -630,6 +630,36 @@
       <interface>wan</interface>
       <category>WEB</category>
       <ipprotocol>inet</ipprotocol>
+      <descr>MARIA SSH</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_687799be308161.07133541</associated-rule-id>
+      <target>IP_BD</target>
+      <local-port>9023</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>38.199.96.70</address>
+        <port>9023</port>
+      </destination>
+      <updated>
+        <username>root@191.6.37.102</username>
+        <time>1752668606.199</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1752668606.199</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category>WEB</category>
+      <ipprotocol>inet</ipprotocol>
       <descr>Gerencia ATA</descr>
       <tag/>
       <tagged/>
@@ -1705,6 +1735,28 @@
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_687799be308161.07133541</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_BD</address>
+        <port>9023</port>
+      </destination>
+      <descr>MARIA SSH</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1752668606.1987</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1714,8 +1766,8 @@
   </ntpd>
   <revision>
     <username>root@191.6.37.102</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1752668571.1145</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1752668606.6048</time>
   </revision>
   <OPNsense>
     <wireguard>
