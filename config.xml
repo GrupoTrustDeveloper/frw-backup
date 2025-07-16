@@ -570,6 +570,36 @@
       <interface>wan</interface>
       <category>WEB</category>
       <ipprotocol>inet</ipprotocol>
+      <descr>MARIA</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_687798e7de16a4.80375413</associated-rule-id>
+      <target>IP_BD</target>
+      <local-port>3306</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>38.199.96.70</address>
+        <port>8952</port>
+      </destination>
+      <updated>
+        <username>root@191.6.37.102</username>
+        <time>1752668391.91</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1752668391.91</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category>WEB</category>
+      <ipprotocol>inet</ipprotocol>
       <descr>Gerencia ATA</descr>
       <tag/>
       <tagged/>
@@ -1601,6 +1631,28 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_687798e7de16a4.80375413</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_BD</address>
+        <port>3306</port>
+      </destination>
+      <descr>MARIA</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1752668391.9097</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1609,9 +1661,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.135</username>
-    <description>/api/netsnmp/general/set made changes</description>
-    <time>1752511217.7944</time>
+    <username>root@191.6.37.102</username>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1752668392.1905</time>
   </revision>
   <OPNsense>
     <wireguard>
