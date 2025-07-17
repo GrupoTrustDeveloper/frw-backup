@@ -1713,9 +1713,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1752749388.6156</time>
+    <username>root@192.168.0.136</username>
+    <description>/api/telegraf/general/set made changes</description>
+    <time>1752750218.4938</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3491,7 +3491,7 @@
         <apcupsd_server/>
       </input>
       <general version="1.0.2">
-        <enabled>0</enabled>
+        <enabled>1</enabled>
         <wheelgroup>0</wheelgroup>
         <interval>10</interval>
         <roundinterval>1</roundinterval>
