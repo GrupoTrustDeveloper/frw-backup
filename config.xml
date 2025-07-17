@@ -1713,9 +1713,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@191.6.37.102</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1752668751.7058</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1752749383.8959</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3397,6 +3397,115 @@
         <listen/>
       </general>
     </netsnmp>
+    <telegraf>
+      <key version="1.0.0">
+        <keys/>
+      </key>
+      <output version="1.4.6">
+        <influx_enable>0</influx_enable>
+        <influx_url/>
+        <influx_database/>
+        <influx_timeout>5</influx_timeout>
+        <influx_username/>
+        <influx_password/>
+        <influx_insecure_skip_verify>0</influx_insecure_skip_verify>
+        <graphite_enable>0</graphite_enable>
+        <graphite_server/>
+        <graphite_prefix/>
+        <graphite_template/>
+        <graphite_ssl_disable>0</graphite_ssl_disable>
+        <graphite_verify>0</graphite_verify>
+        <graphite_tagsupport>0</graphite_tagsupport>
+        <graylog_enable>0</graylog_enable>
+        <graylog_server/>
+        <elastic_enable>0</elastic_enable>
+        <elastic_url/>
+        <elastic_username/>
+        <elastic_password/>
+        <elastic_timeout>5</elastic_timeout>
+        <elastic_indexname>telegraf-%Y.%m.%d</elastic_indexname>
+        <prometheus_enable>0</prometheus_enable>
+        <prometheus_listen>9273</prometheus_listen>
+        <prometheus_exclude/>
+        <prometheus_stringaslabel>1</prometheus_stringaslabel>
+        <influx_v2_enable>0</influx_v2_enable>
+        <influx_v2_url/>
+        <influx_v2_token/>
+        <influx_v2_organization/>
+        <influx_v2_bucket/>
+        <influx_v2_insecure_skip_verify>0</influx_v2_insecure_skip_verify>
+        <influx_v2_timeout>5</influx_v2_timeout>
+        <datadog_enable>0</datadog_enable>
+        <datadog_url/>
+        <datadog_apikey/>
+        <mqtt_enable>0</mqtt_enable>
+        <mqtt_topic_prefix/>
+        <mqtt_topic/>
+        <mqtt_servers/>
+        <mqtt_insecure_skip_verify>0</mqtt_insecure_skip_verify>
+        <mqtt_client_id/>
+        <mqtt_qos>2</mqtt_qos>
+        <mqtt_retain/>
+        <mqtt_timeout>5</mqtt_timeout>
+        <mqtt_username/>
+        <mqtt_password/>
+        <mqtt_layout>non-batch</mqtt_layout>
+        <mqtt_data_format>influx</mqtt_data_format>
+        <opentelemetry_enable>0</opentelemetry_enable>
+        <opentelemetry_server/>
+        <opentelemetry_insecure_skip_verify>0</opentelemetry_insecure_skip_verify>
+        <opentelemetry_timeout>5</opentelemetry_timeout>
+        <opentelemetry_compression>gzip</opentelemetry_compression>
+      </output>
+      <input version="1.0.3">
+        <cpu>1</cpu>
+        <cpu_percpu>1</cpu_percpu>
+        <cpu_totalcpu>1</cpu_totalcpu>
+        <collect_cpu_time>0</collect_cpu_time>
+        <disk>1</disk>
+        <disk_mount_points/>
+        <disk_ignore_fs/>
+        <diskio>1</diskio>
+        <internet_speed>0</internet_speed>
+        <internet_speed_file>0</internet_speed_file>
+        <internet_speed_interval>360</internet_speed_interval>
+        <mem>1</mem>
+        <processes>1</processes>
+        <swap>0</swap>
+        <system>1</system>
+        <network>0</network>
+        <pf>0</pf>
+        <ping>0</ping>
+        <ping_count/>
+        <ping_hosts/>
+        <ping6>0</ping6>
+        <ping6_count/>
+        <ping6_hosts/>
+        <haproxy>0</haproxy>
+        <zfs>0</zfs>
+        <ntpq>0</ntpq>
+        <ntpq_dns_lookup>0</ntpq_dns_lookup>
+        <intrusion_detection_alerts>0</intrusion_detection_alerts>
+        <unbound>0</unbound>
+        <apcupsd>0</apcupsd>
+        <apcupsd_server/>
+      </input>
+      <general version="1.0.2">
+        <enabled>0</enabled>
+        <wheelgroup>0</wheelgroup>
+        <interval>10</interval>
+        <roundinterval>1</roundinterval>
+        <metric_batch_size>1000</metric_batch_size>
+        <metric_buffer_limit>10000</metric_buffer_limit>
+        <collection_jitter>0</collection_jitter>
+        <flush_interval>10</flush_interval>
+        <flush_jitter>0</flush_jitter>
+        <hostname/>
+        <omit_hostname>0</omit_hostname>
+        <quiet>1</quiet>
+        <debug>0</debug>
+      </general>
+    </telegraf>
   </OPNsense>
   <hasync version="1.0.2">
     <disablepreempt>0</disablepreempt>
