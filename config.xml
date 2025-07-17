@@ -1714,8 +1714,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/syslog/settings/setDestination/dcdea087-3f6d-4c23-b805-e1340592eac2 made changes</description>
-    <time>1752756695.898</time>
+    <description>/api/syslog/settings/set made changes</description>
+    <time>1752756697.6711</time>
   </revision>
   <OPNsense>
     <wireguard>
