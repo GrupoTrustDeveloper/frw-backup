@@ -1714,8 +1714,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/syslog/settings/set made changes</description>
-    <time>1752750913.7847</time>
+    <description>/api/syslog/settings/setDestination/dcdea087-3f6d-4c23-b805-e1340592eac2 made changes</description>
+    <time>1752754833.2247</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3095,7 +3095,7 @@
           <hostname>192.168.0.106</hostname>
           <certificate/>
           <port>514</port>
-          <rfc5424>0</rfc5424>
+          <rfc5424>1</rfc5424>
           <description>Envio de logs OPNsense para Telegraf</description>
         </destination>
       </destinations>
