@@ -1714,8 +1714,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/telegraf/input/set made changes</description>
-    <time>1752750365.7534</time>
+    <description>/api/syslog/settings/addDestination/ made changes</description>
+    <time>1752750911.3954</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3085,7 +3085,20 @@
         <maxpreserve>31</maxpreserve>
         <maxfilesize/>
       </general>
-      <destinations/>
+      <destinations>
+        <destination uuid="dcdea087-3f6d-4c23-b805-e1340592eac2">
+          <enabled>1</enabled>
+          <transport>udp4</transport>
+          <program>audit,configd.py,dhcpd,dhcrelay,dnsmasq,filterlog,firewall,dpinger,charon,kea-ctrl-agent,kea-dhcp4,kea-dhcp6,lighttpd,monit,ntp,ntpd,ntpdate,openvpn,pkg,pkg-static,captiveportal,ppp,unbound,bgpd,miniupnpd,olsrd,ospfd,routed,zebra,suricata,wireguard,hostapd</program>
+          <level>info,notice,warn,err</level>
+          <facility>local0</facility>
+          <hostname>192.168.0.106</hostname>
+          <certificate/>
+          <port>514</port>
+          <rfc5424>0</rfc5424>
+          <description>Envio de logs OPNsense para Telegraf</description>
+        </destination>
+      </destinations>
     </Syslog>
     <TrafficShaper version="1.0.3">
       <pipes/>
