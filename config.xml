@@ -1714,8 +1714,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/syslog/settings/setDestination/dcdea087-3f6d-4c23-b805-e1340592eac2 made changes</description>
-    <time>1752754833.2247</time>
+    <description>/api/telegraf/output/set made changes</description>
+    <time>1752756620.7371</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3443,7 +3443,7 @@
         <prometheus_stringaslabel>1</prometheus_stringaslabel>
         <influx_v2_enable>1</influx_v2_enable>
         <influx_v2_url>http://192.168.0.106:8086</influx_v2_url>
-        <influx_v2_token>DQ_KNABQNFh_OfZ3_apeQ8dTJaivxQQ20-uyfq6l8Uah2rL8QRxUqUb19PMUd14ggPbyEGEAQmlcwkwK6P7OjQ==</influx_v2_token>
+        <influx_v2_token>RxZu6n5PpZ9JWs0AKTrE9GAyHdfpyLfN1rJqXUfQ_mzlb-fsdkMAX_aiX0b46IEp_wbSxtuxb0pzatEGPuumNQ==</influx_v2_token>
         <influx_v2_organization>TrustIT</influx_v2_organization>
         <influx_v2_bucket>opnsense_metrics</influx_v2_bucket>
         <influx_v2_insecure_skip_verify>0</influx_v2_insecure_skip_verify>
