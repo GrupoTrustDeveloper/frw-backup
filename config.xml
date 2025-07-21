@@ -1714,8 +1714,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/telegraf/output/set made changes</description>
-    <time>1752759237.5346</time>
+    <description>/api/diagnostics/netflow/setconfig made changes</description>
+    <time>1753124875.7289</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2742,7 +2742,7 @@
         <interfaces>wan,lan,opt1,opt4,opt5,opt3</interfaces>
         <egress_only>wan,opt1</egress_only>
         <version>v9</version>
-        <targets>127.0.0.1:2056</targets>
+        <targets>127.0.0.1:2056,192.168.0.162:2055</targets>
       </capture>
       <collect>
         <enable>1</enable>
