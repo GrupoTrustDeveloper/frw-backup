@@ -1741,8 +1741,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/nodeexporter/general/set made changes</description>
-    <time>1753135890.7064</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1753136222.535</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3182,11 +3182,11 @@
         <serveexpiredclienttimeout/>
         <qnameminstrict>0</qnameminstrict>
         <extendedstatistics>1</extendedstatistics>
-        <logqueries>0</logqueries>
-        <logreplies>0</logreplies>
-        <logtagqueryreply>0</logtagqueryreply>
-        <logservfail>0</logservfail>
-        <loglocalactions>0</loglocalactions>
+        <logqueries>1</logqueries>
+        <logreplies>1</logreplies>
+        <logtagqueryreply>1</logtagqueryreply>
+        <logservfail>1</logservfail>
+        <loglocalactions>1</loglocalactions>
         <logverbosity>2</logverbosity>
         <valloglevel>0</valloglevel>
         <privatedomain/>
