@@ -1552,18 +1552,20 @@
       <interface>lan</interface>
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
+      <descr>Permite Prometheus coletar m&#xE9;tricas do Unbound</descr>
       <direction>in</direction>
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
-        <address>192.168.0.162</address>
+        <address>192.168.0.162/32</address>
       </source>
       <destination>
-        <any>1</any>
+        <network>(self)</network>
+        <port>9167</port>
       </destination>
       <updated>
         <username>root@192.168.0.136</username>
-        <time>1753131537.0854</time>
+        <time>1753131734.4213</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1740,7 +1742,7 @@
   <revision>
     <username>root@192.168.0.136</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1753131537.3547</time>
+    <time>1753131734.6535</time>
   </revision>
   <OPNsense>
     <wireguard>
