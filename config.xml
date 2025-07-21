@@ -1742,7 +1742,7 @@
   <revision>
     <username>root@192.168.0.136</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1753133373.9794</time>
+    <time>1753133484.9257</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3152,7 +3152,7 @@
         <enabled>1</enabled>
         <port>53</port>
         <stats>1</stats>
-        <active_interface>lan,opt3</active_interface>
+        <active_interface>wan,lan,opt2,opt8,opt1,opt6,opt4,opt5,opt3</active_interface>
         <dnssec>0</dnssec>
         <dns64>0</dns64>
         <dns64prefix/>
