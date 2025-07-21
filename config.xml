@@ -1742,7 +1742,7 @@
   <revision>
     <username>root@192.168.0.136</username>
     <description>/api/unbound/settings/set made changes</description>
-    <time>1753136482.1324</time>
+    <time>1753136592.2332</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3161,7 +3161,7 @@
         <regdhcpdomain/>
         <regdhcpstatic>1</regdhcpstatic>
         <noreglladdr6>0</noreglladdr6>
-        <noregrecords>0</noregrecords>
+        <noregrecords>1</noregrecords>
         <txtsupport>0</txtsupport>
         <cacheflush>1</cacheflush>
         <local_zone_type>transparent</local_zone_type>
