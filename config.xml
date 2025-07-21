@@ -1715,7 +1715,7 @@
   <revision>
     <username>root@192.168.0.136</username>
     <description>/api/diagnostics/netflow/setconfig made changes</description>
-    <time>1753125056.3008</time>
+    <time>1753125065.7943</time>
   </revision>
   <OPNsense>
     <wireguard>
