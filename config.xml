@@ -1431,6 +1431,50 @@
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="f4e98c1e-7464-477c-868a-a7eda2d4ece9">
+      <type>pass</type>
+      <associated-rule-id>nat_687798e7de16a4.80375413</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_BD</address>
+        <port>3306</port>
+      </destination>
+      <descr>MARIA</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1752668391.9097</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="457d590f-b8b5-487d-9942-2b371b3e8d80">
+      <type>pass</type>
+      <associated-rule-id>nat_687799be308161.07133541</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_BD</address>
+        <port>22</port>
+      </destination>
+      <descr>MARIA SSH</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1752668606.1987</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="f91316c8-cfe5-4eea-ace6-125b0002a16e">
       <type>pass</type>
       <interface>lan</interface>
@@ -1500,6 +1544,31 @@
       <created>
         <username>root@192.168.0.97</username>
         <time>1750725662.9329</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="875a8c5b-dad4-4efc-ad77-705272fa34db">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <address>192.168.0.162</address>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.0.136</username>
+        <time>1753131537.0854</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.136</username>
+        <time>1753131537.0854</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -1661,50 +1730,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_687798e7de16a4.80375413</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>IP_BD</address>
-        <port>3306</port>
-      </destination>
-      <descr>MARIA</descr>
-      <category>WEB</category>
-      <created>
-        <username>root@191.6.37.102</username>
-        <time>1752668391.9097</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_687799be308161.07133541</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>IP_BD</address>
-        <port>22</port>
-      </destination>
-      <descr>MARIA SSH</descr>
-      <category>WEB</category>
-      <created>
-        <username>root@191.6.37.102</username>
-        <time>1752668606.1987</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1714,8 +1739,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/syslog/settings/set made changes</description>
-    <time>1753128712.0129</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1753131537.3547</time>
   </revision>
   <OPNsense>
     <wireguard>
