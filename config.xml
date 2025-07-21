@@ -1741,8 +1741,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753131734.6535</time>
+    <description>/api/nodeexporter/general/set made changes</description>
+    <time>1753133200.2808</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3353,9 +3353,9 @@
       <aliases/>
     </unboundplus>
     <NodeExporter version="0.2.0">
-      <enabled>0</enabled>
-      <listenaddress>10.150.0.1</listenaddress>
-      <listenport>9100</listenport>
+      <enabled>1</enabled>
+      <listenaddress>0.0.0.0</listenaddress>
+      <listenport>9167</listenport>
       <cpu>1</cpu>
       <exec>1</exec>
       <filesystem>1</filesystem>
