@@ -1741,8 +1741,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1753133484.9257</time>
+    <description>/api/nodeexporter/general/set made changes</description>
+    <time>1753135890.7064</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3365,8 +3365,8 @@
       <time>1</time>
       <devstat>1</devstat>
       <interrupts>1</interrupts>
-      <ntp>0</ntp>
-      <zfs>0</zfs>
+      <ntp>1</ntp>
+      <zfs>1</zfs>
     </NodeExporter>
     <ftpproxies version="1.0.0">
       <ftpproxy uuid="561f7957-5d6c-4a48-aa5e-135e5bbc736b">
