@@ -1741,8 +1741,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.136</username>
-    <description>/api/nodeexporter/general/set made changes</description>
-    <time>1753133200.2808</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1753133373.9794</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3149,7 +3149,7 @@
     </trust>
     <unboundplus version="1.0.12">
       <general>
-        <enabled>0</enabled>
+        <enabled>1</enabled>
         <port>53</port>
         <stats>1</stats>
         <active_interface>lan,opt3</active_interface>
