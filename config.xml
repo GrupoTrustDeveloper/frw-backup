@@ -1554,16 +1554,17 @@
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
       <source>
         <any>1</any>
       </source>
       <destination>
-        <network>opt6ip</network>
+        <network>opt6</network>
       </destination>
       <updated>
-        <username>root@192.168.0.97</username>
-        <time>1750725662.9329</time>
+        <username>root@192.168.0.141</username>
+        <time>1753203444.4487</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1571,7 +1572,6 @@
         <time>1750725662.9329</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
     <rule uuid="875a8c5b-dad4-4efc-ad77-705272fa34db">
       <type>pass</type>
@@ -1770,7 +1770,7 @@
   <revision>
     <username>root@192.168.0.141</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1753203407.8763</time>
+    <time>1753203444.6688</time>
   </revision>
   <OPNsense>
     <wireguard>
