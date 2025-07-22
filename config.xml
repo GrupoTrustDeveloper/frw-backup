@@ -1601,31 +1601,6 @@
       </created>
       <log>1</log>
     </rule>
-    <rule uuid="9300ff5d-e0ec-4137-a749-848d4899cf69">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>172.16.0.0/24</address>
-      </destination>
-      <updated>
-        <username>root@192.168.0.141</username>
-        <time>1753202235.203</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.141</username>
-        <time>1753202235.203</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-      <log>1</log>
-    </rule>
     <rule uuid="7cbe1a80-1529-4abc-a8a6-82bf43cdfedf">
       <type>pass</type>
       <interface>opt1</interface>
@@ -1769,8 +1744,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753203444.6688</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1753203578.0344</time>
   </revision>
   <OPNsense>
     <wireguard>
