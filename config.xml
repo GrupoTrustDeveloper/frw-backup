@@ -1712,8 +1712,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753195244.6378</time>
+    <description>/api/kea/dhcpv4/set made changes</description>
+    <time>1753195348.3347</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2804,8 +2804,9 @@
       </ctrl_agent>
       <dhcp4 version="1.0.3">
         <general>
-          <enabled>0</enabled>
-          <interfaces/>
+          <enabled>1</enabled>
+          <manual_config>0</manual_config>
+          <interfaces>opt6</interfaces>
           <valid_lifetime>4000</valid_lifetime>
           <fwrules>1</fwrules>
           <dhcp_socket_type>raw</dhcp_socket_type>
