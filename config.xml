@@ -413,8 +413,10 @@
       <if>vlan02</if>
     </opt8>
     <opt7>
-      <descr>ddd</descr>
       <if>vlan012</if>
+      <descr>ddd</descr>
+      <enable>1</enable>
+      <spoofmac/>
     </opt7>
   </interfaces>
   <dhcpd>
@@ -1745,8 +1747,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.146</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753186405.8202</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753186432.1272</time>
   </revision>
   <OPNsense>
     <wireguard>
