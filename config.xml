@@ -1741,16 +1741,17 @@
       <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <direction>in</direction>
+      <log>1</log>
       <quick>1</quick>
       <source>
-        <network>opt6</network>
+        <address>lan,opt6</address>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
         <username>root@192.168.0.141</username>
-        <time>1753202152.5082</time>
+        <time>1753203385.627</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1758,7 +1759,6 @@
         <time>1753201041.073</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <log>1</log>
     </rule>
   </filter>
   <rrd>
@@ -1769,8 +1769,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1753202983.9998</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1753203385.9055</time>
   </revision>
   <OPNsense>
     <wireguard>
