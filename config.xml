@@ -1681,31 +1681,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="f7e69c58-9c60-418c-867a-f1c8d73307a9">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>icmp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.141</username>
-        <time>1753202055.0804</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@189.112.62.78</username>
-        <time>1742331456.3022</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="305bac26-0ef5-46f8-a62c-f204a73864ed">
       <type>pass</type>
       <interface>opt5</interface>
@@ -1766,8 +1741,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753202055.3356</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1753202121.4657</time>
   </revision>
   <OPNsense>
     <wireguard>
