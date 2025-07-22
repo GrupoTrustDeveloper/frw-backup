@@ -1744,7 +1744,7 @@
   <revision>
     <username>root@192.168.0.132</username>
     <description>/api/routing/settings/setGateway/c109d010-1399-4b19-8494-8f52d9ca3c1b made changes</description>
-    <time>1753213329.4037</time>
+    <time>1753213343.9114</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3143,7 +3143,7 @@
         <monitor_killstates_priority>0</monitor_killstates_priority>
         <monitor>1.1.1.1</monitor>
         <force_down>0</force_down>
-        <priority>254</priority>
+        <priority>251</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
