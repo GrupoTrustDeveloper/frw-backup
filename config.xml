@@ -1689,8 +1689,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753199428.8019</time>
+    <description>/api/interfaces/vlan_settings/delItem/5314386a-6d06-4e8d-8d87-e1eaaa66b60c made changes</description>
+    <time>1753199438.3653</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3746,16 +3746,7 @@
       <descr>REDE CLIENTES</descr>
     </vip>
   </virtualip>
-  <vlans version="1.0.0">
-    <vlan uuid="5314386a-6d06-4e8d-8d87-e1eaaa66b60c">
-      <if>bge3</if>
-      <tag>12</tag>
-      <pcp>0</pcp>
-      <proto/>
-      <descr>Wifi_Convidado</descr>
-      <vlanif>vlan012</vlanif>
-    </vlan>
-  </vlans>
+  <vlans version="1.0.0"/>
   <staticroutes version="1.0.0">
     <route/>
   </staticroutes>
