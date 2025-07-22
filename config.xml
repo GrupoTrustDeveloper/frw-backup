@@ -403,7 +403,6 @@
     <opt6>
       <if>vlan012</if>
       <descr>Vlan12_Wifi</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>170.16.0.1</ipaddr>
       <subnet>23</subnet>
@@ -1737,8 +1736,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753194916.2766</time>
+    <description>Interface Vlan12_Wifi(opt6) is now disabled.</description>
+    <time>1753195016.3614</time>
   </revision>
   <OPNsense>
     <wireguard>
