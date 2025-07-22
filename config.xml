@@ -1744,14 +1744,14 @@
       <log>1</log>
       <quick>1</quick>
       <source>
-        <address>lan,opt6</address>
+        <network>lan</network>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
         <username>root@192.168.0.141</username>
-        <time>1753203385.627</time>
+        <time>1753203407.5976</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1770,7 +1770,7 @@
   <revision>
     <username>root@192.168.0.141</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1753203385.9055</time>
+    <time>1753203407.8763</time>
   </revision>
   <OPNsense>
     <wireguard>
