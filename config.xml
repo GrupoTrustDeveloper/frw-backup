@@ -1693,8 +1693,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753200511.48</time>
+    <description>/api/routes/routes/delroute/6877ca2e-15b4-4d5f-8c26-2bd72980e42f made changes</description>
+    <time>1753200581.8418</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3786,14 +3786,7 @@
       <vlanif>vlan012</vlanif>
     </vlan>
   </vlans>
-  <staticroutes version="1.0.0">
-    <route uuid="6877ca2e-15b4-4d5f-8c26-2bd72980e42f">
-      <network>170.16.0.0/24</network>
-      <gateway>Vlan</gateway>
-      <descr/>
-      <disabled>0</disabled>
-    </route>
-  </staticroutes>
+  <staticroutes version="1.0.0"/>
   <bridges version="1.0.0">
     <bridged/>
   </bridges>
