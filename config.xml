@@ -440,6 +440,22 @@
       <dnsserver>8.8.4.4</dnsserver>
       <ntpserver/>
     </opt6>
+    <opt7>
+      <enable>1</enable>
+      <gateway>172.16.1.1</gateway>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>172.16.1.10</from>
+        <to>172.16.1.100</to>
+      </range>
+      <winsserver/>
+      <dnsserver>8.8.8.8</dnsserver>
+      <dnsserver>8.8.4.4</dnsserver>
+      <ntpserver/>
+    </opt7>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1727,8 +1743,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753205133.73</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1753205198.2094</time>
   </revision>
   <OPNsense>
     <wireguard>
