@@ -472,7 +472,7 @@
       </rule>
       <rule>
         <source>
-          <network>opt6</network>
+          <network>lan</network>
         </source>
         <destination>
           <any>1</any>
@@ -485,19 +485,19 @@
         <poolopts/>
         <poolopts_sourcehashkey/>
         <ipprotocol>inet</ipprotocol>
-        <target/>
-        <targetip_subnet>0</targetip_subnet>
-        <sourceport/>
-        <updated>
-          <username>root@192.168.0.141</username>
-          <time>1753201225.9025</time>
-          <description>/firewall_nat_out_edit.php made changes</description>
-        </updated>
         <created>
           <username>root@192.168.0.141</username>
           <time>1753201225.9025</time>
           <description>/firewall_nat_out_edit.php made changes</description>
         </created>
+        <target/>
+        <targetip_subnet>0</targetip_subnet>
+        <sourceport/>
+        <updated>
+          <username>root@192.168.0.141</username>
+          <time>1753203787.3693</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
       </rule>
     </outbound>
     <rule>
@@ -1743,9 +1743,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.132</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753203708.9802</time>
+    <username>root@192.168.0.141</username>
+    <description>/firewall_nat_out_edit.php made changes</description>
+    <time>1753203787.647</time>
   </revision>
   <OPNsense>
     <wireguard>
