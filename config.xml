@@ -412,6 +412,10 @@
       <descr>TESTEVLAN11</descr>
       <if>vlan02</if>
     </opt8>
+    <opt7>
+      <descr>ddd</descr>
+      <if>vlan012</if>
+    </opt7>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1741,8 +1745,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.146</username>
-    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
-    <time>1753185536.0635</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753186405.8202</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3805,7 +3809,9 @@
   <staticroutes version="1.0.0">
     <route/>
   </staticroutes>
-  <bridges version="1.0.0"/>
+  <bridges version="1.0.0">
+    <bridged/>
+  </bridges>
   <ppps>
     <ppp>
       <ptpid>0</ptpid>
