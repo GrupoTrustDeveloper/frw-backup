@@ -400,10 +400,6 @@
       <lock>1</lock>
       <spoofmac/>
     </opt5>
-    <opt8>
-      <descr>TESTEVLAN11</descr>
-      <if>vlan02</if>
-    </opt8>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1693,8 +1689,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/interfaces/vlan_settings/delItem/1ebff33c-1833-48d5-b9b7-3daec983b384 made changes</description>
-    <time>1753192181.1477</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753192206.4618</time>
   </revision>
   <OPNsense>
     <wireguard>
