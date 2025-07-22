@@ -1693,8 +1693,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/routes/routes/delroute/6877ca2e-15b4-4d5f-8c26-2bd72980e42f made changes</description>
-    <time>1753200581.8418</time>
+    <description>/api/routing/settings/delGateway/d933d703-69a0-42b7-b217-672c7782812f made changes</description>
+    <time>1753200590.1272</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3068,32 +3068,6 @@
         <monitor>8.8.8.8</monitor>
         <force_down>0</force_down>
         <priority>252</priority>
-        <weight>1</weight>
-        <latencylow/>
-        <latencyhigh/>
-        <losslow/>
-        <losshigh/>
-        <interval/>
-        <time_period/>
-        <loss_interval/>
-        <data_length/>
-      </gateway_item>
-      <gateway_item uuid="d933d703-69a0-42b7-b217-672c7782812f">
-        <disabled>0</disabled>
-        <name>Vlan</name>
-        <descr/>
-        <interface>lan</interface>
-        <ipprotocol>inet</ipprotocol>
-        <gateway>192.168.0.251</gateway>
-        <defaultgw>0</defaultgw>
-        <fargw>0</fargw>
-        <monitor_disable>1</monitor_disable>
-        <monitor_noroute>0</monitor_noroute>
-        <monitor_killstates>0</monitor_killstates>
-        <monitor_killstates_priority>0</monitor_killstates_priority>
-        <monitor/>
-        <force_down>0</force_down>
-        <priority>255</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
