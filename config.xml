@@ -1689,8 +1689,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/interfaces/vlan_settings/delItem/e69dc4e1-6a5e-431f-beda-30890e929036 made changes</description>
-    <time>1753192217.4893</time>
+    <description>/api/interfaces/vlan_settings/delItem/0977663f-4ff7-4475-aafe-6d41e3faf3c2 made changes</description>
+    <time>1753192220.0958</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3724,16 +3724,7 @@
       <descr>REDE CLIENTES</descr>
     </vip>
   </virtualip>
-  <vlans version="1.0.0">
-    <vlan uuid="0977663f-4ff7-4475-aafe-6d41e3faf3c2">
-      <if>bge3</if>
-      <tag>10</tag>
-      <pcp>0</pcp>
-      <proto/>
-      <descr>TESTE VLAN10</descr>
-      <vlanif>vlan01</vlanif>
-    </vlan>
-  </vlans>
+  <vlans version="1.0.0"/>
   <staticroutes version="1.0.0">
     <route/>
   </staticroutes>
