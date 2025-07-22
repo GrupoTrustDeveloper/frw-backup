@@ -1737,8 +1737,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753194274.365</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753194536.086</time>
   </revision>
   <OPNsense>
     <wireguard>
