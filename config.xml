@@ -408,6 +408,10 @@
       <ipaddr>172.16.0.1</ipaddr>
       <subnet>24</subnet>
     </opt6>
+    <opt7>
+      <descr>SECTESTE</descr>
+      <if>vlan011</if>
+    </opt7>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1719,8 +1723,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
-    <time>1753204944.6175</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753204968.8133</time>
   </revision>
   <OPNsense>
     <wireguard>
