@@ -1521,6 +1521,32 @@
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
     </rule>
+    <rule uuid="1e4e9c42-430f-4a5b-b2b0-374af924df05">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow LAN to any rule</descr>
+      <direction>in</direction>
+      <log>1</log>
+      <quick>1</quick>
+      <source>
+        <network>opt6</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.0.132</username>
+        <time>1753203839.6603</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.0.132</username>
+        <time>1753203839.6603</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="b3630863-085f-4993-929d-e6b4d3fc7475">
       <type>pass</type>
       <interface>lan</interface>
@@ -1743,9 +1769,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.141</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1753203789.5514</time>
+    <username>root@192.168.0.132</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1753203839.8731</time>
   </revision>
   <OPNsense>
     <wireguard>
