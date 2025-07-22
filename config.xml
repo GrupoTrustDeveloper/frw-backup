@@ -1743,8 +1743,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.132</username>
-    <description>/api/interfaces/vip_settings/delItem/8f139679-c1e2-44fa-9ead-0110d71a4270 made changes</description>
-    <time>1753211572.652</time>
+    <description>/api/routing/settings/setGateway/VIVO_PPPOE made changes</description>
+    <time>1753213196.2034</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3118,6 +3118,32 @@
         <monitor>8.8.8.8</monitor>
         <force_down>0</force_down>
         <priority>252</priority>
+        <weight>1</weight>
+        <latencylow/>
+        <latencyhigh/>
+        <losslow/>
+        <losshigh/>
+        <interval/>
+        <time_period/>
+        <loss_interval/>
+        <data_length/>
+      </gateway_item>
+      <gateway_item uuid="c109d010-1399-4b19-8494-8f52d9ca3c1b">
+        <disabled>0</disabled>
+        <name>VIVO_PPPOE</name>
+        <descr>Interface VIVO_PPPOE Gateway</descr>
+        <interface>opt1</interface>
+        <ipprotocol>inet</ipprotocol>
+        <gateway/>
+        <defaultgw>1</defaultgw>
+        <fargw>0</fargw>
+        <monitor_disable>0</monitor_disable>
+        <monitor_noroute>0</monitor_noroute>
+        <monitor_killstates>0</monitor_killstates>
+        <monitor_killstates_priority>0</monitor_killstates_priority>
+        <monitor>1.1.1.1</monitor>
+        <force_down>0</force_down>
+        <priority>254</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
