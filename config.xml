@@ -401,8 +401,12 @@
       <spoofmac/>
     </opt5>
     <opt6>
-      <descr>Wifi_Convidado</descr>
       <if>vlan012</if>
+      <descr>Wifi_Convidado</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>170.16.0.1</ipaddr>
+      <subnet>24</subnet>
     </opt6>
   </interfaces>
   <dhcpd>
@@ -1693,8 +1697,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753195114.5012</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753195146.5869</time>
   </revision>
   <OPNsense>
     <wireguard>
