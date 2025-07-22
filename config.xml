@@ -418,14 +418,14 @@
     </lan>
     <opt6>
       <enable>1</enable>
-      <gateway>10.0.0.1</gateway>
+      <gateway>170.16.0.1</gateway>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
         <item/>
       </numberoptions>
       <range>
-        <from>10.0.0.10</from>
-        <to>10.0.1.254</to>
+        <from>170.16.0.10</from>
+        <to>170.16.1.254</to>
       </range>
       <winsserver/>
       <dnsserver>8.8.8.8</dnsserver>
@@ -1737,8 +1737,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753194202.5727</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1753194274.365</time>
   </revision>
   <OPNsense>
     <wireguard>
