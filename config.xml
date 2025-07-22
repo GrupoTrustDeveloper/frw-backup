@@ -401,8 +401,12 @@
       <spoofmac/>
     </opt5>
     <opt6>
-      <descr>Wifi_Convidado</descr>
       <if>vlan012</if>
+      <descr>Wifi_Convidado</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>172.16.0.10</ipaddr>
+      <subnet>24</subnet>
     </opt6>
   </interfaces>
   <dhcpd>
@@ -1693,8 +1697,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/routing/settings/delGateway/d933d703-69a0-42b7-b217-672c7782812f made changes</description>
-    <time>1753200590.1272</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753200612.5291</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3760,7 +3764,9 @@
       <vlanif>vlan012</vlanif>
     </vlan>
   </vlans>
-  <staticroutes version="1.0.0"/>
+  <staticroutes version="1.0.0">
+    <route/>
+  </staticroutes>
   <bridges version="1.0.0">
     <bridged/>
   </bridges>
