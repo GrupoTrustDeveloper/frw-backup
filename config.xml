@@ -1689,8 +1689,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/routes/routes/addroute/ made changes</description>
-    <time>1753199999.1875</time>
+    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
+    <time>1753200495.4444</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3772,7 +3772,16 @@
       <descr>REDE CLIENTES</descr>
     </vip>
   </virtualip>
-  <vlans version="1.0.0"/>
+  <vlans version="1.0.0">
+    <vlan uuid="1c81d29c-1a24-4d93-a219-b414e5f32031">
+      <if>bge3</if>
+      <tag>12</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>Wifi_Convidado</descr>
+      <vlanif>vlan012</vlanif>
+    </vlan>
+  </vlans>
   <staticroutes version="1.0.0">
     <route uuid="6877ca2e-15b4-4d5f-8c26-2bd72980e42f">
       <network>170.16.0.0/24</network>
