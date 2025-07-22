@@ -1599,6 +1599,7 @@
         <time>1753131537.0854</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+      <log>1</log>
     </rule>
     <rule uuid="9300ff5d-e0ec-4137-a749-848d4899cf69">
       <type>pass</type>
@@ -1767,7 +1768,7 @@
   <revision>
     <username>root@192.168.0.141</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1753202892.7527</time>
+    <time>1753202894.5548</time>
   </revision>
   <OPNsense>
     <wireguard>
