@@ -417,6 +417,8 @@
       <descr>ddd</descr>
       <enable>1</enable>
       <spoofmac/>
+      <ipaddr>10.0.0.1</ipaddr>
+      <subnet>23</subnet>
     </opt7>
   </interfaces>
   <dhcpd>
@@ -1748,7 +1750,7 @@
   <revision>
     <username>root@192.168.0.146</username>
     <description>/interfaces.php made changes</description>
-    <time>1753186432.1272</time>
+    <time>1753186472.3898</time>
   </revision>
   <OPNsense>
     <wireguard>
