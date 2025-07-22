@@ -1712,8 +1712,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1753195348.3347</time>
+    <description>/api/kea/dhcpv4/add_subnet/ made changes</description>
+    <time>1753195384.0981</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2816,7 +2816,28 @@
           <this_server_name/>
           <max_unacked_clients>2</max_unacked_clients>
         </ha>
-        <subnets/>
+        <subnets>
+          <subnet4 uuid="bf0de4f7-575f-474f-aa8a-c0a78f4a8305">
+            <subnet>170.16.0.0/24</subnet>
+            <next_server/>
+            <option_data_autocollect>1</option_data_autocollect>
+            <option_data>
+              <domain_name_servers/>
+              <domain_search/>
+              <routers/>
+              <static_routes/>
+              <domain_name/>
+              <ntp_servers/>
+              <time_servers/>
+              <tftp_server_name/>
+              <boot_file_name/>
+              <v6_only_preferred/>
+            </option_data>
+            <match-client-id>1</match-client-id>
+            <pools>170.16.0.10-170.16.0.200</pools>
+            <description/>
+          </subnet4>
+        </subnets>
         <reservations/>
         <ha_peers/>
       </dhcp4>
