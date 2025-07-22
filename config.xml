@@ -1690,7 +1690,7 @@
   <revision>
     <username>root@192.168.0.141</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1753192206.4618</time>
+    <time>1753192209.9041</time>
   </revision>
   <OPNsense>
     <wireguard>
