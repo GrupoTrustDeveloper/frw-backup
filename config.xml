@@ -417,7 +417,6 @@
       </range>
     </lan>
     <opt6>
-      <enable>1</enable>
       <gateway>170.16.0.1</gateway>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
@@ -425,7 +424,7 @@
       </numberoptions>
       <range>
         <from>170.16.0.10</from>
-        <to>170.16.1.254</to>
+        <to>170.16.1.250</to>
       </range>
       <winsserver/>
       <dnsserver>8.8.8.8</dnsserver>
@@ -1737,8 +1736,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753194536.086</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1753194909.2172</time>
   </revision>
   <OPNsense>
     <wireguard>
