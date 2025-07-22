@@ -400,13 +400,6 @@
       <lock>1</lock>
       <spoofmac/>
     </opt5>
-    <opt6>
-      <if>vlan012</if>
-      <descr>Vlan12_Wifi</descr>
-      <spoofmac/>
-      <ipaddr>170.16.0.1</ipaddr>
-      <subnet>23</subnet>
-    </opt6>
   </interfaces>
   <dhcpd>
     <lan>
@@ -415,22 +408,6 @@
         <to>192.168.0.245</to>
       </range>
     </lan>
-    <opt6>
-      <enable>1</enable>
-      <gateway>170.16.0.1</gateway>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>170.16.0.10</from>
-        <to>170.16.1.250</to>
-      </range>
-      <winsserver/>
-      <dnsserver>8.8.8.8</dnsserver>
-      <dnsserver>8.8.4.4</dnsserver>
-      <ntpserver/>
-    </opt6>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1703,30 +1680,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="475ca842-8f8a-4d25-9118-0a4127c66e28">
-      <type>pass</type>
-      <interface>opt6</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.141</username>
-        <time>1753193505.1151</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.141</username>
-        <time>1753193505.1151</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1736,8 +1689,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>Interface Vlan12_Wifi(opt6) is now disabled.</description>
-    <time>1753195016.3614</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753195036.2589</time>
   </revision>
   <OPNsense>
     <wireguard>
