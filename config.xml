@@ -400,14 +400,6 @@
       <lock>1</lock>
       <spoofmac/>
     </opt5>
-    <opt6>
-      <if>vlan012</if>
-      <descr>Wifi_Convidado</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>170.16.0.1</ipaddr>
-      <subnet>24</subnet>
-    </opt6>
   </interfaces>
   <dhcpd>
     <lan>
@@ -416,21 +408,6 @@
         <to>192.168.0.245</to>
       </range>
     </lan>
-    <opt6>
-      <enable>1</enable>
-      <gateway>170.16.0.1</gateway>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>170.16.0.10</from>
-        <to>170.16.0.100</to>
-      </range>
-      <winsserver/>
-      <dnsserver/>
-      <ntpserver/>
-    </opt6>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1712,8 +1689,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753196144.1795</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753199428.8019</time>
   </revision>
   <OPNsense>
     <wireguard>
