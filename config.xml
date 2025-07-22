@@ -1740,9 +1740,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.136</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1753136592.2332</time>
+    <username>root@192.168.0.132</username>
+    <description>/api/interfaces/vip_settings/addItem/ made changes</description>
+    <time>1753182744.8756</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3757,6 +3757,23 @@
       <peer6/>
       <nosync>0</nosync>
       <descr>IP67</descr>
+    </vip>
+    <vip uuid="8f139679-c1e2-44fa-9ead-0110d71a4270">
+      <interface>lan</interface>
+      <mode>ipalias</mode>
+      <subnet>10.180.0.254</subnet>
+      <subnet_bits>22</subnet_bits>
+      <gateway/>
+      <noexpand>0</noexpand>
+      <nobind>0</nobind>
+      <password/>
+      <vhid/>
+      <advbase>1</advbase>
+      <advskew>0</advskew>
+      <peer/>
+      <peer6/>
+      <nosync>0</nosync>
+      <descr>REDE CLIENTES</descr>
     </vip>
   </virtualip>
   <vlans version="1.0.0">
