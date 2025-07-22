@@ -1689,8 +1689,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/routing/settings/addGateway/ made changes</description>
-    <time>1753199978.2579</time>
+    <description>/api/routes/routes/addroute/ made changes</description>
+    <time>1753199999.1875</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3774,7 +3774,12 @@
   </virtualip>
   <vlans version="1.0.0"/>
   <staticroutes version="1.0.0">
-    <route/>
+    <route uuid="6877ca2e-15b4-4d5f-8c26-2bd72980e42f">
+      <network>170.16.0.0/24</network>
+      <gateway>Vlan</gateway>
+      <descr/>
+      <disabled>0</disabled>
+    </route>
   </staticroutes>
   <bridges version="1.0.0">
     <bridged/>
