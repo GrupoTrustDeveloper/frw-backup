@@ -1741,14 +1741,14 @@
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <network>opt6</network>
+        <address>172.16.0.0/24</address>
       </source>
       <destination>
         <any>1</any>
       </destination>
       <updated>
         <username>root@192.168.0.141</username>
-        <time>1753201041.073</time>
+        <time>1753201659.0704</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1766,8 +1766,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1753201229.0051</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1753201659.342</time>
   </revision>
   <OPNsense>
     <wireguard>
