@@ -405,7 +405,7 @@
       <descr>Vlan12_Wifi</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>10.0.0.1</ipaddr>
+      <ipaddr>170.16.0.1</ipaddr>
       <subnet>23</subnet>
     </opt6>
   </interfaces>
@@ -1737,8 +1737,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1753194013.6071</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753194202.5727</time>
   </revision>
   <OPNsense>
     <wireguard>
