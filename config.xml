@@ -417,6 +417,7 @@
       </range>
     </lan>
     <opt6>
+      <enable>1</enable>
       <gateway>170.16.0.1</gateway>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
@@ -1711,8 +1712,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/api/kea/dhcpv4/set made changes</description>
-    <time>1753196124.1969</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1753196144.1795</time>
   </revision>
   <OPNsense>
     <wireguard>
