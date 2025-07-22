@@ -1718,9 +1718,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.132</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1753203927.4697</time>
+    <username>root@192.168.0.141</username>
+    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
+    <time>1753204944.6175</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3784,6 +3784,14 @@
       <proto/>
       <descr>Wifi_Convidado</descr>
       <vlanif>vlan012</vlanif>
+    </vlan>
+    <vlan uuid="64cff3a9-8360-48e7-8390-da01104c7001">
+      <if>bge3</if>
+      <tag>11</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>SECTESTE</descr>
+      <vlanif>vlan011</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0">
