@@ -400,14 +400,6 @@
       <lock>1</lock>
       <spoofmac/>
     </opt5>
-    <opt6>
-      <if>vlan01</if>
-      <descr>VLAN10</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>10.180.11.254</ipaddr>
-      <subnet>23</subnet>
-    </opt6>
     <opt8>
       <descr>TESTEVLAN11</descr>
       <if>vlan02</if>
@@ -428,22 +420,6 @@
         <to>192.168.0.245</to>
       </range>
     </lan>
-    <opt6>
-      <enable>1</enable>
-      <gateway>10.180.11.254</gateway>
-      <domain>grupotrust.org</domain>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>10.180.10.50</from>
-        <to>10.180.11.252</to>
-      </range>
-      <winsserver/>
-      <dnsserver>192.168.0.10</dnsserver>
-      <ntpserver/>
-    </opt6>
     <opt7>
       <enable>1</enable>
       <gateway>10.0.0.1</gateway>
@@ -1731,30 +1707,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="012a578d-ccaf-4364-bbb9-5f44f6038699">
-      <type>pass</type>
-      <interface>opt6</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.97</username>
-        <time>1750750160.9516</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.24</username>
-        <time>1750695208.8935</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1763,9 +1715,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.146</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753186538.5757</time>
+    <username>root@192.168.0.141</username>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753192154.5283</time>
   </revision>
   <OPNsense>
     <wireguard>
