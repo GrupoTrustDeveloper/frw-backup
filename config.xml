@@ -1843,8 +1843,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.1.35</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1753294868.0043</time>
+    <description>/api/firewall/alias/setItem/99f5922e-70de-4a40-a5df-e647860e06d1 made changes</description>
+    <time>1753294882.2865</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2583,8 +2583,7 @@
             <counters>0</counters>
             <updatefreq/>
             <content>80
-443
-9022</content>
+443</content>
             <password/>
             <username/>
             <authtype/>
