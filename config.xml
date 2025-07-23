@@ -1843,8 +1843,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.1.35</username>
-    <description>/api/firewall/alias/setItem/99f5922e-70de-4a40-a5df-e647860e06d1 made changes</description>
-    <time>1753294882.2865</time>
+    <description>/api/firewall/alias/set made changes</description>
+    <time>1753294884.3787</time>
   </revision>
   <OPNsense>
     <wireguard>
