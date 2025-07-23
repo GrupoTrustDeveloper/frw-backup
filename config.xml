@@ -1790,9 +1790,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@172.16.1.30</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753283961.2587</time>
+    <username>root@172.16.1.35</username>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1753293893.9233</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2785,6 +2785,22 @@
             <authtype/>
             <categories/>
             <description>ZIMBRA - EMAIL</description>
+          </alias>
+          <alias uuid="e647e4d2-aa3a-4be4-8b74-8383fb43bea7">
+            <enabled>1</enabled>
+            <name>IP_PI_HOLE</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.0.240</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <categories/>
+            <description>IP_PI_HOLE</description>
           </alias>
         </aliases>
       </Alias>
