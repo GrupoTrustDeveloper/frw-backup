@@ -624,12 +624,12 @@
         <any>1</any>
       </source>
       <destination>
-        <address>38.199.96.68</address>
+        <address>38.199.96.67</address>
         <port>P_HTTP_HTTPS</port>
       </destination>
       <updated>
         <username>root@172.16.1.35</username>
-        <time>1753294865.753</time>
+        <time>1753295190.4654</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1843,8 +1843,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.1.35</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753295143.5319</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1753295190.7266</time>
   </revision>
   <OPNsense>
     <wireguard>
