@@ -618,7 +618,6 @@
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_6881252ae17f43.20489285</associated-rule-id>
-      <disabled>1</disabled>
       <target>IP_PI_HOLE</target>
       <local-port>P_HTTP_HTTPS</local-port>
       <source>
@@ -1834,7 +1833,6 @@
         <time>1753294122.9237</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
   </filter>
   <rrd>
@@ -1845,8 +1843,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.1.35</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1753296517.921</time>
+    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
+    <time>1753296520.8337</time>
   </revision>
   <OPNsense>
     <wireguard>
