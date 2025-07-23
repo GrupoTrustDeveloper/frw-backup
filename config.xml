@@ -1767,8 +1767,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753277558.2336</time>
+    <description>/api/interfaces/vlan_settings/addItem/ made changes</description>
+    <time>1753279712.2126</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3849,6 +3849,14 @@
       <proto/>
       <descr>SECTESTE</descr>
       <vlanif>vlan011</vlanif>
+    </vlan>
+    <vlan uuid="3d169040-8a6a-4d84-8d85-0336d93dde2c">
+      <if>bge3</if>
+      <tag>13</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>Vlan_RedeServidorPublico</descr>
+      <vlanif>vlan013</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0">
