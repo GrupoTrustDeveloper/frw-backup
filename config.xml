@@ -618,6 +618,7 @@
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_6881252ae17f43.20489285</associated-rule-id>
+      <disabled>1</disabled>
       <target>IP_PI_HOLE</target>
       <local-port>P_HTTP_HTTPS</local-port>
       <source>
@@ -629,7 +630,7 @@
       </destination>
       <updated>
         <username>root@172.16.1.35</username>
-        <time>1753295190.4654</time>
+        <time>1753296427.5255</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1833,6 +1834,7 @@
         <time>1753294122.9237</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
   </filter>
   <rrd>
@@ -1843,8 +1845,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.1.35</username>
-    <description>/api/interfaces/vip_settings/delItem/91d85e15-0157-436c-95a4-b50f5a4b1376 made changes</description>
-    <time>1753295218.06</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1753296427.8067</time>
   </revision>
   <OPNsense>
     <wireguard>
