@@ -405,7 +405,7 @@
       <descr>Wifi_Convidado</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>172.16.0.1</ipaddr>
+      <ipaddr>10.0.0.1</ipaddr>
       <subnet>24</subnet>
     </opt6>
     <opt7>
@@ -1767,8 +1767,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753218312.872</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753277505.0444</time>
   </revision>
   <OPNsense>
     <wireguard>
