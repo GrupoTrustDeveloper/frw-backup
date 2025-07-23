@@ -613,6 +613,36 @@
       <interface>wan</interface>
       <category>WEB</category>
       <ipprotocol>inet</ipprotocol>
+      <descr>PI_HOLE</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_6881252ae17f43.20489285</associated-rule-id>
+      <target>IP_PI_HOLE</target>
+      <local-port>P_HTTP_HTTPS</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>38.199.96.68</address>
+        <port>P_HTTP_HTTPS</port>
+      </destination>
+      <updated>
+        <username>root@172.16.1.35</username>
+        <time>1753294122.9239</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@172.16.1.35</username>
+        <time>1753294122.9239</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category>WEB</category>
+      <ipprotocol>inet</ipprotocol>
       <descr>Suporte</descr>
       <tag/>
       <tagged/>
@@ -1782,6 +1812,28 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_6881252ae17f43.20489285</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_PI_HOLE</address>
+        <port>P_HTTP_HTTPS</port>
+      </destination>
+      <descr>PI_HOLE</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@172.16.1.35</username>
+        <time>1753294122.9237</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1791,8 +1843,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.1.35</username>
-    <description>/api/interfaces/vip_settings/addItem/ made changes</description>
-    <time>1753294045.3878</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1753294123.2268</time>
   </revision>
   <OPNsense>
     <wireguard>
