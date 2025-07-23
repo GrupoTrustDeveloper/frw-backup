@@ -308,7 +308,6 @@
     <wan>
       <if>bge0</if>
       <descr>DINAMICA</descr>
-      <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
       <blockpriv>1</blockpriv>
@@ -1843,8 +1842,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.1.35</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1753294884.3787</time>
+    <description>Interface DINAMICA(wan) is now disabled.</description>
+    <time>1753295133.549</time>
   </revision>
   <OPNsense>
     <wireguard>
