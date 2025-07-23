@@ -609,7 +609,7 @@
       </created>
     </rule>
     <rule>
-      <protocol>tcp</protocol>
+      <protocol>tcp/udp</protocol>
       <interface>wan</interface>
       <category>WEB</category>
       <ipprotocol>inet</ipprotocol>
@@ -629,7 +629,7 @@
       </destination>
       <updated>
         <username>root@172.16.1.35</username>
-        <time>1753294122.9239</time>
+        <time>1753294865.753</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1820,7 +1820,7 @@
       </source>
       <interface>wan</interface>
       <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
+      <protocol>tcp/udp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>IP_PI_HOLE</address>
@@ -1843,8 +1843,8 @@
   </ntpd>
   <revision>
     <username>root@172.16.1.35</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1753294125.238</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1753294866.0374</time>
   </revision>
   <OPNsense>
     <wireguard>
