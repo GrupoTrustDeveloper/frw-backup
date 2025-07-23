@@ -417,8 +417,12 @@
       <subnet>24</subnet>
     </opt7>
     <opt8>
-      <descr>Vlan_RedeServidorPublico</descr>
       <if>vlan013</if>
+      <descr>Vlan_RedeServidorPublico</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>10.0.1.1</ipaddr>
+      <subnet>24</subnet>
     </opt8>
   </interfaces>
   <dhcpd>
@@ -1771,8 +1775,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.141</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753279726.8537</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753280324.5491</time>
   </revision>
   <OPNsense>
     <wireguard>
