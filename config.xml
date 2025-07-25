@@ -1842,9 +1842,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@172.16.1.35</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1753296524.9073</time>
+    <username>root@192.168.0.173</username>
+    <description>/api/ids/settings/set made changes</description>
+    <time>1753444461.1089</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2901,10 +2901,10 @@
       <files/>
       <fileTags/>
       <general>
-        <enabled>0</enabled>
-        <ips>0</ips>
-        <promisc>0</promisc>
-        <interfaces>wan</interfaces>
+        <enabled>1</enabled>
+        <ips>1</ips>
+        <promisc>1</promisc>
+        <interfaces>wan,lan,opt7,opt2,opt1,opt8,opt4,opt5,opt3,opt6</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
         <defaultPacketSize/>
         <UpdateCron/>
