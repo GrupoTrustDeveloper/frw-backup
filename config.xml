@@ -1843,8 +1843,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.173</username>
-    <description>/api/ids/settings/set made changes</description>
-    <time>1753444461.1089</time>
+    <description>/api/ids/service/reconfigure made changes</description>
+    <time>1753444461.6045</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2195,6 +2195,19 @@
           <command>unbound restart</command>
           <parameters/>
           <description>UnboundRestart</description>
+        </job>
+        <job uuid="ee181d77-04f0-4b4e-b990-f7ce3eebdba3">
+          <origin>IDS</origin>
+          <enabled>0</enabled>
+          <minutes>0</minutes>
+          <hours>0</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>ids update</command>
+          <parameters/>
+          <description>ids rule updates</description>
         </job>
       </jobs>
     </cron>
@@ -2907,7 +2920,7 @@
         <interfaces>wan,lan,opt7,opt2,opt1,opt8,opt4,opt5,opt3,opt6</interfaces>
         <homenet>192.168.0.0/16,10.0.0.0/8,172.16.0.0/12</homenet>
         <defaultPacketSize/>
-        <UpdateCron/>
+        <UpdateCron>ee181d77-04f0-4b4e-b990-f7ce3eebdba3</UpdateCron>
         <AlertLogrotate>W0D23</AlertLogrotate>
         <AlertSaveLogs>4</AlertSaveLogs>
         <MPMAlgo/>
