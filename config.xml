@@ -774,12 +774,12 @@
         <any>1</any>
       </source>
       <destination>
-        <address>38.199.96.79</address>
+        <address>38.199.96.66</address>
         <port>P_HTTP_HTTPS_SSH</port>
       </destination>
       <updated>
         <username>root@191.6.37.102</username>
-        <time>1753538692.1093</time>
+        <time>1753539967.7811</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1895,8 +1895,8 @@
   </ntpd>
   <revision>
     <username>root@191.6.37.102</username>
-    <description>/api/interfaces/vip_settings/addItem/ made changes</description>
-    <time>1753539937.4234</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1753539968.0646</time>
   </revision>
   <OPNsense>
     <wireguard>
