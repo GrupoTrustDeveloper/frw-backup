@@ -1895,8 +1895,8 @@
   </ntpd>
   <revision>
     <username>root@191.6.37.102</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1753538695.6196</time>
+    <description>/api/interfaces/vip_settings/addItem/ made changes</description>
+    <time>1753539937.4234</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -4020,6 +4020,23 @@
       <peer6/>
       <nosync>0</nosync>
       <descr>IP79</descr>
+    </vip>
+    <vip uuid="fa871730-5015-4ad5-88fa-8335ac4445e4">
+      <interface>wan</interface>
+      <mode>ipalias</mode>
+      <subnet>38.199.96.66</subnet>
+      <subnet_bits>32</subnet_bits>
+      <gateway/>
+      <noexpand>0</noexpand>
+      <nobind>0</nobind>
+      <password/>
+      <vhid/>
+      <advbase>1</advbase>
+      <advskew>0</advskew>
+      <peer/>
+      <peer6/>
+      <nosync>0</nosync>
+      <descr>IP66</descr>
     </vip>
   </virtualip>
   <vlans version="1.0.0">
