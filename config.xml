@@ -1895,8 +1895,8 @@
   </ntpd>
   <revision>
     <username>root@191.6.37.102</username>
-    <description>/firewall_nat_edit.php made changes</description>
-    <time>1753539968.0646</time>
+    <description>/firewall_nat.php made changes</description>
+    <time>1753539970.9284</time>
   </revision>
   <OPNsense>
     <wireguard>
