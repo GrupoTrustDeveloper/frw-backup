@@ -763,6 +763,36 @@
       <interface>wan</interface>
       <category>WEB</category>
       <ipprotocol>inet</ipprotocol>
+      <descr>ROBSON</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_6884e0841a9941.80468356</associated-rule-id>
+      <target>IP_CONTROL_ROBSON</target>
+      <local-port>P_HTTP_HTTPS_SSH</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>38.199.96.79</address>
+        <port>P_HTTP_HTTPS_SSH</port>
+      </destination>
+      <updated>
+        <username>root@191.6.37.102</username>
+        <time>1753538692.1093</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1753538692.1093</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category>WEB</category>
+      <ipprotocol>inet</ipprotocol>
       <descr>VIAGENS</descr>
       <tag/>
       <tagged/>
@@ -1834,6 +1864,28 @@
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_6884e0841a9941.80468356</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_CONTROL_ROBSON</address>
+        <port>P_HTTP_HTTPS_SSH</port>
+      </destination>
+      <descr>ROBSON</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1753538692.109</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1843,8 +1895,8 @@
   </ntpd>
   <revision>
     <username>root@191.6.37.102</username>
-    <description>/api/interfaces/vip_settings/addItem/ made changes</description>
-    <time>1753538654.6296</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1753538692.3978</time>
   </revision>
   <OPNsense>
     <wireguard>
