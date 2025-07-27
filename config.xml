@@ -488,6 +488,22 @@
       <dnsserver>192.168.0.11</dnsserver>
       <ntpserver/>
     </opt8>
+    <opt9>
+      <enable>1</enable>
+      <domain>confiancaetecnologia.local</domain>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>172.16.0.50</from>
+        <to>172.16.1.254</to>
+      </range>
+      <winsserver/>
+      <dnsserver>172.16.0.10</dnsserver>
+      <dnsserver>172.16.0.11</dnsserver>
+      <ntpserver/>
+    </opt9>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1903,8 +1919,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753647849.766</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1753647915.2886</time>
   </revision>
   <OPNsense>
     <wireguard>
