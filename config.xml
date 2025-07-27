@@ -400,14 +400,6 @@
       <lock>1</lock>
       <spoofmac/>
     </opt5>
-    <opt9>
-      <if>vlan0100</if>
-      <descr>Vlan100_TrusIT_LOCAL</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>172.16.10.1</ipaddr>
-      <subnet>24</subnet>
-    </opt9>
   </interfaces>
   <dhcpd>
     <lan>
@@ -416,22 +408,6 @@
         <to>192.168.0.245</to>
       </range>
     </lan>
-    <opt9>
-      <enable>1</enable>
-      <domain>confiancaetecnologia.local</domain>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>172.16.0.50</from>
-        <to>172.16.1.254</to>
-      </range>
-      <winsserver/>
-      <dnsserver>172.16.0.10</dnsserver>
-      <dnsserver>172.16.0.11</dnsserver>
-      <ntpserver/>
-    </opt9>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1789,30 +1765,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="27a0c5f7-fa52-4d2b-9753-1b10888ee4c4">
-      <type>pass</type>
-      <interface>opt9</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt9</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.139</username>
-        <time>1753648866.9413</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.139</username>
-        <time>1753648266.1153</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1822,8 +1774,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753649727.5783</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753649965.6652</time>
   </revision>
   <OPNsense>
     <wireguard>
