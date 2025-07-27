@@ -400,6 +400,10 @@
       <lock>1</lock>
       <spoofmac/>
     </opt5>
+    <opt6>
+      <descr>ConfiancaEtecnologia_Local</descr>
+      <if>vlan013</if>
+    </opt6>
   </interfaces>
   <dhcpd>
     <lan>
@@ -1775,7 +1779,7 @@
   <revision>
     <username>root@192.168.0.139</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1753649965.6652</time>
+    <time>1753649994.369</time>
   </revision>
   <OPNsense>
     <wireguard>
