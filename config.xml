@@ -1801,11 +1801,11 @@
         <network>opt6</network>
       </source>
       <destination>
-        <any>1</any>
+        <network>opt6</network>
       </destination>
       <updated>
         <username>root@192.168.0.139</username>
-        <time>1753650052.7069</time>
+        <time>1753650209.9338</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753650120.3729</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1753650210.219</time>
   </revision>
   <OPNsense>
     <wireguard>
