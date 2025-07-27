@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753650292.6216</time>
+    <description>/api/interfaces/vlan_settings/delItem/eea9bb90-cf1b-4dc0-acc9-481c95b2eb72 made changes</description>
+    <time>1753650342.6254</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3991,14 +3991,6 @@
       <proto/>
       <descr>Vlan_RedeServidorPublico</descr>
       <vlanif>vlan013</vlanif>
-    </vlan>
-    <vlan uuid="eea9bb90-cf1b-4dc0-acc9-481c95b2eb72">
-      <if>bge3</if>
-      <tag>100</tag>
-      <pcp>0</pcp>
-      <proto/>
-      <descr/>
-      <vlanif>vlan0100</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0">
