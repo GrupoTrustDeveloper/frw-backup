@@ -408,14 +408,6 @@
       <ipaddr>10.0.0.1</ipaddr>
       <subnet>24</subnet>
     </opt6>
-    <opt8>
-      <if>vlan013</if>
-      <descr>Vlan_RedeServidorPublico</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>10.0.1.1</ipaddr>
-      <subnet>24</subnet>
-    </opt8>
     <opt9>
       <if>vlan0100</if>
       <descr>Vlan100_TrusIT_LOCAL</descr>
@@ -448,22 +440,6 @@
       <dnsserver>192.168.0.11</dnsserver>
       <ntpserver/>
     </opt6>
-    <opt8>
-      <enable>1</enable>
-      <gateway>10.0.1.1</gateway>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>10.0.1.10</from>
-        <to>10.0.1.254</to>
-      </range>
-      <winsserver/>
-      <dnsserver>192.168.0.10</dnsserver>
-      <dnsserver>192.168.0.11</dnsserver>
-      <ntpserver/>
-    </opt8>
     <opt9>
       <enable>1</enable>
       <domain>confiancaetecnologia.local</domain>
@@ -1896,7 +1872,7 @@
   <revision>
     <username>root@192.168.0.139</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1753648924.3904</time>
+    <time>1753648932.2351</time>
   </revision>
   <OPNsense>
     <wireguard>
