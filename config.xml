@@ -405,8 +405,8 @@
       <descr>Vlan100_TrusIT_LOCAL</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>172.16.0.1</ipaddr>
-      <subnet>23</subnet>
+      <ipaddr>172.16.10.1</ipaddr>
+      <subnet>24</subnet>
     </opt9>
   </interfaces>
   <dhcpd>
@@ -1822,8 +1822,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753648937.8778</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753649444.4319</time>
   </revision>
   <OPNsense>
     <wireguard>
