@@ -1925,7 +1925,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.139</username>
-        <time>1753648315.3527</time>
+        <time>1753648866.9413</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1944,7 +1944,7 @@
   <revision>
     <username>root@192.168.0.139</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1753648315.6339</time>
+    <time>1753648867.2046</time>
   </revision>
   <OPNsense>
     <wireguard>
