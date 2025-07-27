@@ -1632,6 +1632,50 @@
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="07f9cce3-a350-4473-b52f-586a9872deef">
+      <type>pass</type>
+      <associated-rule-id>nat_6881252ae17f43.20489285</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp/udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_PI_HOLE</address>
+        <port>P_HTTP_HTTPS</port>
+      </destination>
+      <descr>PI_HOLE</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@172.16.1.35</username>
+        <time>1753294122.9237</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="876a281d-3726-47e8-82e1-6495502d5b55">
+      <type>pass</type>
+      <associated-rule-id>nat_6884e0841a9941.80468356</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>IP_CONTROL_ROBSON</address>
+        <port>P_HTTP_HTTPS_SSH</port>
+      </destination>
+      <descr>ROBSON</descr>
+      <category>WEB</category>
+      <created>
+        <username>root@191.6.37.102</username>
+        <time>1753538692.109</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="f91316c8-cfe5-4eea-ace6-125b0002a16e">
       <type>pass</type>
       <interface>lan</interface>
@@ -1866,48 +1910,28 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
+    <rule uuid="27a0c5f7-fa52-4d2b-9753-1b10888ee4c4">
       <type>pass</type>
-      <associated-rule-id>nat_6881252ae17f43.20489285</associated-rule-id>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
       <source>
         <any>1</any>
       </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp/udp</protocol>
-      <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>IP_PI_HOLE</address>
-        <port>P_HTTP_HTTPS</port>
+        <network>opt9</network>
       </destination>
-      <descr>PI_HOLE</descr>
-      <category>WEB</category>
+      <updated>
+        <username>root@192.168.0.139</username>
+        <time>1753648266.1153</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
       <created>
-        <username>root@172.16.1.35</username>
-        <time>1753294122.9237</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_6884e0841a9941.80468356</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>IP_CONTROL_ROBSON</address>
-        <port>P_HTTP_HTTPS_SSH</port>
-      </destination>
-      <descr>ROBSON</descr>
-      <category>WEB</category>
-      <created>
-        <username>root@191.6.37.102</username>
-        <time>1753538692.109</time>
-        <description>/firewall_nat_edit.php made changes</description>
+        <username>root@192.168.0.139</username>
+        <time>1753648266.1153</time>
+        <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
   </filter>
@@ -1919,8 +1943,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753647915.2886</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1753648266.4049</time>
   </revision>
   <OPNsense>
     <wireguard>
