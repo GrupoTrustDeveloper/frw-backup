@@ -401,8 +401,12 @@
       <spoofmac/>
     </opt5>
     <opt6>
-      <descr>ConfiancaEtecnologia_Local</descr>
       <if>vlan013</if>
+      <descr>ConfiancaEtecnologia_Local</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>172.16.10.1</ipaddr>
+      <subnet>23</subnet>
     </opt6>
   </interfaces>
   <dhcpd>
@@ -1778,8 +1782,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753649994.369</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753650021.8949</time>
   </revision>
   <OPNsense>
     <wireguard>
