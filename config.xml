@@ -408,14 +408,6 @@
       <ipaddr>10.0.0.1</ipaddr>
       <subnet>24</subnet>
     </opt6>
-    <opt7>
-      <if>vlan011</if>
-      <descr>SECTESTE</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>172.16.1.1</ipaddr>
-      <subnet>24</subnet>
-    </opt7>
     <opt8>
       <if>vlan013</if>
       <descr>Vlan_RedeServidorPublico</descr>
@@ -456,22 +448,6 @@
       <dnsserver>192.168.0.11</dnsserver>
       <ntpserver/>
     </opt6>
-    <opt7>
-      <enable>1</enable>
-      <gateway>172.16.1.1</gateway>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>172.16.1.10</from>
-        <to>172.16.1.100</to>
-      </range>
-      <winsserver/>
-      <dnsserver>192.168.0.10</dnsserver>
-      <dnsserver>192.168.0.11</dnsserver>
-      <ntpserver/>
-    </opt7>
     <opt8>
       <enable>1</enable>
       <gateway>10.0.1.1</gateway>
@@ -1886,30 +1862,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="f1f11bee-ea57-4c35-96f0-96c9e6c15531">
-      <type>pass</type>
-      <interface>opt7</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt7</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.141</username>
-        <time>1753218312.5896</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.141</username>
-        <time>1753218312.5896</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="27a0c5f7-fa52-4d2b-9753-1b10888ee4c4">
       <type>pass</type>
       <interface>opt9</interface>
@@ -1943,8 +1895,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753648867.2046</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753648924.3904</time>
   </revision>
   <OPNsense>
     <wireguard>
