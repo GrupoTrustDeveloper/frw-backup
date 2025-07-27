@@ -1918,14 +1918,14 @@
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <any>1</any>
+        <network>opt9</network>
       </source>
       <destination>
-        <network>opt9</network>
+        <any>1</any>
       </destination>
       <updated>
         <username>root@192.168.0.139</username>
-        <time>1753648266.1153</time>
+        <time>1753648315.3527</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1944,7 +1944,7 @@
   <revision>
     <username>root@192.168.0.139</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1753648266.4049</time>
+    <time>1753648315.6339</time>
   </revision>
   <OPNsense>
     <wireguard>
