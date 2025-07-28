@@ -1805,7 +1805,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.139</username>
-        <time>1753702568.5957</time>
+        <time>1753702869.2404</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753702701.8182</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1753702869.5152</time>
   </revision>
   <OPNsense>
     <wireguard>
