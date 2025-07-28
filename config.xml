@@ -405,7 +405,7 @@
       <descr>Vlan013_Servidores</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>192.168.1.1</ipaddr>
+      <ipaddr>192.168.1.254</ipaddr>
       <subnet>24</subnet>
     </opt6>
   </interfaces>
@@ -1799,8 +1799,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753703637.7773</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753703661.4709</time>
   </revision>
   <OPNsense>
     <wireguard>
