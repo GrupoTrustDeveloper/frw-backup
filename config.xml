@@ -405,8 +405,8 @@
       <descr>ConfiancaEtecnologia_Local</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>172.16.10.1</ipaddr>
-      <subnet>23</subnet>
+      <ipaddr>192.168.1.1</ipaddr>
+      <subnet>24</subnet>
     </opt6>
   </interfaces>
   <dhcpd>
@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753702568.8816</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753702659.4239</time>
   </revision>
   <OPNsense>
     <wireguard>
