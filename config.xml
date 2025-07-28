@@ -417,7 +417,6 @@
       </range>
     </lan>
     <opt6>
-      <enable>1</enable>
       <gateway>192.168.1.1</gateway>
       <domain>confiancaetecnologia.local</domain>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
@@ -1823,8 +1822,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753703010.7479</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1753703043.1468</time>
   </revision>
   <OPNsense>
     <wireguard>
