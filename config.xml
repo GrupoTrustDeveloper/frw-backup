@@ -403,7 +403,6 @@
     <opt6>
       <if>vlan013</if>
       <descr>ConfiancaEtecnologia_Local</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
@@ -1823,8 +1822,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753702869.5152</time>
+    <description>Interface ConfiancaEtecnologia_Local(opt6) is now disabled.</description>
+    <time>1753702943.185</time>
   </revision>
   <OPNsense>
     <wireguard>
