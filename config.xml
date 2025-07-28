@@ -416,6 +416,23 @@
         <to>192.168.0.245</to>
       </range>
     </lan>
+    <opt6>
+      <enable>1</enable>
+      <gateway>192.168.1.254</gateway>
+      <domain>confiancaetecnologia.com.br</domain>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>192.168.1.2</from>
+        <to>192.168.1.50</to>
+      </range>
+      <winsserver/>
+      <dnsserver>192.168.1.200</dnsserver>
+      <dnsserver>192.168.1.201</dnsserver>
+      <ntpserver/>
+    </opt6>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1782,8 +1799,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753703434.9987</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1753703637.7773</time>
   </revision>
   <OPNsense>
     <wireguard>
