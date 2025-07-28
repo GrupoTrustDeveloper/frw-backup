@@ -418,19 +418,19 @@
     </lan>
     <opt6>
       <enable>1</enable>
-      <gateway>172.16.10.1</gateway>
+      <gateway>192.168.1.1</gateway>
       <domain>confiancaetecnologia.local</domain>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
         <item/>
       </numberoptions>
       <range>
-        <from>172.16.10.50</from>
-        <to>172.16.11.254</to>
+        <from>192.168.1.10</from>
+        <to>192.168.1.254</to>
       </range>
       <winsserver/>
-      <dnsserver>172.16.10.10</dnsserver>
-      <dnsserver>172.16.10.20</dnsserver>
+      <dnsserver>192.168.1.5</dnsserver>
+      <dnsserver>192.168.1.5</dnsserver>
       <ntpserver/>
     </opt6>
   </dhcpd>
@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753702659.4239</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1753702701.8182</time>
   </revision>
   <OPNsense>
     <wireguard>
