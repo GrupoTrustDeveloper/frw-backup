@@ -1774,8 +1774,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1753703123.3784</time>
+    <description>/api/interfaces/vlan_settings/setItem/3d169040-8a6a-4d84-8d85-0336d93dde2c made changes</description>
+    <time>1753703148.225</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3941,7 +3941,7 @@
       <tag>13</tag>
       <pcp>0</pcp>
       <proto/>
-      <descr>Vlan_RedeServidorPublico</descr>
+      <descr/>
       <vlanif>vlan013</vlanif>
     </vlan>
   </vlans>
