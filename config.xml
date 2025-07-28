@@ -1822,9 +1822,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.139</username>
-    <description>/api/interfaces/vlan_settings/delItem/eea9bb90-cf1b-4dc0-acc9-481c95b2eb72 made changes</description>
-    <time>1753650342.6254</time>
+    <username>root@191.6.37.102</username>
+    <description>/api/firewall/alias/setItem/4d2ade20-46ca-45f9-a269-7e271c61c197 made changes</description>
+    <time>1753663766.9967</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2456,7 +2456,8 @@
             <content>22
 80
 443
-9022</content>
+9022
+3306</content>
             <password/>
             <username/>
             <authtype/>
