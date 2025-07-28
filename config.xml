@@ -401,8 +401,12 @@
       <spoofmac/>
     </opt5>
     <opt6>
-      <descr>Vlan013</descr>
       <if>vlan013</if>
+      <descr>Vlan013</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>192.168.1.1</ipaddr>
+      <subnet>24</subnet>
     </opt6>
   </interfaces>
   <dhcpd>
@@ -1778,8 +1782,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>Interface Vlan013(opt6) is now disabled.</description>
-    <time>1753703203.1725</time>
+    <description>/interfaces.php made changes</description>
+    <time>1753703228.4955</time>
   </revision>
   <OPNsense>
     <wireguard>
