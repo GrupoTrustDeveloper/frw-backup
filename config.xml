@@ -400,14 +400,6 @@
       <lock>1</lock>
       <spoofmac/>
     </opt5>
-    <opt6>
-      <if>vlan013</if>
-      <descr>ConfiancaEtecnologia_Local</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>192.168.1.1</ipaddr>
-      <subnet>24</subnet>
-    </opt6>
   </interfaces>
   <dhcpd>
     <lan>
@@ -416,22 +408,6 @@
         <to>192.168.0.245</to>
       </range>
     </lan>
-    <opt6>
-      <gateway>192.168.1.1</gateway>
-      <domain>confiancaetecnologia.local</domain>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>192.168.1.10</from>
-        <to>192.168.1.254</to>
-      </range>
-      <winsserver/>
-      <dnsserver>192.168.1.5</dnsserver>
-      <dnsserver>192.168.1.5</dnsserver>
-      <ntpserver/>
-    </opt6>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -1789,30 +1765,6 @@
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="8a28f1cd-8622-4d6c-964d-7bc5ca73bb3f">
-      <type>pass</type>
-      <interface>opt6</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.0.139</username>
-        <time>1753702869.2404</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.139</username>
-        <time>1753650052.7069</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -1822,8 +1774,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.139</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1753703043.1468</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1753703088.265</time>
   </revision>
   <OPNsense>
     <wireguard>
