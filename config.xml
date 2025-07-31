@@ -308,7 +308,6 @@
     <wan>
       <if>bge0</if>
       <descr>DINAMICA</descr>
-      <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
       <blockpriv>1</blockpriv>
@@ -1822,9 +1821,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.139</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1753703981.1658</time>
+    <username>root@192.168.0.20</username>
+    <description>Interface DINAMICA(wan) is now disabled.</description>
+    <time>1753972824.9872</time>
   </revision>
   <OPNsense>
     <wireguard>
