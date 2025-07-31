@@ -984,7 +984,7 @@
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>wan</interface>
+      <interface>opt1</interface>
       <category>WEB</category>
       <ipprotocol>inet</ipprotocol>
       <descr>RMM</descr>
@@ -998,12 +998,12 @@
         <any>1</any>
       </source>
       <destination>
-        <address>38.199.96.67</address>
+        <network>opt1ip</network>
         <port>P_HTTP_HTTPS_SSH</port>
       </destination>
       <updated>
-        <username>root@191.6.32.16</username>
-        <time>1743340714.5547</time>
+        <username>root@191.6.37.102</username>
+        <time>1754000469.4163</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1347,7 +1347,7 @@
       <source>
         <any>1</any>
       </source>
-      <interface>wan</interface>
+      <interface>opt1</interface>
       <statetype>keep state</statetype>
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
@@ -1822,9 +1822,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.20</username>
-    <description>/interfaces.php made changes</description>
-    <time>1753972835.2714</time>
+    <username>root@191.6.37.102</username>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1754000469.7044</time>
   </revision>
   <OPNsense>
     <wireguard>
