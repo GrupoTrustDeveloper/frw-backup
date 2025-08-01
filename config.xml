@@ -692,17 +692,17 @@
       <poolopts/>
       <associated-rule-id>nat_67e2909b32a768.52317112</associated-rule-id>
       <target>IP_CENTRAL_COMPRAS</target>
-      <local-port>80</local-port>
+      <local-port>P_HTTP_HTTPS</local-port>
       <source>
         <any>1</any>
       </source>
       <destination>
         <address>38.199.96.71</address>
-        <port>81</port>
+        <port>P_HTTP_HTTPS</port>
       </destination>
       <updated>
         <username>root@192.168.0.145</username>
-        <time>1754067708.1394</time>
+        <time>1754068036.4906</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1212,7 +1212,7 @@
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>IP_CENTRAL_COMPRAS</address>
-        <port>80</port>
+        <port>P_HTTP_HTTPS</port>
       </destination>
       <descr>Gerencia ATA</descr>
       <category>WEB</category>
@@ -1771,8 +1771,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.145</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1754067990.4961</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1754068036.7543</time>
   </revision>
   <OPNsense>
     <wireguard>
