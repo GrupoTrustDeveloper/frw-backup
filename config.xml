@@ -691,6 +691,7 @@
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_67e2909b32a768.52317112</associated-rule-id>
+      <disabled>1</disabled>
       <target>IP_CENTRAL_COMPRAS</target>
       <local-port>80</local-port>
       <source>
@@ -701,8 +702,8 @@
         <port>81</port>
       </destination>
       <updated>
-        <username>root@192.168.0.20</username>
-        <time>1754058632.522</time>
+        <username>root@192.168.0.145</username>
+        <time>1754063785.0171</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1251,6 +1252,7 @@
         <time>1742901403.2075</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="2f272ddd-7562-469c-a3ad-0de391c53ccd">
       <type>pass</type>
@@ -1822,9 +1824,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.20</username>
-    <description>/interfaces.php made changes</description>
-    <time>1754062616.031</time>
+    <username>root@192.168.0.145</username>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1754063785.3008</time>
   </revision>
   <OPNsense>
     <wireguard>
