@@ -683,7 +683,7 @@
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>wan</interface>
+      <interface>opt1</interface>
       <category>WEB</category>
       <ipprotocol>inet</ipprotocol>
       <descr>Gerencia ATA</descr>
@@ -692,7 +692,7 @@
       <poolopts/>
       <associated-rule-id>nat_67e2909b32a768.52317112</associated-rule-id>
       <target>IP_CENTRAL_COMPRAS</target>
-      <local-port>P_HTTP_HTTPS_SSH</local-port>
+      <local-port>80</local-port>
       <source>
         <any>1</any>
       </source>
@@ -702,7 +702,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.20</username>
-        <time>1754058165.0368</time>
+        <time>1754058632.522</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1236,13 +1236,13 @@
       <source>
         <any>1</any>
       </source>
-      <interface>wan</interface>
+      <interface>opt1</interface>
       <statetype>keep state</statetype>
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
         <address>IP_CENTRAL_COMPRAS</address>
-        <port>P_HTTP_HTTPS_SSH</port>
+        <port>80</port>
       </destination>
       <descr>Gerencia ATA</descr>
       <category>WEB</category>
@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1754058168.1941</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1754058632.8082</time>
   </revision>
   <OPNsense>
     <wireguard>
