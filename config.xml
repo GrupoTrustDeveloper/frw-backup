@@ -683,7 +683,7 @@
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>opt1</interface>
+      <interface>wan</interface>
       <category>WEB</category>
       <ipprotocol>inet</ipprotocol>
       <descr>Gerencia ATA</descr>
@@ -702,7 +702,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.145</username>
-        <time>1754068036.4906</time>
+        <time>1754068107.6321</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1206,7 +1206,7 @@
       <source>
         <any>1</any>
       </source>
-      <interface>opt1</interface>
+      <interface>wan</interface>
       <statetype>keep state</statetype>
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
@@ -1771,8 +1771,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.145</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1754068039.1982</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1754068107.9194</time>
   </revision>
   <OPNsense>
     <wireguard>
