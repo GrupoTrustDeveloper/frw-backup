@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.20</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1754058634.9147</time>
+    <description>/api/routing/settings/setGateway/2fc92bf2-b153-4bf3-b1b1-73f88671eebf made changes</description>
+    <time>1754060269.5033</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3236,7 +3236,7 @@
         <gateway/>
         <defaultgw>1</defaultgw>
         <fargw>0</fargw>
-        <monitor_disable>1</monitor_disable>
+        <monitor_disable>0</monitor_disable>
         <monitor_noroute>0</monitor_noroute>
         <monitor_killstates>0</monitor_killstates>
         <monitor_killstates_priority>0</monitor_killstates_priority>
