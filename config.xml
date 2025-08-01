@@ -691,7 +691,6 @@
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_67e2909b32a768.52317112</associated-rule-id>
-      <disabled>1</disabled>
       <target>IP_CENTRAL_COMPRAS</target>
       <local-port>80</local-port>
       <source>
@@ -1252,7 +1251,6 @@
         <time>1742901403.2075</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="2f272ddd-7562-469c-a3ad-0de391c53ccd">
       <type>pass</type>
@@ -1825,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.145</username>
-    <description>/api/routing/settings/setGateway/2fc92bf2-b153-4bf3-b1b1-73f88671eebf made changes</description>
-    <time>1754065259.9823</time>
+    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
+    <time>1754065888.2041</time>
   </revision>
   <OPNsense>
     <wireguard>
