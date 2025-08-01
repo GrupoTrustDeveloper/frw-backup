@@ -1014,37 +1014,6 @@
     </rule>
     <rule>
       <protocol>tcp</protocol>
-      <interface>wan</interface>
-      <category/>
-      <ipprotocol>inet</ipprotocol>
-      <descr>OMADA</descr>
-      <tag/>
-      <tagged/>
-      <poolopts/>
-      <associated-rule-id>nat_680f7e25b2cca0.38853927</associated-rule-id>
-      <target>IP_OMADA</target>
-      <local-port>P_OMADA</local-port>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>38.199.96.74</address>
-        <port>P_OMADA</port>
-      </destination>
-      <updated>
-        <username>root@192.168.0.21</username>
-        <time>1745845797.7326</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.0.21</username>
-        <time>1745845797.7326</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
-    <rule>
-      <protocol>tcp</protocol>
       <interface>lan,opt5</interface>
       <category>CLIENTE</category>
       <ipprotocol>inet</ipprotocol>
@@ -1430,29 +1399,6 @@
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="fed8adb0-b9e7-498b-8204-656fc6d6d89f">
-      <type>pass</type>
-      <associated-rule-id>nat_680f7e25b2cca0.38853927</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>IP_OMADA</address>
-        <port>P_OMADA</port>
-      </destination>
-      <descr>OMADA</descr>
-      <category/>
-      <created>
-        <username>root@192.168.0.21</username>
-        <time>1745845797.7324</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-      <disabled>1</disabled>
-    </rule>
     <rule uuid="5f006e85-6488-4c2c-924f-5f74c2fa0e5c">
       <type>pass</type>
       <associated-rule-id>nat_680f8cd4ef66c7.34512318</associated-rule-id>
@@ -1825,8 +1771,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.145</username>
-    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
-    <time>1754067885.4787</time>
+    <description>/firewall_nat.php made changes</description>
+    <time>1754067891.691</time>
   </revision>
   <OPNsense>
     <wireguard>
