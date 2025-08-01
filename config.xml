@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.145</username>
-    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
-    <time>1754065888.2041</time>
+    <description>/firewall_nat.php made changes</description>
+    <time>1754065891.4479</time>
   </revision>
   <OPNsense>
     <wireguard>
