@@ -697,12 +697,12 @@
         <any>1</any>
       </source>
       <destination>
-        <address>38.199.96.71</address>
-        <port>P_HTTP_HTTPS_SSH</port>
+        <network>opt1ip</network>
+        <port>81</port>
       </destination>
       <updated>
-        <username>root@192.168.0.21</username>
-        <time>1742901403.2078</time>
+        <username>root@192.168.0.20</username>
+        <time>1754058165.0368</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1822,9 +1822,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@191.6.37.102</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1754000489.3147</time>
+    <username>root@192.168.0.20</username>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1754058165.2897</time>
   </revision>
   <OPNsense>
     <wireguard>
