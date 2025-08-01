@@ -1825,8 +1825,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.145</username>
-    <description>/api/core/dashboard/saveWidgets made changes</description>
-    <time>1754064653.3939</time>
+    <description>/api/routing/settings/setGateway/2fc92bf2-b153-4bf3-b1b1-73f88671eebf made changes</description>
+    <time>1754065259.9823</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3244,7 +3244,7 @@
         <monitor_killstates_priority>0</monitor_killstates_priority>
         <monitor>8.8.8.8</monitor>
         <force_down>0</force_down>
-        <priority>252</priority>
+        <priority>250</priority>
         <weight>1</weight>
         <latencylow/>
         <latencyhigh/>
