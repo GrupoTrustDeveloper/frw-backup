@@ -1041,6 +1041,7 @@
         <time>1745845797.7326</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>tcp</protocol>
@@ -1450,6 +1451,7 @@
         <time>1745845797.7324</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="5f006e85-6488-4c2c-924f-5f74c2fa0e5c">
       <type>pass</type>
@@ -1823,8 +1825,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.145</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1754067723.5686</time>
+    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
+    <time>1754067885.4787</time>
   </revision>
   <OPNsense>
     <wireguard>
