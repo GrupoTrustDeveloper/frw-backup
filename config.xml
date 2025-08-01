@@ -697,12 +697,12 @@
         <any>1</any>
       </source>
       <destination>
-        <network>opt1ip</network>
+        <address>38.199.96.71</address>
         <port>81</port>
       </destination>
       <updated>
         <username>root@192.168.0.145</username>
-        <time>1754063785.0171</time>
+        <time>1754067708.1394</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1823,8 +1823,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.145</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1754067259.1653</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1754067708.4363</time>
   </revision>
   <OPNsense>
     <wireguard>
