@@ -341,7 +341,6 @@
     <opt1>
       <if>pppoe0</if>
       <descr>VIVO</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>pppoe</ipaddr>
     </opt1>
@@ -1770,9 +1769,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.145</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1754068110.2504</time>
+    <username>root@192.168.0.144</username>
+    <description>Interface VIVO(opt1) is now disabled.</description>
+    <time>1754480239.4992</time>
   </revision>
   <OPNsense>
     <wireguard>
