@@ -1770,9 +1770,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.199</username>
-    <description>/interfaces_ppps_edit.php made changes</description>
-    <time>1754945904.2241</time>
+    <username>root@192.168.0.181</username>
+    <description>/api/syslog/settings/setDestination/b71cb2c9-4d9a-49d4-9d0c-19872d6e6c83 made changes</description>
+    <time>1755003209.5338</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3245,7 +3245,7 @@
           <hostname>192.168.0.162</hostname>
           <certificate/>
           <port>1514</port>
-          <rfc5424>1</rfc5424>
+          <rfc5424>0</rfc5424>
           <description/>
         </destination>
       </destinations>
