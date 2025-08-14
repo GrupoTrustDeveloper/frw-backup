@@ -1770,9 +1770,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.181</username>
-    <description>/api/syslog/settings/set made changes</description>
-    <time>1755003212.3132</time>
+    <username>root@192.168.0.147</username>
+    <description>/api/routing/settings/setGateway/56f64bde-beb5-4ba3-b1e8-3d8208577512 made changes</description>
+    <time>1755175862.3784</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3156,7 +3156,7 @@
         <interface>wan</interface>
         <ipprotocol>inet</ipprotocol>
         <gateway>38.199.96.65</gateway>
-        <defaultgw>0</defaultgw>
+        <defaultgw>1</defaultgw>
         <fargw>0</fargw>
         <monitor_disable>0</monitor_disable>
         <monitor_noroute>0</monitor_noroute>
