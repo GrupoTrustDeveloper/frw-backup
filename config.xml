@@ -789,12 +789,12 @@
         <any>1</any>
       </source>
       <destination>
-        <address>38.199.96.75</address>
+        <address>38.199.96.67</address>
         <port>P_HTTP_HTTPS_SSH</port>
       </destination>
       <updated>
         <username>root@192.168.0.153</username>
-        <time>1756738483.9314</time>
+        <time>1756738817.3925</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1772,8 +1772,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.153</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1756738486.1894</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1756738817.6734</time>
   </revision>
   <OPNsense>
     <wireguard>
