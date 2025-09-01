@@ -1772,8 +1772,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.153</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1756738431.5283</time>
+    <description>/api/firewall/alias/addItem/ made changes</description>
+    <time>1756738466.354</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2811,6 +2811,22 @@
             <authtype/>
             <categories/>
             <description>IP_CONTROL_ROBSON</description>
+          </alias>
+          <alias uuid="76997e22-cde8-4a4d-8bc1-938e86dce9cc">
+            <enabled>1</enabled>
+            <name>IP_PROXY</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>192.168.0.24</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <categories/>
+            <description>IP_PROXY</description>
           </alias>
         </aliases>
       </Alias>
