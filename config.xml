@@ -783,7 +783,7 @@
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_680f8cd4ef66c7.34512318</associated-rule-id>
-      <target>IP_ESTOQUE</target>
+      <target>IP_PROXY</target>
       <local-port>P_HTTP_HTTPS_SSH</local-port>
       <source>
         <any>1</any>
@@ -794,7 +794,7 @@
       </destination>
       <updated>
         <username>root@192.168.0.153</username>
-        <time>1756738428.9681</time>
+        <time>1756738483.9314</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1411,7 +1411,7 @@
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>IP_ESTOQUE</address>
+        <address>IP_PROXY</address>
         <port>P_HTTP_HTTPS_SSH</port>
       </destination>
       <descr>PROXY</descr>
@@ -1772,8 +1772,8 @@
   </ntpd>
   <revision>
     <username>root@192.168.0.153</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1756738468.203</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1756738484.2121</time>
   </revision>
   <OPNsense>
     <wireguard>
