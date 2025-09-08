@@ -296,7 +296,7 @@
     <backup>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>https://git.ontic.com.br/trustit/frw-trust</url>
+        <url>https://github.com/GrupoTrustDeveloper/frw-backup</url>
         <branch>main</branch>
         <privkey/>
         <user>trust-bkp</user>
@@ -1813,7 +1813,7 @@
   <revision>
     <username>root@192.168.0.159</username>
     <description>/diag_backup.php made changes</description>
-    <time>1757369199.2192</time>
+    <time>1757369422.1312</time>
   </revision>
   <OPNsense>
     <wireguard>
