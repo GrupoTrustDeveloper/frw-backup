@@ -296,9 +296,47 @@
     <backup>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>https://github.com/GrupoTrustDeveloper/frw-backup</url>
+        <url>ssh://github.com/GrupoTrustDeveloper/frw-backup.git</url>
         <branch>main</branch>
-        <privkey/>
+        <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
+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&#13;
+AgMEBQ==&#13;
+-----END OPENSSH PRIVATE KEY-----</privkey>
         <user>trust-bkp</user>
         <password>hzweT7Lt6a70eRAnm+48</password>
       </git>
@@ -1813,7 +1851,7 @@
   <revision>
     <username>root@192.168.0.159</username>
     <description>/diag_backup.php made changes</description>
-    <time>1757369422.1312</time>
+    <time>1757369879.5217</time>
   </revision>
   <OPNsense>
     <wireguard>
