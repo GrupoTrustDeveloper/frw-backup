@@ -296,7 +296,7 @@
     <backup>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>ssh://git@github.com:GrupoTrustDeveloper/frw-backup.git</url>
+        <url>ssh://github.com/GrupoTrustDeveloper/frw-backup.git</url>
         <branch>main</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn&#13;
@@ -1851,7 +1851,7 @@ AgMEBQ==&#13;
   <revision>
     <username>root@192.168.0.159</username>
     <description>/diag_backup.php made changes</description>
-    <time>1757369966.3147</time>
+    <time>1757370011.6202</time>
   </revision>
   <OPNsense>
     <wireguard>
