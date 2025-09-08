@@ -322,6 +322,7 @@
       <ldap_sync_memberof_groups/>
       <ldap_sync_default_groups>admins</ldap_sync_default_groups>
       <caseInSensitiveUsernames/>
+      <ldap_sync_create_local_users>1</ldap_sync_create_local_users>
     </authserver>
   </system>
   <interfaces>
@@ -1792,7 +1793,7 @@
   <revision>
     <username>root@192.168.0.159</username>
     <description>/system_authservers.php made changes</description>
-    <time>1757327753.7839</time>
+    <time>1757327895.1947</time>
   </revision>
   <OPNsense>
     <wireguard>
