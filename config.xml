@@ -312,7 +312,7 @@
       <ldap_port>389</ldap_port>
       <ldap_urltype>TCP - Standard</ldap_urltype>
       <ldap_protver>3</ldap_protver>
-      <ldap_scope>one</ldap_scope>
+      <ldap_scope>subtree</ldap_scope>
       <ldap_basedn>DC=grupotrust,DC=org</ldap_basedn>
       <ldap_authcn>OU=N3,OU=Suporte,OU=GrupoTrust,DC=grupotrust,DC=org;OU=Suporte,OU=GrupoTrust,DC=grupotrust,DC=org</ldap_authcn>
       <ldap_extended_query>sAMAccountName=%s</ldap_extended_query>
@@ -1793,7 +1793,7 @@
   <revision>
     <username>root@192.168.0.159</username>
     <description>/system_authservers.php made changes</description>
-    <time>1757327895.1947</time>
+    <time>1757327919.0878</time>
   </revision>
   <OPNsense>
     <wireguard>
