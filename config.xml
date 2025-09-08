@@ -295,7 +295,7 @@
     <backupcount>5</backupcount>
     <backup>
       <git version="1.0.0">
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <url>https://git.ontic.com.br/trustit/frw-trust</url>
         <branch>main</branch>
         <privkey/>
@@ -1793,7 +1793,7 @@
   <revision>
     <username>root@192.168.0.159</username>
     <description>/diag_backup.php made changes</description>
-    <time>1757329096.9177</time>
+    <time>1757329109.7892</time>
   </revision>
   <OPNsense>
     <wireguard>
