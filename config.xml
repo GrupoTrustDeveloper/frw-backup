@@ -315,7 +315,7 @@
       <ldap_scope>subtree</ldap_scope>
       <ldap_basedn>DC=grupotrust,DC=org</ldap_basedn>
       <ldap_authcn>CN=Users,DC=grupotrust,DC=org</ldap_authcn>
-      <ldap_extended_query>sAMAccountName=%s</ldap_extended_query>
+      <ldap_extended_query/>
       <ldap_attr_user>sAMAccountName</ldap_attr_user>
       <ldap_binddn>CN=firewall,OU=Servicos,OU=Suporte,OU=GrupoTrust,DC=grupotrust,DC=org</ldap_binddn>
       <ldap_bindpw>Corolla!@#05042019</ldap_bindpw>
@@ -1793,7 +1793,7 @@
   <revision>
     <username>root@192.168.0.159</username>
     <description>/system_authservers.php made changes</description>
-    <time>1757328082.9641</time>
+    <time>1757328250.9776</time>
   </revision>
   <OPNsense>
     <wireguard>
