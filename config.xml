@@ -337,8 +337,8 @@ vlN7BuUWnzq5F+Xd5gIqjX0Jt7/IeNi3xCeIPlmCOiiE5CibImBmD4aINSERSOCfu0pUld&#13;
 XISmDWlEK62/43AAAAJWdydXBvdHJ1c3Rccm9ic29uLm5vZ3VlaXJhQFRSVVNULTAyMzYB&#13;
 AgMEBQ==&#13;
 -----END OPENSSH PRIVATE KEY-----</privkey>
-        <user>trust-bkp</user>
-        <password>hzweT7Lt6a70eRAnm+48</password>
+        <user>git</user>
+        <password/>
       </git>
     </backup>
     <gw_switch_default>1</gw_switch_default>
@@ -1851,7 +1851,7 @@ AgMEBQ==&#13;
   <revision>
     <username>root@192.168.0.159</username>
     <description>/diag_backup.php made changes</description>
-    <time>1757369955.2646</time>
+    <time>1757369966.3147</time>
   </revision>
   <OPNsense>
     <wireguard>
