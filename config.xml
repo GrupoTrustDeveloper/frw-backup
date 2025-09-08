@@ -1811,9 +1811,9 @@
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/auth/add_user.php made changes</description>
-    <time>1757369053.2941</time>
+    <username>root@192.168.0.159</username>
+    <description>/diag_authentication.php made changes</description>
+    <time>1757369053.5253</time>
   </revision>
   <OPNsense>
     <wireguard>
