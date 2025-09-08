@@ -272,7 +272,7 @@
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-cpu-microcode-intel,os-ftp-proxy,os-git-backup,os-net-snmp,os-node_exporter,os-telegraf,os-zabbix7-agent</plugins>
+      <plugins>os-cpu-microcode-intel,os-ftp-proxy,os-git-backup,os-net-snmp,os-nextcloud-backup,os-node_exporter,os-telegraf,os-zabbix7-agent</plugins>
       <type/>
       <subscription/>
       <reboot/>
@@ -1858,8 +1858,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1757370294.317</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1757370298.4614</time>
   </revision>
   <OPNsense>
     <wireguard>
