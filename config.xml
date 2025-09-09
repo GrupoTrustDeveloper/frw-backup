@@ -204,15 +204,6 @@
       <member/>
       <source_networks/>
     </group>
-    <group uuid="989f859a-590b-4129-8a42-9705e1dd0eeb">
-      <gid>2000</gid>
-      <name>G_firewall</name>
-      <scope>user</scope>
-      <description>AD</description>
-      <priv>page-all</priv>
-      <member/>
-      <source_networks/>
-    </group>
     <user uuid="30496310-f25d-44c9-bf95-6587c2a07dc6">
       <uid>0</uid>
       <name>root</name>
@@ -1850,8 +1841,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1757417438.4519</time>
+    <description>The group "G_firewall" was successfully removed.</description>
+    <time>1757417463.0778</time>
   </revision>
   <OPNsense>
     <wireguard>
