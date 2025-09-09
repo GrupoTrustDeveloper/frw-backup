@@ -248,7 +248,7 @@
       <comment/>
       <email/>
       <apikeys/>
-      <priv/>
+      <priv>page-all</priv>
       <language/>
       <descr/>
       <dashboard/>
@@ -1868,8 +1868,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1757431235.9643</time>
+    <description>user \"robson.nogueira\" changed"</description>
+    <time>1757431384.3709</time>
   </revision>
   <OPNsense>
     <wireguard>
