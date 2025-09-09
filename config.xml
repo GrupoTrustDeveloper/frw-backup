@@ -210,7 +210,7 @@
       <scope>user</scope>
       <description/>
       <priv>page-all</priv>
-      <member/>
+      <member>,2000</member>
       <source_networks/>
     </group>
     <user uuid="30496310-f25d-44c9-bf95-6587c2a07dc6">
@@ -1868,8 +1868,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1757414445.7445</time>
+    <description>/diag_authentication.php made changes</description>
+    <time>1757414491.4778</time>
   </revision>
   <OPNsense>
     <wireguard>
