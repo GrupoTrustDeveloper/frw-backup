@@ -201,7 +201,7 @@
       <scope>system</scope>
       <description>System Administrators</description>
       <priv>page-all</priv>
-      <member>0,2000</member>
+      <member/>
       <source_networks/>
     </group>
     <user uuid="30496310-f25d-44c9-bf95-6587c2a07dc6">
@@ -1859,8 +1859,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/api/auth/priv/set_item/page-all made changes</description>
-    <time>1757413557.168</time>
+    <description>group \"admins\" changed"</description>
+    <time>1757414341.6216</time>
   </revision>
   <OPNsense>
     <wireguard>
