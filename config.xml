@@ -373,6 +373,15 @@ AgMEBQ==&#13;
       <ldap_read_properties>1</ldap_read_properties>
       <ldap_sync_memberof>1</ldap_sync_memberof>
     </authserver>
+    <group uuid="989f859a-590b-4129-8a42-9705e1dd0eeb">
+      <gid>2000</gid>
+      <name>G_firewall</name>
+      <scope>user</scope>
+      <description>AD</description>
+      <priv>page-all</priv>
+      <member/>
+      <source_networks/>
+    </group>
   </system>
   <interfaces>
     <wan>
@@ -1841,8 +1850,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>The user "robson.nogueira" was successfully removed.</description>
-    <time>1757415060.8051</time>
+    <description>group \"G_firewall\" created"</description>
+    <time>1757416012.1177</time>
   </revision>
   <OPNsense>
     <wireguard>
