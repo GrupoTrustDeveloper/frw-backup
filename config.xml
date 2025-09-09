@@ -391,7 +391,7 @@ AgMEBQ==&#13;
       <ldap_scope>subtree</ldap_scope>
       <ldap_basedn>DC=grupotrust,DC=org</ldap_basedn>
       <ldap_authcn>OU=GrupoTrust,DC=grupotrust,DC=org</ldap_authcn>
-      <ldap_extended_query/>
+      <ldap_extended_query>sAMAccountName=%s</ldap_extended_query>
       <ldap_attr_user>sAMAccountName</ldap_attr_user>
       <ldap_binddn>CN=firewall,OU=Servicos,OU=Suporte,OU=GrupoTrust,DC=grupotrust,DC=org</ldap_binddn>
       <ldap_bindpw>Corolla!@#05042019</ldap_bindpw>
@@ -1868,8 +1868,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/diag_authentication.php made changes</description>
-    <time>1757414491.4778</time>
+    <description>/system_authservers.php made changes</description>
+    <time>1757414850.7033</time>
   </revision>
   <OPNsense>
     <wireguard>
