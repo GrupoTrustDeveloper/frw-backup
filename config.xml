@@ -391,6 +391,15 @@ AgMEBQ==&#13;
       <descr/>
       <dashboard/>
     </user>
+    <group uuid="a18a1565-734c-484a-b9c4-0427ed9ddf3f">
+      <gid>2000</gid>
+      <name>G_firewall</name>
+      <scope>user</scope>
+      <description/>
+      <priv>page-all,page-diagnostics-arptable,page-diagnostics-authentication,page-diagnostics-backup-restore,page-diagnostics-configurationhistory,page-diagnostics-factorydefaults,page-diagnostics-system-pftop,page-diagnostics-pf-info,page-diagnostics-haltsystem,page-diagnostics-logs-firewall-general,page-diagnostics-logs-dhcp,page-diagnostics-logs-firewall-dynamic,page-diagnostics-logs-firewall-plain,page-diagnostics-logs-firewall-summary,page-diagnostics-logs-gateways,page-diagnostics-logs-system,page-diagnostics-ndptable,page-diagnostics-netflow,page-diagnostics-netstat,page-diagnostics-networkinsight,page-diagnostics-packetcapture,page-diagnostics-tables,page-diagnostics-ping,page-diagnostics-rebootsystem,page-diagnostics-routingtables,page-diagnostics-limiter-info,page-diagnostics-showstates,page-diagnostics-system-activity,page-diagnostics-health,page-diagnostics-testport,page-diagnostics-traceroute,page-firewall-alias-edit,page-firewall-aliases,page-filter-api,page-filter-snat-api,page-firewall-categories,page-firewall-nat-1-1-edit,page-firewall-nat-npt,page-firewall-nat-outbound,page-firewall-nat-outbound-edit,page-firewall-nat-portforward,page-firewall-nat-portforward-edit,page-firewall-scrub,page-firewall-rules,page-firewall-rules-edit,page-firewall-schedules,page-firewall-schedules-edit,page-firewall-trafficshaper,page-interfaces-assignnetworkports,page-interfaces-bridge-edit,page-diagnostics-dns_diagnostics,page-interfaces-gif-edit,page-interfaces-gre-edit,page-interfaces-groups-edit,page-interfaces-lagg-edit,page-interfaces-loopback,page-interfaces-neighbor,page-interfaces-ppps,page-interfaces-ppps-edit,page-firewall-virtualipaddress-edit,page-status-carp,page-interfaces-vlan-edit,page-interfaces-vxlan,page-interfaces,page-interfaces-wireless,page-interfaces-wireless-edit,page-system-login-logout,page-system-license,page-system-usermanager-passwordmg,page-status-trafficgraph,page-services-captiveportal,page-services-dhcpserver,page-services-dhcpserver-editstaticmapping,page-dhcp-kea-ctrl-agent,page-diagnostics-logs-kea,page-dhcp-kea-v4,page-dhcp-kea-v6,page-services-dhcpv6server,page-services-dhcpserverv6-editstaticmapping,page-services-dhcprelay,page-services-opendns,page-diagnostics-logs-dnsmasq,page-services-dnsforwarder,page-services-ftpproxy,page-services-ids,page-services-netsnmp,page-services-ntpd,page-services-nodeexporter,page-services-router-advertisements,page-services-telegraf,page-services-unbound,page-services-dnsresolver-acls,page-services-dnsresolver-advanced,page-services-dnsresolver-overrides,page-services-dnsresolver,page-diagnostics-logs-resolver,page-services-zabbixagent,page-status-dhcpleases,page-status-dhcpv6leases,page-status-dnsoverview,page-status-habackup,page-status-interfaces,page-status-ipsec,page-status-ipsec-leases,page-status-ipsec-sad,page-status-ipsec-spd,page-status-ntp,page-services-ntp-gps,page-services-ntp-pps,page-status-openvpn,page-status-services,page-status-systemlogs-portalauth,page-status-systemlogs-ipsecvpn,page-status-systemlogs-ntpd,page-status-systemlogs-openvpn,page-status-systemlogs-ppp,page-status-systemlogs-routing,page-status-systemlogs-wireless,page-diagnostics-wirelessstatus,page-wizard-system,page-system-groupmanager,page-system-usermanager-addprivs,page-system-usermanager,page-system-advanced-admin,page-system-advanced-firewall,page-system-advanced-misc,page-system-advanced-network,page-system-advanced-sysctl,page-system-authservers,page-system-camanager,page-system-certmanager,page-diagnostics-crash-reporter,page-system-crlmanager,user-config-readonly,page-system-firmware-manualupdate,page-system-gatewaygroups,page-system-gateways,page-system-gateways-editgatewaygroups,page-system-generalsetup,page-system-hasync,page-system-cron,page-diagnostics-logs-settings-targets,page-snapshots,page-system-staticroutes,page-system-status,page-vpn-ipsec-connections,page-vpn-ipsec-editphase1,page-vpn-ipsec-editphase2,page-vpn-ipsec-editkeys,page-vpn-ipsec-keypairs,page-vpn-ipsec-mobile,page-vpn-ipsec,page-openvpn-client,page-openvpn-client-export,page-openvpn-csc,page-openvpn-instances,page-openvpn-server,page-wireguard-config,page-services-monit,page-xmlrpclibrary</priv>
+      <member/>
+      <source_networks/>
+    </group>
   </system>
   <interfaces>
     <wan>
@@ -1859,8 +1868,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>group \"admins\" changed"</description>
-    <time>1757414341.6216</time>
+    <description>group \"G_firewall\" created"</description>
+    <time>1757414388.3155</time>
   </revision>
   <OPNsense>
     <wireguard>
