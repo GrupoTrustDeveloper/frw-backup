@@ -202,6 +202,7 @@
       <description>System Administrators</description>
       <priv>page-all</priv>
       <member>0,2000</member>
+      <source_networks/>
     </group>
     <user uuid="30496310-f25d-44c9-bf95-6587c2a07dc6">
       <uid>0</uid>
@@ -218,7 +219,7 @@
       <comment/>
       <email/>
       <apikeys/>
-      <priv/>
+      <priv>page-all</priv>
       <language/>
       <descr>System Administrator</descr>
       <dashboard>eyJvcHRpb25zIjpbXSwid2lkZ2V0cyI6W3siaWQiOiJwaWN0dXJlIiwibWluVyI6MiwieCI6MCwieSI6MCwidyI6NCwiaCI6Mjg0LCJ3aWRnZXQiOltdfSx7ImlkIjoiaW50ZXJmYWNlc3RhdGlzdGljcyIsIm1pblciOjIsIngiOjQsInkiOjAsInciOjQsImgiOjMxNSwid2lkZ2V0IjpbXX0seyJpZCI6ImZpcmV3YWxsIiwibWluVyI6MiwieCI6OCwieSI6MCwidyI6NCwiaCI6MzE1LCJ3aWRnZXQiOltdfSx7ImlkIjoic3lzdGVtaW5mb3JtYXRpb24iLCJtaW5XIjoyLCJ4IjowLCJ5IjoyODQsImgiOjUxMiwid2lkZ2V0IjpbXSwidyI6Mn0seyJpZCI6Im1lbW9yeSIsIm1pblciOjEsIngiOjIsInkiOjI4NCwiaCI6MTIwLCJ3aWRnZXQiOltdLCJ3IjpudWxsfSx7ImlkIjoiZGlzayIsIm1pblciOjEsIngiOjMsInkiOjI4NCwiaCI6MTIwLCJ3aWRnZXQiOltdLCJ3IjpudWxsfSx7ImlkIjoiZ2F0ZXdheXMiLCJtaW5XIjoyLCJ4Ijo0LCJ5IjozMTUsInNpemVUb0NvbnRlbnQiOjQ0NywiaCI6NDQ3LCJ3aWRnZXQiOnsiZ2F0ZXdheXMiOlsiYzEwOWQwMTAtMTM5OS00YjE5LTg0OTQtOGY1MmQ5Y2EzYzFiIiwiMmZjOTJiZjItYjE1My00YmYzLWIxYjEtNzNmODg2NzFlZWJmIiwiNTZmNjRiZGUtYmViNS00YmEzLWIxZTgtM2Q4MjA4NTc3NTEyIl19LCJ3IjoyfSx7ImlkIjoiaW50ZXJmYWNlcyIsIm1pblciOjIsInNpemVUb0NvbnRlbnQiOjQ0OSwieCI6NiwieSI6MzE1LCJoIjo0NDksIndpZGdldCI6W10sInciOjJ9LHsiaWQiOiJ0cmFmZmljIiwibWluVyI6MiwieCI6OCwieSI6MzE1LCJ3Ijo0LCJoIjo0NDYsIndpZGdldCI6eyJpbnRlcmZhY2VzIjpbIndhbiIsImxhbiIsIm9wdDEiLCJvcHQ0Iiwib3B0NSIsIm9wdDMiXX19LHsiaWQiOiJjcHUiLCJtaW5XIjoyLCJ4IjoyLCJ5Ijo0MDQsImgiOjE3Nywid2lkZ2V0Ijp7ImdyYXBocyI6WyJ0b3RhbCJdfSwidyI6Mn0seyJpZCI6InRoZXJtYWxzZW5zb3JzIiwibWluVyI6MiwieCI6MiwieSI6NTgxLCJoIjoxMjAsIndpZGdldCI6eyJzZW5zb3JzIjpbImh3LmFjcGkudGhlcm1hbC50ejAudGVtcGVyYXR1cmUiXX0sInciOjJ9LHsiaWQiOiJXaXJlZ3VhcmQiLCJtaW5XIjoyLCJzaXplVG9Db250ZW50Ijo3NjEsIngiOjgsInkiOjc2MSwiaCI6NzYxLCJ3aWRnZXQiOltdLCJ3Ijo0fSx7ImlkIjoic2VydmljZXMiLCJtaW5XIjoyLCJ4Ijo0LCJ5Ijo3NjQsInciOjQsInNpemVUb0NvbnRlbnQiOjQ3NCwiaCI6NDc0LCJ3aWRnZXQiOltdfV19</dashboard>
@@ -385,7 +386,7 @@ AgMEBQ==&#13;
       <comment/>
       <email/>
       <apikeys/>
-      <priv/>
+      <priv>page-all</priv>
       <language/>
       <descr/>
       <dashboard/>
@@ -1857,9 +1858,9 @@ AgMEBQ==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1757370298.4614</time>
+    <username>root@192.168.0.159</username>
+    <description>/api/auth/priv/set_item/page-all made changes</description>
+    <time>1757413557.168</time>
   </revision>
   <OPNsense>
     <wireguard>
