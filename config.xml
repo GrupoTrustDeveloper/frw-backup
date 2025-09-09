@@ -204,6 +204,15 @@
       <member/>
       <source_networks/>
     </group>
+    <group uuid="164223cf-485f-4a9e-97af-1fa959a7b7ad">
+      <gid>2000</gid>
+      <name>G_firewall</name>
+      <scope>user</scope>
+      <description/>
+      <priv>page-all</priv>
+      <member/>
+      <source_networks/>
+    </group>
     <user uuid="30496310-f25d-44c9-bf95-6587c2a07dc6">
       <uid>0</uid>
       <name>root</name>
@@ -366,23 +375,14 @@ AgMEBQ==&#13;
       <ldap_attr_user>sAMAccountName</ldap_attr_user>
       <ldap_binddn>CN=firewall,OU=Servicos,OU=Suporte,OU=GrupoTrust,DC=grupotrust,DC=org</ldap_binddn>
       <ldap_bindpw>Corolla!@#05042019</ldap_bindpw>
-      <ldap_sync_memberof_groups/>
-      <ldap_sync_default_groups/>
+      <ldap_sync_memberof_groups>G_firewall</ldap_sync_memberof_groups>
+      <ldap_sync_default_groups>G_firewall</ldap_sync_default_groups>
       <caseInSensitiveUsernames/>
       <ldap_sync_create_local_users>1</ldap_sync_create_local_users>
       <ldap_read_properties>1</ldap_read_properties>
       <ldap_sync_memberof>1</ldap_sync_memberof>
       <ldap_sync_memberof_constraint>1</ldap_sync_memberof_constraint>
     </authserver>
-    <group uuid="164223cf-485f-4a9e-97af-1fa959a7b7ad">
-      <gid>2000</gid>
-      <name>G_firewall</name>
-      <scope>user</scope>
-      <description/>
-      <priv>page-all</priv>
-      <member/>
-      <source_networks/>
-    </group>
   </system>
   <interfaces>
     <wan>
@@ -1851,8 +1851,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>group \"G_firewall\" created"</description>
-    <time>1757417800.6581</time>
+    <description>/system_authservers.php made changes</description>
+    <time>1757417812.5371</time>
   </revision>
   <OPNsense>
     <wireguard>
