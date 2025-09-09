@@ -397,7 +397,7 @@ AgMEBQ==&#13;
       <ldap_bindpw>Corolla!@#05042019</ldap_bindpw>
       <ldap_sync_memberof_groups/>
       <ldap_sync_default_groups>G_firewall</ldap_sync_default_groups>
-      <caseInSensitiveUsernames/>
+      <caseInSensitiveUsernames>1</caseInSensitiveUsernames>
       <ldap_sync_create_local_users>1</ldap_sync_create_local_users>
     </authserver>
   </system>
@@ -1869,7 +1869,7 @@ AgMEBQ==&#13;
   <revision>
     <username>root@192.168.0.159</username>
     <description>/system_authservers.php made changes</description>
-    <time>1757431168.5184</time>
+    <time>1757431235.9643</time>
   </revision>
   <OPNsense>
     <wireguard>
