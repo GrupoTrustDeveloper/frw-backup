@@ -210,7 +210,7 @@
       <scope>user</scope>
       <description/>
       <priv>page-all</priv>
-      <member/>
+      <member>,2000</member>
       <source_networks/>
     </group>
     <user uuid="30496310-f25d-44c9-bf95-6587c2a07dc6">
@@ -1870,9 +1870,9 @@ AgMEBQ==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/auth/add_user.php made changes</description>
-    <time>1757417823.3107</time>
+    <username>root@192.168.0.159</username>
+    <description>/diag_authentication.php made changes</description>
+    <time>1757417823.5499</time>
   </revision>
   <OPNsense>
     <wireguard>
