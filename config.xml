@@ -363,15 +363,16 @@ AgMEBQ==&#13;
       <ldap_basedn>DC=grupotrust,DC=org</ldap_basedn>
       <ldap_authcn>OU=GrupoTrust,DC=grupotrust,DC=org</ldap_authcn>
       <ldap_extended_query/>
-      <ldap_attr_user>sAMAccountName=%s</ldap_attr_user>
+      <ldap_attr_user>sAMAccountName</ldap_attr_user>
       <ldap_binddn>CN=firewall,OU=Servicos,OU=Suporte,OU=GrupoTrust,DC=grupotrust,DC=org</ldap_binddn>
       <ldap_bindpw>Corolla!@#05042019</ldap_bindpw>
-      <ldap_sync_memberof_groups>G_firewall</ldap_sync_memberof_groups>
-      <ldap_sync_default_groups>G_firewall</ldap_sync_default_groups>
+      <ldap_sync_memberof_groups/>
+      <ldap_sync_default_groups/>
       <caseInSensitiveUsernames/>
       <ldap_sync_create_local_users>1</ldap_sync_create_local_users>
       <ldap_read_properties>1</ldap_read_properties>
       <ldap_sync_memberof>1</ldap_sync_memberof>
+      <ldap_sync_memberof_constraint>1</ldap_sync_memberof_constraint>
     </authserver>
   </system>
   <interfaces>
@@ -1841,8 +1842,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>The group "G_firewall" was successfully removed.</description>
-    <time>1757417463.0778</time>
+    <description>/system_authservers.php made changes</description>
+    <time>1757417735.3545</time>
   </revision>
   <OPNsense>
     <wireguard>
