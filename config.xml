@@ -242,7 +242,7 @@
       <authorizedkeys/>
       <otp_seed/>
       <shell/>
-      <password>$2y$11$1wM2RuoAK7BVY14l890XCOvSuoUJxvlCtcgSsn2PyMhOPSqgbYhN2</password>
+      <password>$2y$11$9cTpbbAwSb.QCZNn8qvjAep.APywTgRIdEDP67HcsaXRW.MPFC1/u</password>
       <pwd_changed_at/>
       <landing_page/>
       <comment/>
@@ -1869,7 +1869,7 @@ AgMEBQ==&#13;
   <revision>
     <username>root@192.168.0.159</username>
     <description>user \"robson.nogueira\" changed"</description>
-    <time>1757431384.3709</time>
+    <time>1757431447.0033</time>
   </revision>
   <OPNsense>
     <wireguard>
