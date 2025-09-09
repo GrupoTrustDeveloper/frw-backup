@@ -374,6 +374,15 @@ AgMEBQ==&#13;
       <ldap_sync_memberof>1</ldap_sync_memberof>
       <ldap_sync_memberof_constraint>1</ldap_sync_memberof_constraint>
     </authserver>
+    <group uuid="164223cf-485f-4a9e-97af-1fa959a7b7ad">
+      <gid>2000</gid>
+      <name>G_firewall</name>
+      <scope>user</scope>
+      <description/>
+      <priv>page-all</priv>
+      <member/>
+      <source_networks/>
+    </group>
   </system>
   <interfaces>
     <wan>
@@ -1842,8 +1851,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>/system_authservers.php made changes</description>
-    <time>1757417735.3545</time>
+    <description>group \"G_firewall\" created"</description>
+    <time>1757417800.6581</time>
   </revision>
   <OPNsense>
     <wireguard>
