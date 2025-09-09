@@ -371,10 +371,10 @@ AgMEBQ==&#13;
         <password/>
       </git>
       <nextcloud version="1.0.0">
-        <enabled>0</enabled>
-        <url/>
-        <user/>
-        <password/>
+        <enabled>1</enabled>
+        <url>https://tdrive.grupotrust.org/index.php/apps/files/files/266922?dir=/BKP_FRW/Escritorio</url>
+        <user>robson.nogueira</user>
+        <password>Macriado!@#05042019</password>
         <password_encryption/>
         <backupdir>OPNsense-Backup</backupdir>
       </nextcloud>
@@ -1871,8 +1871,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.159</username>
-    <description>user \"robson.nogueira\" changed"</description>
-    <time>1757431541.9127</time>
+    <description>/diag_backup.php made changes</description>
+    <time>1757431975.5511</time>
   </revision>
   <OPNsense>
     <wireguard>
