@@ -266,7 +266,6 @@
       <compression/>
       <althostnames>escritorio.grupotrust.org</althostnames>
     </webgui>
-    <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
     <disableconsolemenu>1</disableconsolemenu>
     <disablevlanhwfilter>1</disablevlanhwfilter>
@@ -402,6 +401,12 @@ AgMEBQ==&#13;
       <ldap_read_properties>1</ldap_read_properties>
       <ldap_sync_memberof_constraint>1</ldap_sync_memberof_constraint>
     </authserver>
+    <enablenatreflectionhelper>yes</enablenatreflectionhelper>
+    <maximumstates/>
+    <maximumfrags/>
+    <aliasesresolveinterval/>
+    <maximumtableentries/>
+    <pfdebug>urgent</pfdebug>
   </system>
   <interfaces>
     <wan>
@@ -1870,8 +1875,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.97</username>
-    <description>/api/netsnmp/general/set made changes</description>
-    <time>1757541914.6867</time>
+    <description>/system_advanced_firewall.php made changes</description>
+    <time>1757860611.0378</time>
   </revision>
   <OPNsense>
     <wireguard>
