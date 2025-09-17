@@ -1875,8 +1875,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@179.191.222.251</username>
-    <description>/api/wireguard/client/addClientBuilder made changes</description>
-    <time>1758151031.4316</time>
+    <description>/api/wireguard/client/setClient/96f15237-ab95-4bd8-890d-0870e9228b09 made changes</description>
+    <time>1758151949.9861</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2014,7 +2014,7 @@ AgMEBQ==&#13;
           </client>
           <client uuid="96f15237-ab95-4bd8-890d-0870e9228b09">
             <enabled>1</enabled>
-            <name>lagoadourada-humberto</name>
+            <name>Leolpodina-CNES</name>
             <pubkey>WDENIdsGh/UDUDT8Xc2bN+0OAHUh1nwhToUcgP+ziRM=</pubkey>
             <psk/>
             <tunneladdress>10.152.0.2/32</tunneladdress>
