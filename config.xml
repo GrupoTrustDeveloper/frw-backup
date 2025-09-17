@@ -1874,9 +1874,9 @@ AgMEBQ==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.154</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1758138224.8561</time>
+    <username>root@179.191.222.251</username>
+    <description>/api/wireguard/client/addClientBuilder made changes</description>
+    <time>1758150907.2068</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2042,6 +2042,16 @@ AgMEBQ==&#13;
             <serverport/>
             <keepalive>30</keepalive>
           </client>
+          <client uuid="43cc5f6f-ad9a-492c-87b5-62c76ecdebd8">
+            <enabled>1</enabled>
+            <name>leopoldina</name>
+            <pubkey>lFzpa4eyQQ7Xixzp2zKrSdMywao4R3yI75W+g7rMGQs=</pubkey>
+            <psk/>
+            <tunneladdress>10.152.0.3/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive/>
+          </client>
         </clients>
       </client>
       <general version="0.0.1">
@@ -2096,7 +2106,7 @@ AgMEBQ==&#13;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>96f15237-ab95-4bd8-890d-0870e9228b09</peers>
+            <peers>96f15237-ab95-4bd8-890d-0870e9228b09,43cc5f6f-ad9a-492c-87b5-62c76ecdebd8</peers>
             <endpoint>wg.grupotrust.org:51822</endpoint>
             <peer_dns/>
           </server>
