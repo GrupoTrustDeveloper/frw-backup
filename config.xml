@@ -1875,8 +1875,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@179.191.222.251</username>
-    <description>/api/wireguard/client/setClient/96f15237-ab95-4bd8-890d-0870e9228b09 made changes</description>
-    <time>1758151949.9861</time>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1758151951.6709</time>
   </revision>
   <OPNsense>
     <wireguard>
