@@ -1875,8 +1875,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@179.191.222.251</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1758151027.3164</time>
+    <description>/api/wireguard/client/addClientBuilder made changes</description>
+    <time>1758151031.4316</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2042,6 +2042,16 @@ AgMEBQ==&#13;
             <serverport/>
             <keepalive>30</keepalive>
           </client>
+          <client uuid="bc8c1586-0a66-483b-9f88-e6b820e1237d">
+            <enabled>1</enabled>
+            <name>LEOPOLDINA_cnes</name>
+            <pubkey>WlH8ICPRnwzzPVA9rirSAaU9GeU/4lpCekTaNmSQIXE=</pubkey>
+            <psk>E4KKE9CCinz48qljYVRDoTQPG4tHaXtc/8yErd8XhkY=</psk>
+            <tunneladdress>10.152.0.3/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive/>
+          </client>
         </clients>
       </client>
       <general version="0.0.1">
@@ -2096,7 +2106,7 @@ AgMEBQ==&#13;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>96f15237-ab95-4bd8-890d-0870e9228b09</peers>
+            <peers>96f15237-ab95-4bd8-890d-0870e9228b09,bc8c1586-0a66-483b-9f88-e6b820e1237d</peers>
             <endpoint>wg.grupotrust.org:51822</endpoint>
             <peer_dns/>
           </server>
