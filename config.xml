@@ -201,7 +201,7 @@
       <scope>system</scope>
       <description>System Administrators</description>
       <priv>page-all</priv>
-      <member>,2000</member>
+      <member>,2000,2001</member>
       <source_networks/>
     </group>
     <group uuid="164223cf-485f-4a9e-97af-1fa959a7b7ad">
@@ -407,6 +407,26 @@ AgMEBQ==&#13;
     <aliasesresolveinterval/>
     <maximumtableentries/>
     <pfdebug>urgent</pfdebug>
+    <user uuid="bb4a0704-0003-4b27-9475-9f41dd6afe5f">
+      <uid>2001</uid>
+      <name>gustavo</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$aHPJBRU.vtEM1N1KZpmD/OwZNzoArJg2zFKVkEIzq43zKX8hf73Oq</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys/>
+      <priv>page-all</priv>
+      <language/>
+      <descr/>
+      <dashboard/>
+    </user>
   </system>
   <interfaces>
     <wan>
@@ -1874,9 +1894,9 @@ AgMEBQ==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@179.191.222.251</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1758151951.6709</time>
+    <username>root@179.82.54.189</username>
+    <description>user \"gustavo\" created"</description>
+    <time>1758279630.1079</time>
   </revision>
   <OPNsense>
     <wireguard>
