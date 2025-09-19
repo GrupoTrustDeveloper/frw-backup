@@ -416,7 +416,7 @@ AgMEBQ==&#13;
       <authorizedkeys/>
       <otp_seed/>
       <shell/>
-      <password>$2y$11$aHPJBRU.vtEM1N1KZpmD/OwZNzoArJg2zFKVkEIzq43zKX8hf73Oq</password>
+      <password>$2y$11$QwyFNdv4iqnNC6a562Pggu5QIZDPOYrvQRXfGsIHjZdQYfMlC3eGq</password>
       <pwd_changed_at/>
       <landing_page/>
       <comment/>
@@ -1895,8 +1895,8 @@ AgMEBQ==&#13;
   </ntpd>
   <revision>
     <username>root@179.82.54.189</username>
-    <description>user \"gustavo\" created"</description>
-    <time>1758279630.1079</time>
+    <description>user \"gustavo\" changed"</description>
+    <time>1758279672.7686</time>
   </revision>
   <OPNsense>
     <wireguard>
