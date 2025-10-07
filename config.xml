@@ -399,7 +399,7 @@ AgMEBQ==&#13;
       </nextcloud>
       <sftp version="1.0.0">
         <enabled>1</enabled>
-        <url>sftp://opnsensebackup@177.41.229.10:9022/backups/Escritorio</url>
+        <url>sftp://opnsensebackup@192.168.0.25:9022/backups/Escritorio</url>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn&#13;
 NhAAAAAwEAAQAAAgEAuwR6rcTRlQc59OYenREKY/IWI+H8oMekrOuTD6fFdyraJgHZ8sNC&#13;
@@ -2005,7 +2005,7 @@ QFBg==&#13;
   <revision>
     <username>root@192.168.0.161</username>
     <description>/diag_backup.php made changes</description>
-    <time>1759857803.9633</time>
+    <time>1759857838.4962</time>
   </revision>
   <OPNsense>
     <wireguard>
