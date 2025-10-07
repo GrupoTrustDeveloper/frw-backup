@@ -398,12 +398,61 @@ AgMEBQ==&#13;
         <backupdir>tst</backupdir>
       </nextcloud>
       <sftp version="1.0.0">
-        <enabled>0</enabled>
-        <url/>
-        <privkey/>
+        <enabled>1</enabled>
+        <url>sftp://opnsensebackup@177.41.229.10:9022/backups/Escritorio</url>
+        <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
+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&#13;
+QFBg==&#13;
+-----END OPENSSH PRIVATE KEY-----</privkey>
         <password/>
         <backupcount>60</backupcount>
-        <prefixhostname>0</prefixhostname>
+        <prefixhostname>1</prefixhostname>
       </sftp>
     </backup>
     <gw_switch_default>1</gw_switch_default>
@@ -1954,9 +2003,9 @@ AgMEBQ==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1759857715.8676</time>
+    <username>root@192.168.0.161</username>
+    <description>/diag_backup.php made changes</description>
+    <time>1759857803.9633</time>
   </revision>
   <OPNsense>
     <wireguard>
