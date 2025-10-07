@@ -397,6 +397,14 @@ AgMEBQ==&#13;
         <password_encryption/>
         <backupdir>tst</backupdir>
       </nextcloud>
+      <sftp version="1.0.0">
+        <enabled>0</enabled>
+        <url/>
+        <privkey/>
+        <password/>
+        <backupcount>60</backupcount>
+        <prefixhostname>0</prefixhostname>
+      </sftp>
     </backup>
     <gw_switch_default>1</gw_switch_default>
     <authserver>
@@ -1946,9 +1954,9 @@ AgMEBQ==&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.0.159</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1758801873.5582</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1759857711.5285</time>
   </revision>
   <OPNsense>
     <wireguard>
