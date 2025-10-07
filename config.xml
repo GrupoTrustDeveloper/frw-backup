@@ -2004,8 +2004,8 @@ QFBg==&#13;
   </ntpd>
   <revision>
     <username>root@192.168.0.161</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1759857838.4962</time>
+    <description>/api/cron/settings/addJob/ made changes</description>
+    <time>1759857936.4461</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2379,6 +2379,19 @@ QFBg==&#13;
           <command>ids update</command>
           <parameters/>
           <description>ids rule updates</description>
+        </job>
+        <job uuid="3e1215a8-75ae-4edc-bd9f-0ce705bea129">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>0</minutes>
+          <hours>17</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>system remote backup</command>
+          <parameters/>
+          <description>BKP</description>
         </job>
       </jobs>
     </cron>
