@@ -2005,7 +2005,7 @@ QFBg==&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1759871372.74</time>
+    <time>1759871384.10</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2242,7 +2242,7 @@ QFBg==&#13;
         </servers>
       </server>
     </wireguard>
-    <IPsec version="1.0.4">
+    <IPsec version="1.0.5" persisted_at="1759871382.88">
       <general>
         <enabled/>
         <preferred_oldsa>0</preferred_oldsa>
@@ -2260,7 +2260,7 @@ QFBg==&#13;
         <ignore_acquire_ts>1</ignore_acquire_ts>
         <install_routes>0</install_routes>
         <cisco_unity>0</cisco_unity>
-        <make_before_break/>
+        <make_before_break>0</make_before_break>
         <retransmit_tries/>
         <retransmit_timeout/>
         <retransmit_base/>
@@ -2296,7 +2296,6 @@ QFBg==&#13;
             <split-include/>
             <x_28674/>
             <x_28675/>
-            <x_25/>
             <x_28672/>
             <x_28673>0</x_28673>
             <x_28679/>
@@ -3236,7 +3235,7 @@ QFBg==&#13;
         <ha_peers/>
       </dhcp6>
     </Kea>
-    <monit version="1.0.13">
+    <monit version="1.0.14" persisted_at="1759871384.10">
       <general>
         <enabled>0</enabled>
         <interval>120</interval>
@@ -3313,7 +3312,7 @@ QFBg==&#13;
         <type>custom</type>
         <pidfile/>
         <match/>
-        <path>/usr/local/opnsense/scripts/OPNsense/Monit/carp_status</path>
+        <path>/usr/local/opnsense/scripts/monit/carp_status.php</path>
         <timeout>300</timeout>
         <starttimeout>30</starttimeout>
         <address/>
@@ -3331,7 +3330,7 @@ QFBg==&#13;
         <type>custom</type>
         <pidfile/>
         <match/>
-        <path>/usr/local/opnsense/scripts/OPNsense/Monit/gateway_alert</path>
+        <path>/usr/local/opnsense/scripts/monit/gateway_alert.php</path>
         <timeout>300</timeout>
         <starttimeout>30</starttimeout>
         <address/>
@@ -4257,7 +4256,7 @@ QFBg==&#13;
     <csr/>
     <prv>LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2QUlCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktZd2dnU2lBZ0VBQW9JQkFRQ3BVY2d2bjFkdTB5UW4KUFVzQ3lBTDczYVVlMThlZGRZRXFTTHYrdG8zMkU2MlQ0clRFUjMzTkd1WWRKNjNaYXdXTVMzbnpDbzlkVjV1VgpDcHZYRjdWL2t1cE9zUHQ3aFJrdFRrUnlIUE9HVWJWZ2MzWU54enBvRklKb0l6QlFDdDJqN1VpR3RVallxeWpKCldJSzJNaG04N0hQaVBZMzdxQjRQODRxU2FTZGhyM3R4TnJuT2N3UUsvNEllZmpjRytEdTBVTFcwR2pyd0JMcDEKVTBmaXdWNWx0RFhrVXh0NE85MnNqbkpjalQ5anJRa1RvYzFZdjV4T0ZhZHdSUjBFSTdOdnprYUpOOWV2RGtLegpPSUxuNFpUZnQvY3VhKzVtbFY4cDdpd1JVU3lwSElqbDRnTUVxQUhabXlLdm5FVlR1bzdObkNqYzlyaXpWV1E2CktNNlcxNk10QWdNQkFBRUNnZ0VBQWV3SW5nK1AvMnpCY0lkOEV4MWpxNWoxNGdYeGxYY2IvUzJQTnNDdGtMcVMKWUdJYUErcHNhckYvckFiRFJJSUNIV1A5SjFzT2dMRUdnNi83QmVxUzhUMlFFMmxxbTdTck1nK284dlFWZDl3KwpjOUtPcDNlRVVWU2piVzJYQ21YN3RDNVdiYXhMc1BZTktkci9tdzh5STBHbVBlWEFOM2dpcThCeVcvQ09qc1JxCllLczJCSVI2WVFJNlNNdndMeDRUUWVwOHpieTFpejVXMG1rY3QwWWFPY0VDellFc2pLQVlQVUlCYWZBOWdJaTgKRnFmemJQV1JiVWVVUWZEVnBoTXd3SDZQcVZDMVNkTEZHYWFQMkFYSzRBUzh1WVI4cVEyQ0hndmR6cjMwcVNXUApBU3FsTXNGL0s5UjgrMmEwVFBuWkpDcEhrdW1EU1QyV1lWRm5YOUVFdVFLQmdRRGdCTmxqYkhmcG41cFFCSVdSCnZKU0xYMFZlNlhOVlc0ZmNSTzJmR2dZNVozaE83V29Ib1UzQklYYXA3ZUdEMEdJUkhiaDJNaUp5U3V4a2MvUTgKQjdtdXdnRDNwVmVFMEJxSTNBNmM2ckVDODV5NGRWaGVTYldXSkFRbjFpcHZmaldWMFM5aCtSa1o5VDNRUzJEcgpwbUxFcm9FVC92dTFvUXRBeFc3RFlBd3YyUUtCZ1FEQmZka0t3SitaYmlKWmovVlVNUFV6MkxtU2I4WUwrRWJJCmJIeDQ3RmlndGkyTUtxOXlWUlNzQktpSnZJS29qeDlwN1lvZWJOajRqRmdHckIrS0w4UDF6Tm14UzY1ckY5YUcKWmxlQ1lpMWVLRFRvRzYzUjRUUFdCSEJvZFZvc0t6UFZyUzRyQ2NWQmpIZ3NXdHZFRUpaZnRUeFhvdjVhYmpuTwpSa0FSNG4zTmRRS0JnRUcyS201WHF2VUV0Q2MwckZtTGo2Y3lVdzc4TzdDV0lNd2tDKy9YbW12TVJpWWd6akZlCng0Z1hZTStIejlieWtWR2ovaS90bE4waHpTWEtQYUkrUWVGWlZ4OU5pTmFVbExRQW1PaStqeDNtaDlvejBiQVcKdndWRG0xUjBKZzUrWHdtTFN2TGFOdHErYlZ0a1FSSGV4S29jNWhBUGc1WkxueGxvMEl6TzU4UkJBb0dBZlErUgpWRURTSjBJbkU0cFhmL1l3MWpUekpMSDM2TTZ0T1dmZFArOUxEWDBTalhFZGV5R0F2Zm80ME9XMThhcW9IRGc3Ck9KVVQyL29oL3hZTFFLN0UwcjkzeVA5b21iR0xwOHpJTE82MThoQzh1WFVDY1JCRkI4UlF2ME55WisvNGpkaGsKYWM3ajN3MGlzMUI2a1F4RGxWSzMwTkQ1NDRzdzg2RTJVaGo1Uk8wQ2dZQnk3dm1ZYWhHRkFyUEN4bE5lZnVmRgpmWjhmVm12V0VETUppY2J1MGp5Uk0vQTlCRk9mMUdZWGN1dE5aUjJNYjgzWGpKZ2h1U2pCMWVGdm02WjFJZE5DCllrWFJZNEtQZXhVQ09GUjZ2eHZDeGRZTEM0ckN5U3ZJYndIcXh6aHRaL2JYL0VBUjcvMVJWNUtRMDQ4YkM4cEMKNEJkUXVGZ3FTQy8yMkszOUZUbjc3Zz09Ci0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K</prv>
   </cert>
-  <dnsmasq version="1.0.7">
+  <dnsmasq version="1.0.8" persisted_at="1759871382.55">
     <enable>0</enable>
     <regdhcp/>
     <regdhcpstatic/>
@@ -4283,6 +4282,7 @@ QFBg==&#13;
       <no_interface/>
       <fqdn>0</fqdn>
       <domain/>
+      <local>1</local>
       <lease_max/>
       <authoritative>0</authoritative>
       <default_fw_rules>1</default_fw_rules>
